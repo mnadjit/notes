@@ -1,0 +1,8 @@
+{
+	"uri_root": "https://nhrhapsodyprod.nh.org.au:8444/api",
+	"uri_commpoint": "/commpoint",
+	"uri_customSettings": "/alerts/customsettings",
+	"uri_components": "/components",
+	"max_api_calls_per_minute": 4,
+	"alert_settings_backup_dir": "\\\\nhbackup01\\Rhapsody Logs\\Alert_Settings"
+}

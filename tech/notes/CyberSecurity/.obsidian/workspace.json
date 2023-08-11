@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "1b2ddedbef935963",
+    "type": "split",
+    "children": [
+      {
+        "id": "2561e34148fdb309",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c260f3cdb2e2d864",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e129874d39ab01a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Forensics/Image Forensics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d925db990b89b6ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Skills/socket.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b602c1c750c0b044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Skills/socket.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f7a3a990871f73f",
+    "type": "split",
+    "children": [
+      {
+        "id": "09ca73fb8ff5488d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c24566f05cf8c1a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad0f30feffcbea0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fff8c86db1ffecfc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "da63a03bf565e0c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "15e12272e983de36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d783391c700f223",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "General Skills/socket.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c87bc6c9b6b05915",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "General Skills/socket.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bad3e4b83ef44af1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "515480493778c5c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "General Skills/socket.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b602c1c750c0b044",
+  "lastOpenFiles": [
+    "Reverse Engineering/Transformation.md",
+    "General Skills/socket.md",
+    "Forensics/Image Forensics.md",
+    "Cryptography/ROT13.md",
+    "Cryptography/Python Wrangling.md"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "data": {
+        "id": 2535,
+        "name": "RT.IPM_ADT_to_NH",
+        "folderPath": "Northern/02 iPM/Inbound/iPM",
+        "state": "RUNNING",
+        "idleTime": "PT96H43M30.772S",
+        "processedCount": 27164,
+        "processingQueueSize": 0,
+        "waitingQueueSize": 0,
+        "uuid": "a3e3a5a7-e671-4f02-8408-006493837a0e"
+    },
+    "error": null
+}

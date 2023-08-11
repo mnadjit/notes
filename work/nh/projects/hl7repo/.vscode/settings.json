@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 11433,
+            "driver": "MSSQL",
+            "name": "HL7Repo",
+            "database": "Message_Repository",
+            "username": "sa",
+            "password": "d0#BS34EpC7o6!3"
+        }
+    ],
+    "dotnet-test-explorer.testProjectPath": "/tests/"
+}

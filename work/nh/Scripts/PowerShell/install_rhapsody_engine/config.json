@@ -1,0 +1,10 @@
+{
+	"Rhapsody_Engine_Path": "e:/Rhapsody/Rhapsody Engine",
+	"Rhapsody_Data_Path": "e:/Rhapsody/data",
+	"Rhapsody_Installer_Path": "e:/Install/Rhapsody_6.10.1/Rhapsody-IDE-Engine-Windows/rhapsody-6_10_1-windows-x64.exe",
+	"Rhapsody_ResponseDat_Path": "rhapsody_config_files/response.dat",
+	"TLS_Cert_Dir_Source_Path": "rhapsody_config_files/Certificate",
+	"TLS_Cert_Dir_Destination_Path": "",
+	"Rhapsody_Properties_Path": "rhapsody_config_files/rhapsody.properties",
+	"Ldap_Properties_Path": "rhapsody_config_files/ldap.properties"
+}

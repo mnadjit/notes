@@ -1,0 +1,110 @@
+@import '../../shared/variables';
+
+$field-sep-color: gray;
+$segment-name-color: aqua;
+$highlighted-field-color: white;
+
+.div-main-table {
+  width: 100%;
+  margin: 20 30 0 5px;
+
+  table, mat-paginator {
+    width: 100%;
+
+    tr {
+      height: 12px !important;
+      cursor: pointer;
+      td {
+        // .mat-icon.view-message-content {
+        //   color: $primary;
+        //   font-size: 15px !important;
+        //   height: 12px !important;
+        //   cursor: pointer;
+        //   float: left;
+        // }
+        div.message-content-container{
+          padding: 15px;
+          .message-content {
+            font-size: small;
+
+            span.field-sep {
+              color: $field-sep-color;
+            }
+            span.segment-name{
+              color: $segment-name-color;
+            }
+          }
+        }
+      }
+    }
+
+    tr:hover {
+      background: darken($primary, 50%) !important;
+    }
+
+    tr.message-detail-row {
+      height: 0 !important;
+    }
+
+    // tr.message-content-row:not(.message-content-row):hover {
+    //   background: whitesmoke;
+    // }
+
+    // tr.message-content-row:not(.message-content-row):active {
+    //   background: #efefef;
+    // }
+
+    .message-content-row td {
+      border-bottom-width: 0;
+    }
+
+    .message-detail {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      background: darken($primary, 50%);
+    }
+
+    .message-content-container {
+      min-width: 80px;
+      max-width: 75vw;
+      min-height: 100px;
+      word-wrap: break-word;
+      border: 0px dashed black;
+      padding: 3px;
+      font-weight: lighter;
+      margin: 2px 0;
+    }
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dashed $accent; /* to have dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  left: 2em;
+  top: -1em;
+  opacity: .8;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 10;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+

@@ -1,0 +1,10 @@
+{
+	"sql_statement_filepath": "C:\\MyFiles\\Scripts\\SQL\\iPM\\Extract_For_ResLab\\Demographics_for_ResLab_from_DSU.sql",
+	"urs_csv_filepath": "",
+	"dsu_db_server": "NHDWH02.nh.org.au",
+	"dsu_db_name":	"HealthCentral_RPT_REPL",
+	"reslab_db_server": "NHDB06.nh.org.au",
+	"reslab_db_name":	"ResLabDB_Heavy_V2",
+	"batch_size": 1000,
+	"out_filename": "Reslab_patient_demographics.csv"
+}

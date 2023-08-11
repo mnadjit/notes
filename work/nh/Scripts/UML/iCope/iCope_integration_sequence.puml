@@ -1,0 +1,71 @@
+@startuml icope_integration_sequence
+    skinparam BoxPadding 15
+    
+    title 
+        Integration Diagram - Sequences
+        Northern Health iPM integration and
+        **<i>Diginostic</i> <size:24>iCope</size>**
+        via Rhapsody
+    end title
+    header Last updated: 2022-04-27
+    'footer footer goes here
+
+    '!theme reddress-darkgreen
+    !theme toy
+
+    box "Northern Health" #LightBlue
+        actor iPM_user as "iPM User" #OrangeRed
+        participant iPM #OrangeRed
+        participant Rhapsody #DarkRed
+        database Ext_App_Stat as "External Apps\nStates" #LightSalmon
+    end box
+        boundary Internet #Gray
+    box "Diginostic" #LightSteelBlue
+        entity iCope #66F
+    end box
+
+    == Scheduling ==
+    ' Appointment Scheduled by iPM user
+    iPM_user -> iPM : Schedule Appt
+    iPM ->o Rhapsody : S12
+    Rhapsody --> Ext_App_Stat : [SQL] Update iCope Table
+    Rhapsody -> Internet : S12
+    Internet ->o iCope : S12
+    ...
+    ' Appointment Re-scheduled by iPM user
+    iPM_user -> iPM : Reschedule Appt
+    iPM ->o Rhapsody : S13
+    Rhapsody --> Ext_App_Stat : [SQL] Update iCope Table
+    Rhapsody -> Internet : S13
+    Internet ->o iCope : S13
+    ...
+    ' Appointment Cancelled by iPM user
+    iPM_user -> iPM : Cancel Appt
+    iPM ->o Rhapsody : S15
+    Rhapsody --> Ext_App_Stat : [SQL] Update iCope Table
+    Rhapsody -> Internet : S15
+    Internet ->o iCope : S15
+    ...
+    note across #Lightgray : iCope extracts patient demographics from scheduling messages 
+
+
+    == Demographics Update ==
+    ' Patient Demographics Updated by iPM user
+    iPM_user -> iPM : Update Patient Demographics
+    iPM ->o Rhapsody : A31
+    iPM_user -> iPM : Patients Merged
+    iPM ->o Rhapsody : A40
+
+    skinparam responseMessageBelowArrow true
+    Rhapsody --> Ext_App_Stat : [SQL] Check if UR is found in iCope Table\nIn case of A40, either major or minor UR
+    Rhapsody <<-- Ext_App_Stat : true / false
+
+    group #EFE UR Found in Database
+        Rhapsody ->> Internet : A31 / A40
+    else #FEE UR Not found in DB
+        Rhapsody ->x Internet : Discard
+    end
+    Internet ->o iCope : A31 / A40
+
+
+@enduml

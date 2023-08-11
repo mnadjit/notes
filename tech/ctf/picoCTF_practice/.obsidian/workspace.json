@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "5ebc36a71be3e7cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4be830dfb7ac6d7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60ecd81450625813",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe330ccdd7452bf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f05617017ae8393",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e96ececf4a87539",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dcc1dd8757b0f2f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "920c28ca42df26db",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f7f91a984fca32ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bac32bd7105da3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f630bd5bb481717",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a39fa9ecfc8b373f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f34b09a20bbc1fc3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1cd69edbede6a600",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "60ecd81450625813",
+  "lastOpenFiles": [
+    "README.md",
+    "forensics/tunnel_vision/tunn3l_v1s10n.orig.bmp",
+    "forensics/tunnel_vision/tunn3l_v1s10n.bmp",
+    "forensics/matryoshka_doll/_dolls.jpg.extracted/base_images/_2_c.jpg.extracted/base_images/_3_c.jpg.extracted/base_images/4_c.jpg",
+    "forensics/matryoshka_doll/_dolls.jpg.extracted/base_images/_2_c.jpg.extracted/base_images/3_c.jpg",
+    "forensics/matryoshka_doll/_dolls.jpg.extracted/base_images/2_c.jpg",
+    "forensics/macro_hard_weak_edge/docProps/thumbnail.jpeg",
+    "forensics/information/cat.jpg",
+    "forensics/glory_of_the_garden/garden.jpg",
+    "cryptography/the_numbers/the_numbers.png"
+  ]
+}

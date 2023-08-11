@@ -1,0 +1,32 @@
+version: '3.9'
+
+x-timezone: &timezone "Australia/Melbourne"
+
+services:
+  api:
+    ports:
+      - ${API_PORT}:8020
+    environment:
+      ASPNETCORE_URLS: http://+:${API_PORT}
+      DB_CONNECTION_STRING: ${DB_CONNECTION_STRING}
+      TZ: *timezone
+    volumes:
+      - ./api/bin/Release/net5.0/publish:/app:rw,cached
+      - ./api/logs:/app/logs:rw,cached
+
+  client:
+    ports:
+      - ${CLIENT_PORT}:80
+    environment:
+      TZ: *timezone
+
+  #db:
+    #ports:
+      #- ${DB_PORT}:1433
+    #environment:
+      #ACCEPT_EULA: "Y"
+      #SA_PASSWORD: ${DB_PASSWORD}
+      #MSSQL_PID: "Express"
+      #TZ: *timezone
+    #volumes:
+      #- ./data:/var/opt/mssql/data:rw,cached

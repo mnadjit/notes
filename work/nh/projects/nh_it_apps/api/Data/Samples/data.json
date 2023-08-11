@@ -1,0 +1,320 @@
+[
+  {
+    "Name": "Charm",
+    "Description": "Oncology Application",
+    "Environment": "Production",
+    "MainDepartment": "Haemotology",
+    "Vendor": "Citadel Health",
+    "Contacts": [
+      {
+        "FullName": "Michael Deluna",
+        "Type": "Person",
+        "Email": "Charm.Support@citadelhealth.com.au",
+        "Phone": "+61 401 000 000",
+        "Url": "citadelhealth.com.au",
+        "Address": "123 Main Street Melbourne 3000",
+        "Comments": "",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-25T08:13:02"
+      }
+    ],
+    "Comments": "",
+    "LastUpdatedBy": "Mehdi NT",
+    "LastUpdated": "2021-06-09T14:03:18",
+    "AppServices": [
+      {
+        "Name": "Charm Data",
+        "Type": "Database",
+        "Comments": "Not sure if backup is set up for this database",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-13T09:23:29"
+      },
+      {
+        "Name": "Champ",
+        "Type": "Integration (HL7)",
+        "Comments": "Receives ADT messages from iPM. Also sends A19 query messages to iPM to retrieve patient demographics",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-13T13:13:30",
+        "Servers": [
+          {
+            "Hostname": "NHEVMserver1.nh.org.au",
+            "OS": "Windows",
+            "OSVersion": "Windows Server 2016",
+            "Type": "VM",
+            "HostId": 4,
+            "Location": "",
+            "Processor": "Core-i7 3.7 GHz",
+            "Memory": "16 GB Shared",
+            "Storages": [
+              {
+                "Type": "Application",
+                "Path": "\\\\NHEVMserver1\\C$",
+                "TotalCapacityGB": "60",
+                "Comments": "",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-18T14:57:32"
+              }
+            ],
+            "NetworkInterfaces": [
+              {
+                "Type": "vNIC",
+                "MacAddress": "EA:23:14:F5:3C:03",
+                "Comments": "",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-17T15:09:15",
+                "IPs": [
+                  {
+                    "IPAddress": "10.0.10.186",
+                    "Subnet": "255.0.0.0",
+                    "Gateway": "",
+                    "DHCP": false,
+                    "DHCPReserved": false,
+                    "Port": 7034,
+                    "Comments": "no comments at the moment",
+                    "LastUpdatedBy": "Mehdi NT",
+                    "LastUpdated": "2021-06-21T12:23:11"
+                  }
+                ]
+              }
+            ],
+            "Comments": "",
+            "LastUpdatedBy": "Mehdi NT",
+            "LastUpdated": "2021-06-20T14:03:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "EDIS",
+    "Description": "Emergency Management System",
+    "Environment": "NP-UAT",
+    "MainDepartment": "Emergency",
+    "Vendor": "",
+    "Contacts": [
+      {
+        "FullName": "",
+        "Type": "ServiceDesk",
+        "Email": "helpdesk@company.com",
+        "Phone": "+61 401 000 000",
+        "Url": "www.vendor-company.com",
+        "Address": "123 Main Street Melbourne 3000",
+        "Comments": "",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-13T11:13:32"
+      }
+    ],
+    "Comments": "comments about EDIS application",
+    "LastUpdatedBy": "Mehdi NT",
+    "LastUpdated": "2021-06-09T14:03:18",
+    "AppServices": [
+      {
+        "Name": "EDIS Data",
+        "Type": "Database",
+        "Comments": "Not sure if backup is set up for this database",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-13T11:13:32",
+        "Servers": [
+          {
+            "Hostname": "NHEVMserver2.nh.org.au",
+            "OS": "Windows",
+            "OSVersion": "Windows Server 2016",
+            "Type": "VM",
+            "HostId": 4,
+            "Location": "",
+            "Processor": "Core-i7 3.7 GHz",
+            "Memory": "16 GB Shared",
+            "Storages": [
+              {
+                "Type": "Application",
+                "Path": "\\\\NHEVMserver2\\C$",
+                "TotalCapacityGB": "50",
+                "Comments": "comments about EDIS database storage",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-18T14:57:32"
+              }
+            ],
+            "NetworkInterfaces": [
+              {
+                "Type": "vNIC",
+                "MacAddress": "EA:23:14:F5:3C:03",
+                "Comments": "comments about EDIS database network interface",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-13T11:13:32",
+                "IPs": [
+                  {
+                    "IPAddress": "10.0.100.23",
+                    "Subnet": "255.0.0.0",
+                    "Gateway": "",
+                    "DHCP": true,
+                    "DHCPReserved": true,
+                    "Port": 9050,
+                    "Comments": "comments about EDIS database ip",
+                    "LastUpdatedBy": "Mehdi NT",
+                    "LastUpdated": "2021-06-13T11:13:32"
+                  }
+                ]
+              }
+            ],
+            "Comments": "comments about EDIS database server",
+            "LastUpdatedBy": "Mehdi NT",
+            "LastUpdated": "2021-06-13T11:13:32"
+          }
+        ]
+      },
+      {
+        "Name": "Bouncer Gateway",
+        "Type": "Integration (HL7)",
+        "Comments": "Receives ADT messages from iPM. Also sends A19 query messages to iPM to retrieve patient demographics",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-10T10:29:32",
+        "Servers": [
+          {
+            "Hostname": "NHEDIS01.nh.org.au",
+            "OS": "Windows",
+            "OSVersion": "Windows Server 2012 R2",
+            "Type": "VM",
+            "HostId": 4,
+            "Location": "",
+            "Processor": "Intel Xeon E5-2690 v3 @ 2.6GHz (2 processors)",
+            "Memory": "6 GB Shared",
+            "Storages": [
+              {
+                "Type": "Application",
+                "Path": "C:",
+                "TotalCapacityGB": "60",
+                "Comments": "",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-18T14:57:32"
+              },
+              {
+                "Type": "Logs",
+                "Path": "D:",
+                "TotalCapacityGB": "60",
+                "Comments": "",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-18T14:57:32"
+              }
+            ],
+            "NetworkInterfaces": [
+              {
+                "Type": "vNIC",
+                "MacAddress": "27:A3:D2:EE:3C:16",
+                "Comments": "some comments about bouncer gateway network interface",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-11T11:23:32",
+                "IPs": [
+                  {
+                    "IPAddress": "10.0.50.123",
+                    "Subnet": "255.0.0.0",
+                    "Gateway": "",
+                    "DHCP": true,
+                    "DHCPReserved": false,
+                    "Port": 8000,
+                    "Comments": "some comments about bouncer gateway ip",
+                    "LastUpdatedBy": "Mehdi NT",
+                    "LastUpdated": "2021-06-12T15:03:32"
+                  }
+                ]
+              }
+            ],
+            "Comments": "some comments about bouncer gateway server NHEDIS01",
+            "LastUpdatedBy": "Mehdi NT",
+            "LastUpdated": "2021-06-13T11:13:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "CPF",
+    "Description": "Clinical Patient Folder",
+    "Environment": "Production",
+    "MainDepartment": "",
+    "Vendor": "InfoMedix",
+    "Contacts": [],
+    "Comments": "",
+    "LastUpdatedBy": "Mehdi NT",
+    "LastUpdated": "2021-06-09T14:03:18",
+    "AppServices": []
+  },
+  {
+    "Name": "VMWare",
+    "Description": "Hosting virtual machines",
+    "Environment": "Production",
+    "MainDepartment": "ICT",
+    "Vendor": "VMware",
+    "Contacts": [
+      {
+        "FullName": "",
+        "Type": "ServiceDesk",
+        "Email": "helpdesk@vmware.com",
+        "Phone": "+61 401 000 000",
+        "Url": "www.vmware.com",
+        "Address": "123 Main Street Melbourne 3000",
+        "Comments": "",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-13T11:13:32"
+      }
+    ],
+    "Comments": "",
+    "LastUpdatedBy": "Mehdi NT",
+    "LastUpdated": "2021-06-09T14:03:18",
+    "AppServices": [
+      {
+        "Name": "Virtual Host",
+        "Type": "Virtualisation",
+        "Comments": "",
+        "LastUpdatedBy": "Mehdi NT",
+        "LastUpdated": "2021-06-13T11:13:32",
+        "Servers": [
+          {
+            "Hostname": "nheesxi04.nh.org.au",
+            "OS": "Hypervisor",
+            "OSVersion": "ESXi 7",
+            "Type": "Physical",
+            "HostId": 0,
+            "Location": "New Datacenter in the main hospital - Epping",
+            "Processor": "Core-i7 3.7 GHz",
+            "Memory": "64 GB",
+            "Storages": [
+              {
+                "Type": "VM Storages",
+                "Path": "/",
+                "TotalCapacityGB": "500",
+                "Comments": "",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-18T14:57:32"
+              }
+            ],
+            "NetworkInterfaces": [
+              {
+                "Type": "NIC",
+                "MacAddress": "58:A3:1D:BB:3C:13",
+                "Comments": "",
+                "LastUpdatedBy": "Mehdi NT",
+                "LastUpdated": "2021-06-13T11:13:32",
+                "IPs": [
+                  {
+                    "IPAddress": "10.10.10.20",
+                    "Subnet": "255.0.0.0",
+                    "Gateway": "",
+                    "DHCP": false,
+                    "DHCPReserved": false,
+                    "Port": 0,
+                    "Comments": "",
+                    "LastUpdatedBy": "Mehdi NT",
+                    "LastUpdated": "2021-06-13T11:13:32"
+                  }
+                ]
+              }
+            ],
+            "Comments": "",
+            "LastUpdatedBy": "Mehdi NT",
+            "LastUpdated": "2021-06-13T11:13:32"
+          }
+        ]
+      }
+    ]
+  }
+]

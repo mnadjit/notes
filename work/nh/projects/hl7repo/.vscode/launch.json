@@ -1,0 +1,61 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "HL7server",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-hl7server",
+            "program": "${workspaceFolder}/hl7server/bin/Debug/net5.0/hl7server.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/hl7server",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "DB_Writer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-dbwriter",
+            "program": "${workspaceFolder}/db_writer/bin/Debug/net5.0/db_writer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/db_writer",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": "Web_API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-webapi",
+            "program": "${workspaceFolder}/api/bin/Debug/net5.0/api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/api",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLs": "http://localhost:8022"
+            }
+        },
+        {
+            "name": "Client",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "preLaunchTask": "serve-angular",
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+Country_Name,HL7_Code,ISO_3166_Numeric_Code,ISO_3166_A2_Code,ISO_3166_A3_Code
+Adelie Land (France),1601,250,FR,FRA
+Afghanistan,7201,004,AF,AFG
+Aland Islands,2408,248,AX,ALA
+Albania,3201,008,AL,ALB
+Algeria,4101,012,DZ,DZA
+"Americas, nfd",8000,,,
+Andorra,3101,020,AD,AND
+Angola,9201,024,AO,AGO
+Anguilla,8401,660,AI,AIA
+Antigua and Barbuda,8402,028,AG,ATG
+Argentina,8201,032,AR,ARG
+Argentinian Antarctic Territory,1602,032,AR,ARG
+Armenia,7202,051,AM,ARM
+Aruba,8403,533,AW,ABW
+At Sea,0001,,,
+Australia (inc External Territories),1100,036,AU,AUS
+Australian Antarctic Territory,1603,036,AU,AUS
+Australian Capital Territory,1101,036,AU,AUS
+Australian External Territories,1199,036,AU,AUS
+Austria,2301,040,AT,AUT
+Azerbaijan,7203,031,AZ,AZE
+Bahamas,8404,044,BS,BHS
+Bahrain,4201,048,BH,BHR
+Bangladesh,7101,050,BD,BGD
+Barbados,8405,052,BB,BRB
+Belarus,3301,112,BY,BLR
+Belgium,2302,056,BE,BEL
+Belize,8301,084,BZ,BLZ
+Benin,9101,204,BJ,BEN
+Bermuda,8101,060,BM,BMU
+Bhutan,7102,064,BT,BTN
+Bolivia,8202,068,BO,BOL
+"Bonaire, Sint Eustatius and Saba",8433,535,BQ,BES
+Bosnia-Herzegovina,3202,070,BA,BIH
+Botswana,9202,072,BW,BWA
+Brazil,8203,076,BR,BRA
+British Antarctic Territory,1604,826,GB,GBR
+Brunei Darussalam,5201,096,BN,BRN
+Bulgaria,3203,100,BG,BGR
+Burkina Faso,9102,854,BF,BFA
+Burma (Myanmar),5101,104,MM,MMR
+Burundi,9203,108,BI,BDI
+Cambodia,5102,116,KH,KHM
+Cameroon,9103,120,CM,CMR
+Canada,8102,124,CA,CAN
+Cape Verde,9104,132,CV,CPV
+Cayman Islands,8406,136,KY,CYM
+Central African Republic,9105,140,CF,CAF
+Chad,9106,148,TD,TCD
+Chile,8204,152,CL,CHL
+Chilean Antarctic Territory,1605,152,CL,CHL
+China (Excludes SARS & Taiwan),6101,156,CN,CHN
+Colombia,8205,170,CO,COL
+Comoros,9204,174,KM,COM
+Congo,9107,178,CG,COG
+"Congo, Democratic Republic of",9108,180,CD,COD
+Cook Islands,1501,184,CK,COK
+Costa Rica,8302,188,CR,CRI
+Cote d'Ivoire,9111,384,CI,CIV
+Croatia,3204,191,HR,HRV
+Cuba,8407,192,CU,CUB
+Curacao,8434,531,CW,CUW
+Cyprus,3205,196,CY,CYP
+Czech Republic,3302,203,CZ,CZE
+Denmark,2401,208,DK,DNK
+Djibouti,9205,262,DJ,DJI
+Dominica,8408,212,DM,DMA
+Dominican Republic,8411,214,DO,DOM
+East Timor,5206,626,TL,TLS
+Ecuador,8206,218,EC,ECU
+Egypt,4102,818,EG,EGY
+El Salvador,8303,222,SV,SLV
+England,2102,826,GB,GBR
+Equatorial Guinea,9112,226,GQ,GNQ
+Eritrea,9206,232,ER,ERI
+Estonia,3303,233,EE,EST
+Ethiopia,9207,231,ET,ETH
+Falkland Islands,8207,238,FK,FLK
+Faroe Islands,2402,234,FO,FRO
+Fiji,1502,242,FJ,FJI
+Finland,2403,246,FI,FIN
+Former Yugoslav Republic of Macedonia,3206,807,MK,MKD
+France,2303,250,FR,FRA
+French Guiana,8208,254,GF,GUF
+French Polynesia,1503,258,PF,PYF
+Gabon,9113,266,GA,GAB
+Gambia,9114,270,GM,GMB
+Gaza Strip and West Bank,4202,275,PS,PSE
+Georgia,7204,268,GE,GEO
+Germany,2304,276,DE,DEU
+Ghana,9115,288,GH,GHA
+Gibraltar,3102,292,GI,GIB
+Greece,3207,300,GR,GRC
+Greenland,2404,304,GL,GRL
+Grenada,8412,308,GD,GRD
+Guadeloupe,8413,312,GP,GLP
+Guam,1401,316,GU,GUM
+Guatemala,8304,320,GT,GTM
+Guernsey,2107,831,GG,GGY
+Guinea,9116,324,GN,GIN
+Guinea-Bissau,9117,624,GW,GNB
+Guyana,8211,328,GY,GUY
+Haiti,8414,332,HT,HTI
+Holy See,3103,336,VA,VAT
+Honduras,8305,340,HN,HND
+Hong Kong(Special Administrative Region of China),6102,344,HK,HKG
+Hungary,3304,348,HU,HUN
+Iceland,2405,352,IS,ISL
+Inadequately Described,0000,036,AU,AUS
+India,7103,356,IN,IND
+Indonesia,5202,360,ID,IDN
+Iran,4203,364,IR,IRN
+Iraq,4204,368,IQ,IRQ
+Ireland,2201,372,IE,IRL
+Isle of Man,2103,833,IM,IMN
+Israel,4205,376,IL,ISR
+Italy,3104,380,IT,ITA
+Jamaica,8415,388,JM,JAM
+Japan,6201,392,JP,JPN
+"Japan and the Koreas, nfd",6200,,,
+Jersey,2108,832,JE,JEY
+Jordan,4206,400,JO,JOR
+Kazakhstan,7205,398,KZ,KAZ
+Kenya,9208,404,KE,KEN
+Kiribati,1402,296,KI,KIR
+"Korea, Democratic People's Republic of (North)",6202,408,KP,PRK
+"Korea, Republic of (South)",6203,410,KR,KOR
+Kosovo,3216,688,RS,SRB
+Kuwait,4207,414,KW,KWT
+Kyrgyzstan,7206,417,KG,KGZ
+Laos,5103,418,LA,LAO
+Latvia,3305,428,LV,LVA
+Lebanon,4208,422,LB,LBN
+Lesotho,9211,426,LS,LSO
+Liberia,9118,430,LR,LBR
+Libya,4103,434,LY,LBY
+Liechtenstein,2305,438,LI,LIE
+Lithuania,3306,440,LT,LTU
+Luxembourg,2306,442,LU,LUX
+Macau (Special Administration Region of China),6103,446,MO,MAC
+Madagascar,9212,450,MG,MDG
+Malawi,9213,454,MW,MWI
+Malaysia,5203,458,MY,MYS
+Maldives,7104,462,MV,MDV
+Mali,9121,466,ML,MLI
+Malta,3105,470,MT,MLT
+Marshall Islands,1403,584,MH,MHL
+Martinique,8416,474,MQ,MTQ
+Mauritania,9122,478,MR,MRT
+Mauritius,9214,480,MU,MUS
+Mayotte,9215,175,YT,MYT
+Mexico,8306,484,MX,MEX
+Micronesia,1404,583,FM,FSM
+Moldova,3208,498,MD,MDA
+Monaco,2307,492,MC,MCO
+Mongolia,6104,496,MN,MNG
+Montenegro,3214,499,ME,MNE
+Montserrat,8417,500,MS,MSR
+Morocco,4104,504,MA,MAR
+Mozambique,9216,508,MZ,MOZ
+Namibia,9217,516,NA,NAM
+Nauru,1405,520,NR,NRU
+Nepal,7105,524,NP,NPL
+Netherlands,2308,528,NL,NLD
+Netherlands Antilles,8418,528,NL,NLD
+New Caledonia,1301,540,NC,NCL
+New South Wales,1101,036,AU,AUS
+New Zealand,1201,554,NZ,NZL
+Nicaragua,8307,558,NI,NIC
+Niger,9123,562,NE,NER
+Nigeria,9124,566,NG,NGA
+Niue,1504,570,NU,NIU
+Norfolk Island,1102,574,NF,NFK
+Northern Ireland,2104,826,GB,GBR
+Northern Mariana Islands,1406,580,MP,MNP
+Northern Territory,1101,036,AU,AUS
+Norway,2406,578,NO,NOR
+Not Stated,0003,036,AU,AUS
+Not Specified,NSP,036,AU,AUS
+Oman,4211,512,OM,OMN
+Pakistan,7106,586,PK,PAK
+Palau,1407,585,PW,PLW
+Panama,8308,591,PA,PAN
+Papua New Guinea,1302,598,PG,PNG
+Paraguay,8212,600,PY,PRY
+Peru,8213,604,PE,PER
+Philippines,5204,608,PH,PHL
+Pitcairn Islands,1513,612,PN,PCN
+Poland,3307,616,PL,POL
+"Polynesia (excludes Hawaii), nec",1599,258,PF,PYF
+Portugal,3106,620,PT,PRT
+Puerto Rico,8421,630,PR,PRI
+Qatar,4212,634,QA,QAT
+Queen Maud Land (Norway),1606,578,NO,NOR
+Queensland,1101,036,AU,AUS
+Reunion,9218,638,RE,REU
+Romania,3211,642,RO,ROU
+Ross Dependency (New Zealand),1607,554,NZ,NZL
+Russian Federation,3308,643,RU,RUS
+Rwanda,9221,646,RW,RWA
+Samoa,1505,882,WS,WSM
+"Samoa, American",1506,882,WS,WSM
+San Marino,3107,674,SM,SMR
+Sao Tome and Principe,9125,678,ST,STP
+Saudi Arabia,4213,682,SA,SAU
+Scotland,2105,826,GB,GBR
+Senegal,9126,686,SN,SEN
+Serbia,3215,688,RS,SRB
+Seychelles,9223,690,SC,SYC
+Sierra Leone,9127,694,SL,SLE
+Singapore,5205,702,SG,SGP
+Sint Maarten (Dutch part),8435,534,SX,SXM
+Slovakia,3311,703,SK,SVK
+Slovenia,3212,705,SI,SVN
+Solomon Islands,1303,090,SB,SLB
+Somalia,9224,706,SO,SOM
+South Africa,9225,710,ZA,ZAF
+"South America, nec",8299,,,
+South Australia,1101,036,AU,AUS
+South Sudan,4111,728,SS,SSD
+"Southern and East Africa, nec",9299,,,
+Spain,3108,724,ES,ESP
+Spanish North Africa,4108,,,
+Sri Lanka,7107,144,LK,LKA
+St Barthelemy,8431,652,BL,BLM
+St Helena,9222,654,SH,SHN
+St Kitts and Nevis,8422,659,KN,KNA
+St Lucia,8423,662,LC,LCA
+St Martin (French Part),8432,663,MF,MAF
+St Pierre and Miquelon,8103,666,PM,SPM
+St Vincent and the Grenadines,8424,670,VC,VCT
+Sudan,4105,736,SD,SDN
+Suriname,8214,740,SR,SUR
+Swaziland,9226,748,SZ,SWZ
+Sweden,2407,752,SE,SWE
+Switzerland,2311,756,CH,CHE
+Syria,4214,760,SY,SYR
+Taiwan,6105,158,TW,TWN
+Tajikistan,7207,762,TJ,TJK
+Tanzania,9227,834,TZ,TZA
+Tasmania,1101,036,AU,AUS
+Thailand,5104,764,TH,THA
+Togo,9128,768,TG,TGO
+Tokelau,1507,772,TK,TKL
+Tonga,1508,776,TO,TON
+Trinidad and Tobago,8425,780,TT,TTO
+Tunisia,4106,788,TN,TUN
+Turkey,4215,792,TR,TUR
+Turkmenistan,7208,795,TM,TKM
+Turks and Caicos Islands,8426,796,TC,TCA
+Tuvalu,1511,798,TV,TUV
+Uganda,9228,800,UG,UGA
+Ukraine,3312,804,UA,UKR
+United Arab Emirates,4216,784,AE,ARE
+"United Kingdom, Channel Islands & Isle of Man",2100,826,GB,GBR
+United States of America,8104,840,US,USA
+Uruguay,8215,858,UY,URY
+Uzbekistan,7211,860,UZ,UZB
+Vanuatu,1304,548,VU,VUT
+Venezuela,8216,862,VE,VEN
+Victoria,1101,036,AU,AUS
+Vietnam,5105,704,VN,VNM
+"Virgin Islands, British",8427,092,VG,VGB
+"Virgin Islands, United States",8428,850,VI,VIR
+Wales,2106,826,GB,GBR
+Wallis and Futuna,1512,876,WF,WLF
+Western Australia,1101,036,AU,AUS
+Western Sahara,4107,732,EH,ESH
+Yemen,4217,887,YE,YEM
+Zambia,9231,894,ZM,ZMB
+Zimbabwe,9232,716,ZW,ZWE

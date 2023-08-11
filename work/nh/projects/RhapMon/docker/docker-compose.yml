@@ -1,0 +1,55 @@
+version: "3.9"
+
+x-timezone: &timezone "Australia/Melbourne"
+
+services:
+    api:
+        image: rhapmon-api:latest
+        container_name: rhapmon_api
+        environment:
+            ASPNETCORE_ENVIRONMENT: Production
+            ASPNETCORE_URLS: http://+:${API_PORT}
+            Redis__ConnectionString: host.docker.internal:${REDIS_PORT}
+            TZ: *timezone
+        ports:
+            - ${API_PORT}:${API_PORT}
+        depends_on:
+            - redis
+        volumes: 
+            - ./log/api:/app/logs
+        restart: unless-stopped
+
+    worker:
+        image: rhapmon-worker:latest
+        container_name: rhapmon_worker
+        environment:
+            Redis__ConnectionString: host.docker.internal:${REDIS_PORT}
+            RhapsodyApiCreds__Username: tehranm
+            RhapsodyApiCreds__Password: t1@rabaJaando
+            TZ: *timezone
+        depends_on:
+            - redis
+        volumes: 
+            - ./log/worker:/app/logs
+        restart: unless-stopped
+
+    client: 
+        image: rhapmon-client:latest
+        container_name: rhapmon_client
+        ports:
+            - ${CLIENT_PORT}:80
+        environment:
+            TZ: *timezone
+        restart: unless-stopped
+        
+    redis:
+        image: redis:6.2.4
+        container_name: rhapmon_redis
+        environment:
+            TZ: *timezone
+        ports:
+            - ${REDIS_PORT}:6379
+        volumes:
+            - ../data/redis:/data:rw,cached
+        command: ["redis-server", "--appendonly", "yes"]
+        restart: unless-stopped 

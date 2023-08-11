@@ -1,0 +1,6 @@
+{
+	"api_url": "https://api-v1.test.medirecords.com/fhir/v1/Patient",
+	"api_token": "1KdAYaraQHNaBpsdCTvA3A-XYmU",
+	"dummy_ihi": "8003608111111118",
+	"dummy_mc": "45454545451"
+}

@@ -1,0 +1,49 @@
+How to use the debug executables
+--------------------------------
+
+The debug executables found in this directory ({app}\bin\debug) 
+have identical functionality to the production executables 
+found in {app}\bin, but are laced with assertions, debugging 
+code, and memory tracking. 
+
+These executables run significantly slower than the production 
+versions, but may give more informative error messages in case 
+of system failures, and report exception stack dumps and memory leaks. 
+Mostly these are only of use to the HL7Connect support team, 
+so the debug executables should only be used at their request.
+
+To run the debug versions, follow this procedure:
+
+  #1 make a backup copy of the files HL7Connect.exe, hl7dev.exe
+     and HL7ConnectTypeLibrary.dll found in the {app}\bin directory
+  
+  #2 stop the HL7Connect Service and Close the 
+     HL7 Development Environment, and any other processes that
+     might be using the Type Library
+  
+  #3 copy the .exe, .dll, and .map files from the {app}\bin\debug 
+     directory into the {app}\bin directory
+   
+  #4 start the HL7Connect service and/or the 
+     HL7 Development Environment
+
+	 
+To reverse the changes:
+
+  #1 stop the HL7Connect Service and Close the 
+     HL7 Development Environment, and any other processes that
+     might be using the Type Library
+  
+  #2 delete any files that exist in the {app}\bin\debug 
+     directory from the {app}\bin directory
+   
+  #3 restore HL7Connect.exe, hl7dev.exe and HL7ConnectTypeLibrary.dll
+     from the backup directory you made in the original 
+     procedure above
+  
+  #4 start the HL7Connect service and/or the 
+     HL7 Development Environment
+
+
+Note: you can change the binaries from production to debug independently. 
+All debug executables need FastMM_FullDebugMode.dll.

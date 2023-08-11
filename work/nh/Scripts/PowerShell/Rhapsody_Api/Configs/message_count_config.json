@@ -1,0 +1,458 @@
+﻿{
+    "commpoints":  [
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ULTRAMHR_IP_ORU_to_ULTRA_OI",
+                           "id":  2052
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ULTRAMHR_OP_ORU_to_ULTRA_OI",
+                           "id":  2382
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_ULTRAMHR_ORU_to_NH_IO",
+                           "id":  2032
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_ALFRED_ORU_to_NH_IO",
+                           "id":  2159
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ALFRED_ORU_to_ULTRA_OI",
+                           "id":  2178
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ULTRA_ORM_to_Alfred_OI",
+                           "id":  2182
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_ULTRA_ORM_to_NH_IO",
+                           "id":  2203
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_A19NH IPM_OI",
+                           "id":  1235
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_A19_QUERY to_IPM_IO",
+                           "id":  1250
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_Resend_ADT_24_IO",
+                           "id":  1985
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.http_SmartHealth_ADT_to_NH_IO",
+                           "id":  2304
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.http_SmartHealth_QRY_to_NH_IO",
+                           "id":  2308
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_NH_to_A19_OI",
+                           "id":  2309
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_EDIS_ADT_to_IPM_OI",
+                           "id":  1284
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_EDIS_ADT_to_RHEMS_OI",
+                           "id":  2369
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_IPM_Replay_IO",
+                           "id":  1888
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_EDIS_ADT_to_NH_IO",
+                           "id":  1310
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IBE-Cardiology_ORU_to_CPF_OI",
+                           "id":  2103
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_IBE-Cardiology_ORU_to_NH_IO",
+                           "id":  2106
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_Visage_ORM_to_NH_IO",
+                           "id":  1531
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Visage_ORM_to_Synapse_OI",
+                           "id":  1502
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Visage_ORU_to_Charm_OI",
+                           "id":  1488
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Visage_ORU_to_CPF_OI",
+                           "id":  1496
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Visage_ORU_to_Synapse_OI",
+                           "id":  1511
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_Visage_ORU_to_NH_IO",
+                           "id":  1549
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ULTRA_ORU_to_Charm_OI",
+                           "id":  1604
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ULTRA_ORU_to_CPF_OI",
+                           "id":  1606
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_ULTRA_ORU_to_NH_IO",
+                           "id":  1709
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_QFlow_ADT_to_NH_IO",
+                           "id":  1672
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_QFlow_ADT_to_IPM_OI",
+                           "id":  1693
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_ULTRA_ORM_to_NH_IO",
+                           "id":  1764
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_ULTRA_ORM_to_VIDRL_OI",
+                           "id":  1783
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_VIDRL_ORU_to_NH_IO",
+                           "id":  1816
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_VIDRL_ORU_to_ULTRA_OI",
+                           "id":  1835
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_CPF_REF_to_NH_IO",
+                           "id":  1927
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_CPF_REF_to_HIPS_OI",
+                           "id":  1923
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_IBE-Cardiology_OI",
+                           "id":  2077
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_CPF_OI",
+                           "id":  1101
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Delegate_OI",
+                           "id":  1109
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_EDIS_OI",
+                           "id":  1115
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_EndoBase_OI",
+                           "id":  1135
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_iPharmacy_OI",
+                           "id":  1144
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Visage_OI",
+                           "id":  1150
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Synapse_OI",
+                           "id":  1162
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_ViewPoint_OI",
+                           "id":  1169
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_AMSL_OI",
+                           "id":  2250
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.http_IPM_ADT_to_SmartHealth_OI",
+                           "id":  2283
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Nexus_OI",
+                           "id":  1273
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_HTrak_OI",
+                           "id":  2342
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_QFlow_OI",
+                           "id":  1324
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_IBE-ICU_OI",
+                           "id":  1409
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Rauland_OI",
+                           "id":  1731
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_HILLS_OI",
+                           "id":  1744
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_CARPS_OI",
+                           "id":  1899
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Charm_OI",
+                           "id":  809
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Guidance_OI",
+                           "id":  815
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_HostelTV_OI",
+                           "id":  820
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_IBE-Maternity_OI",
+                           "id":  829
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_MedTasker_OI",
+                           "id":  833
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Ozescribe_OI",
+                           "id":  864
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_TDOC_OI",
+                           "id":  878
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IPM_ADT_to_Ultra_OI",
+                           "id":  886
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "RECEIVED",
+                           "name":  "CP.tcp_IPM_ADT_to_NH_IO",
+                           "id":  854
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_UltraMHR_to HL7Connect_OI",
+                           "id":  2025
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_IBE-Cardiology_to HL7Connect_OI",
+                           "id":  2092
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Alfred_to HL7Connect_OI",
+                           "id":  2264
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_QFlow_to HL7Connect_OI",
+                           "id":  1713
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Ultra_Orders_to HL7Connect_OI",
+                           "id":  1802
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_VIDRL_to HL7Connect_OI",
+                           "id":  1854
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_CPFDS_to HL7Connect_OI",
+                           "id":  1958
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_EDIS_to HL7Connect_OI",
+                           "id":  784
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_iPM_to HL7Connect_OI",
+                           "id":  890
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Visage_Orders_to HL7Connect_OI",
+                           "id":  899
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Visage_Reports_to HL7Connect_OI",
+                           "id":  906
+                       },
+                       {
+                           "samplingResolution":  "PT5M",
+                           "messageCountType":  "SENT",
+                           "name":  "CP.tcp_Ultra_to HL7Connect_OI",
+                           "id":  792
+                       }
+                   ],
+    "timePeriod":  {
+                       "startTime":  "2022-01-12T00:00:00.00",
+                       "endTime":  "2022-01-19T00:00:00.00"
+                   }
+}

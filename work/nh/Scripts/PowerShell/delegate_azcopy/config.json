@@ -1,0 +1,16 @@
+{
+	"source_file_path" : "//nhbackup01/Rhapsody Logs/Extracts/Delegate/DelegateExtract.csv",
+	"azure_endpoint" : "https://nhuathl7.blob.core.windows.net",
+	"azure_folder_path" : "delegate",
+	"azure_sas" : "sp=racwdlmeop&st=2022-03-07T23:56:45Z&se=2024-03-08T07:56:45Z&spr=https&sv=2020-08-04&sr=c&sig=",
+	"azcopy_log_location" : "./AZCOPYLOG",
+	"azcopy_job_plan_location" : "./AZCOPYPLANS",
+	"history_folder_name" : "History_",
+	"smtp_server" : "smtp.nh.org.au",
+	"smtp_from" : "Delegate-AzureCopy-Error@nh.org.au",
+	"smtp_to" : "mehdi.tehrani@nh.org.au",
+	"azcopy_logs_cleanup_days" : 1,
+	"azcopy_plans_cleanup_days" : 1,
+	"script_logs_cleanup_days" : 30,
+	"history_cleanup_days" : 30
+}

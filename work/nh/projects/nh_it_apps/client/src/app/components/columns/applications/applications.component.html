@@ -1,0 +1,17 @@
+<mat-card class="item-card" (click)="selectApp($event, nhApp.id)">
+  <mat-card-header>
+    <!--<div mat-card-avatar class="item-header-image"></div>-->
+    <mat-card-title>{{ nhApp.name }}</mat-card-title>
+    <mat-card-subtitle>{{ nhApp.vendor }}</mat-card-subtitle>
+  </mat-card-header>
+  <!--<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+  <mat-card-content>
+    <small>Department:</small>&nbsp;<span>{{ nhApp.mainDepartment }}</span><br />
+    <small>Description:</small>&nbsp;
+    <p>{{ nhApp.description }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>Edit</button>
+    <button mat-button>More Details</button>
+  </mat-card-actions>
+</mat-card>

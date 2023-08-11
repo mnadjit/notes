@@ -1,0 +1,5 @@
+- Degaussing: use magnetic field to destroy data on hard drives and floppy disks
+- Clearing/Wiping: 
+- Purging: 
+- Pulvarisation: 
+- ...

@@ -1,0 +1,62 @@
+{
+    "Monitors" : {
+        "Throughput": true,
+        "Alerts": true
+    },
+    "Redis": {
+        "ConnectionString": "localhost:16381",
+        "InstanceName": "RhapMon_",
+        "alertsKeyName": "ALERTS",
+        "cpIssuePrefix": "CP_ISSUE_",
+        "routeIssuePrefix": "RT_ISSUE_",
+        "cpDataPrefix": "CP_DATA_",
+        "routeDataPrefix": "RT_DATA_",
+        "ExpiryDurationMins": 60,
+        "MaxKeysToRead": 500
+    },
+    "Rhapsody": {
+        "Server": "https://nhrhapsodyprod.nh.org.au",
+        "Port": "8444",
+        "CommpointApiPath": "/api/commpoint",
+        "AlertsApiPath": "/api/alerts/active"
+    },
+    "ThroughputMonitor": [
+        {
+            "id": "854",
+            "type": "CP",
+            "locker": "Northern"
+        },
+        {
+            "id": "1111",
+            "type": "ROUTE"
+        }
+    ],
+    "Notifications": {
+        "SmtpServer": "smtp.nh.org.au",
+        "SenderEmail" : "Rhapsody-Monitor-Notification@nh.org.au",
+        "Subscriptions": [
+            {
+                "ComponentType": "CP",
+                "ComponentId": "854",
+                "ComponentName": "CP.tcp_IPM_ADT_to_NH_IO",
+                "ComponentFriendlyName": "iPM ADT to NH - Rhapsody In",
+                "ComponentFolderPath": "Northern > 02 iPM > Inbound > iPM",
+                "IssueType": "DroppedThroughput",
+                "RecipientEmails": "mehdi.tehrani@nh.org.au;linda.heard@nh.org.au"
+            }
+        ]
+    },
+    "ComponentsToMonitor": [
+        {
+            "ComponentType": "CP",
+            "ComponentId": "854",
+            "ComponentName": "CP.tcp_IPM_ADT_to_NH_IO",
+            "ComponentFriendlyName": "iPM ADT to NH - Rhapsody In",
+            "ComponentFolderPath": "Northern > 02 iPM > Inbound > iPM",
+            "IssueType": "DroppedThroughput",
+            "IssueTypeRedisPrefix": "DrpThr_",
+            "Threshold": "2",
+            "TimeFrame": "Monday-8:30-17:00,Tuesday-8:30-17:00,Wednesday-8:30-17:00,Thursday-8:30-17:00,Friday-8:30-17:00"
+        }
+    ]
+}

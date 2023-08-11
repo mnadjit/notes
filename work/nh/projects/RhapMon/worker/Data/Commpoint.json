@@ -1,0 +1,25 @@
+{
+    "data": {
+        "id": 2189,
+        "name": "CP.tcp_IPM_ADT_to_NH_IO",
+        "folderPath": "Northern/02 iPM/Inbound/iPM",
+        "mode": "IN_OUT",
+        "state": "RUNNING",
+        "commPointType": "TCP Server",
+        "inQueueSize": 0,
+        "inputIdleTime": "PT48.081S",
+        "outQueueSize": 0,
+        "outputIdleTime": "PT48.081S",
+        "uptime": "PT48.081S",
+        "connectionCount": 0,
+        "receivedCount": 27152,
+        "sentCount": 26880,
+        "schedule": {
+            "active": false,
+            "startCronExpressions": [],
+            "stopCronExpressions": [],
+            "restartCronExpressions": []
+        }
+    },
+    "error": null
+}

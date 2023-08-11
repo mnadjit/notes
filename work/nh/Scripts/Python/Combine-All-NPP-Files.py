@@ -1,0 +1,13 @@
+console.show()
+console.clear()
+files = notepad.getFiles()
+notepad.new()
+newfile = notepad.getCurrentFilename()
+for i in range(len(files)):
+    console.write("Copying text from %s\n" % files[i][0])
+    notepad.activateFile(files[i][0])
+    text = editor.getText()
+    notepad.activateFile(newfile)
+    editor.appendText(text)
+    editor.appendText("\n")
+console.write("Combine Files operation complete.")

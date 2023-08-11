@@ -1,0 +1,15 @@
+{
+  "redis": {
+    "host": "localhost",
+    "port": 16382,
+    "instanceName": "HL7REPO_",
+    "password": "VFol&$61D8Qv&okA",
+    "expiryMinutes": null
+  },
+  "database": {
+      "ConnectionString": "Server=.,11433;Database=Message_Repository;User Id=sa;Password=d0#BS34EpC7o6!3;MultipleActiveResultSets=true"
+  },
+  "encryption": {
+    "key": "Y7VwBDTW$4Ki%!jl"
+  }
+}

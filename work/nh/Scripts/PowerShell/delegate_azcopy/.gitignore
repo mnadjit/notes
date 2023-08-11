@@ -1,0 +1,6 @@
+AZCOPYLOG/*
+AZCOPYPLANS/*
+LOG/*
+config.prod.json
+config.uat.json
+

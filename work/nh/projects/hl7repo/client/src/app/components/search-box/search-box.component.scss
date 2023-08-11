@@ -1,0 +1,24 @@
+$search-filed-max-width: 200px;
+
+.search-div {
+  width: 100%;
+
+  form.search-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: $search-filed-max-width;
+  }
+  .search-button-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      margin-left: 10px;
+    }
+  }
+}
+
+.search-mrn-form-field{
+  max-width: $search-filed-max-width;
+}

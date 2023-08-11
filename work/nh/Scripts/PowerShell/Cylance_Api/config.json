@@ -1,0 +1,5 @@
+{
+    "base_url": "https://protectapi-au.cylance.com",
+    "domain": "ssg.org.au",
+    "jwt_issuer": "http://cylance.com"
+}

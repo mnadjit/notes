@@ -1,0 +1,5 @@
+FROM mcr.microsoft.com/dotnet/aspnet:5.0
+WORKDIR /app
+COPY ../worker/bin/Release/net5.0/publish/ .
+RUN echo "Australia/Melbourne" > /etc/timezone
+ENTRYPOINT [ "dotnet", "worker.dll" ]

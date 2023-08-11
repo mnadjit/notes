@@ -1,0 +1,17 @@
+{
+	"uri_root": "https://nhrhapsodyprod.nh.org.au:8444/api",
+	"uri_commpoint": "/commpoint",
+	"uri_route": "/route",
+	"uri_state": "/state",
+	"uri_components": "/components",
+	"pass_file_path": "e:/Scripts/Rhapsody_api/start_components_stopped_in_error/creds/enc_password.txt",
+	"username": "nhrpsdyp.svc",
+	"max_api_calls_per_minute": 5,	
+	"log_folder_folder_name": "stopped_components",
+	"log_file_name_extension": "start_stopped_components.csv",
+	"log_error_file_name_extension": "start_stopped_components.error.log",
+	"edis_cp_id": "1310",
+    "edis_restart_flag_path": "\\\\nhedis01\\restart_flag\\restart.flag",
+	"in_queue_threshold": 5,
+    "out_queue_threshold": 5	
+}

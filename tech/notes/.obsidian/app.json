@@ -1,0 +1,10 @@
+{
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-AU"
+  ],
+  "vimMode": true,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true
+}

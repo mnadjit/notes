@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './app/shared/variables';
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  //background-image: linear-gradient(to bottom, darken($primary, 20), $accent);
+  background: darken($accent, 20);
+}
+

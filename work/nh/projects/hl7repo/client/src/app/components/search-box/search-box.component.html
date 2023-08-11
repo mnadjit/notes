@@ -1,0 +1,27 @@
+<div class="search-div">
+  <form #searchForm="ngForm" class="search-form" (ngSubmit)="onSearchClicked(searchForm.value)">
+    <mat-form-field class="search-mrn-form-field" appearance="fill">
+      <mat-label>Patient MRN</mat-label>
+      <input matInput name="mrn" type="text" [(ngModel)]="mrnSearchValue" placeholder="e.g. 1234567" (keydown)="test($event)" />
+      <button *ngIf="mrnSearchValue" matSuffix mat-icon-button aria-label="MRN"  >
+        <mat-icon (click)="mrnSearchValue = ''">close</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <app-message-code [allCodes]="messageCodeList" (messageCodesChanged)="selectMessageCode($event)"></app-message-code>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Trigger Events</mat-label>
+      <mat-select [formControl]="triggerEvents" multiple>
+        <mat-option *ngFor="let triggerEvent of triggerEventList" [value]="triggerEvent" >{{triggerEvent}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="search-button-div">
+      <button matTooltip="Search" mat-mini-fab matSuffix color="primary" type="submit">
+        <mat-icon>search</mat-icon>
+      </button>
+    </div>
+
+  </form>
+</div>

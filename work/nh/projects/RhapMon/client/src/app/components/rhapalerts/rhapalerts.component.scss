@@ -1,0 +1,38 @@
+mat-card {
+  background: linear-gradient(to bottom, #c4dce7 0%, rgb(223, 233, 233) 100%);
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  margin: 5px;
+}
+
+mat-card-title {
+  margin-top: 5px;
+  font-size: medium;
+  color: darkslategray;
+}
+
+mat-card-subtitle {
+  margin-bottom: 0px;
+}
+
+mat-card-content span.folder-path {
+  color: darkmagenta;
+}
+
+.alert-image {
+  margin-right: 10px;
+}
+
+.alert-warning {
+  color: rgb(168, 157, 2);
+}
+
+.alert-alert {
+  color: rgb(179, 85, 9);
+}
+
+.alert-escalation {
+  color: rgb(184, 20, 20);
+}

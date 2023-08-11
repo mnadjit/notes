@@ -1,0 +1,21 @@
+<mat-card class="alerts-card" *ngFor="let alert of alerts.alerts">
+  <ng-container [ngSwitch]="alert.severity">
+    <div *ngSwitchCase="'WARNING'" mat-card-avatar class="alert-image alert-warning">
+      <mat-icon matTooltip="Warning">priority_high</mat-icon>
+    </div>
+    <div *ngSwitchCase="'ALERT'" mat-card-avatar class="alert-image alert-alert">
+      <mat-icon matTooltip="Alert">report_problem</mat-icon>
+    </div>
+    <div *ngSwitchCase="'ESCALATION'" mat-card-avatar class="alert-image alert-escalation">
+      <mat-icon matTooltip="Escalation">error</mat-icon>
+    </div>
+  </ng-container>
+  <div>
+    <mat-card-title>{{alert.alertName}}</mat-card-title>
+    <mat-card-subtitle *ngIf="alert.alertMnemonic=='LARGE_COMMUNICATION_POINT_QUEUE'">{{alert.parameters[0].value}} [Threshold: {{alert.parameters[1].value}}]</mat-card-subtitle>
+    <mat-card-content>
+      <span class="folder-path">{{alert.componentInfo.folderPath}}</span>
+      <p>{{alert.alertDescription}}</p>
+    </mat-card-content>
+  </div>
+</mat-card>

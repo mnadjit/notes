@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  api:
+    image: nhitapps_api:latest
+    container_name: nhitapps_api
+    #depends_on: 
+      #- db
+
+  client:
+    image: nhitapps_client:latest
+    container_name: nhitapps_client
+    #depends_on: 
+      #- api
+
+    

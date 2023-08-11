@@ -1,0 +1,86 @@
+@startuml icope_integration_components
+    '!pragma layout smetana
+    skinparam Linetype ortho
+    skinparam useBetaStyle true
+    skinparam nodesep 60
+    skinparam ranksep 30
+    
+    !theme toy
+    !include <material/wall>
+    !include <material/server>
+    !include <material/database>
+    
+    remove $prod_details
+
+    title 
+        Integration Diagram - Components
+        - Northern Health <size:16>iPM</size>
+        - Northern Helath <size:16>CPF</size>
+        - **<i>Diginostic</i> <size:20>iCope</size>**
+        via Rhapsody
+    end title
+    header Last updated: 2022-04-27
+    'footer footer goes here
+    
+    queue vpn as "VPN"
+
+    frame "HTS" {
+        interface iPM_out as " "
+        agent iPM as "\n    iPM    \n"
+        note top $prod_details : HSIEPROD-1.prod.services 
+        iPM -r-> iPM_out : "ADT\n& SIU"
+        iPM_out -r-- vpn : "<color:blue><font:consolas>MLLP<color:blue><font:consolas>/VPN\n<color:blue><font:consolas>/TCP"
+    }
+
+    frame "Diginostic" {
+        interface iCope_if as " "
+        agent iCope as "\n    iCope    \n"
+        note bottom $prod_details : hl7.diginostic.com.au
+        iCope -r-> iCope_if : MDM 
+        iCope <-r- iCope_if : ADT & SIU\n<color:blue><font:consolas>TCP:5555
+    }
+
+    cloud Internet as "Internet" {
+        iCope_if - Internet : "<color:blue><font:consolas>MLLP<color:blue><font:consolas>/TLS\n<color:blue><font:consolas>/TCP" \t
+    }
+
+    frame melb as "Melbourne Health" {        
+        rectangle melb_fw1 as "\n <$ma_wall> \n" #Orange
+        rectangle melb_fw2 as "\n <$ma_wall> \n" #Orange        
+    }    
+
+    frame NH as "Northern Health" {
+        rectangle Rhapsody as "Rhapsody\t\t\t\t\nIntegration\t\t\t\t\nEngine\t\t\t\t" #DarkCyan {
+            file pdf_ext as "PDF\nExtraction"
+            interface Rhap_iPM_if as " "
+            interface Rhap_iCope_if as " "
+        }
+        note right of Rhapsody $prod_details : nhRhapsodyProd.nh.org.au
+        
+        folder DLI_folder as "\n" 
+        note bottom $prod_details : <font:consolas>\\\\NHWEB02\\CPF\\input\\ 
+        
+        rectangle CPF as "\t  CPF\t\n\t<$ma_server>\t"
+        note top $prod_details : 10.96.97.98 
+        rectangle db as "Database Server\n\n<$ma_database>\nExt_App_States"
+    }
+
+    melb_fw1 -[hidden]- melb_fw2
+    vpn -r- melb_fw1
+    Internet -r- melb_fw2
+
+    Rhap_iPM_if -[hidden]d- pdf_ext
+    melb_fw1 -> Rhap_iPM_if : "<color:blue><font:consolas>TCP:11000"
+    melb_fw2 -r-> Rhap_iCope_if : "<color:blue><font:consolas>TCP:3802"
+    Rhap_iCope_if -r-> pdf_ext
+    melb_fw2 <-l- Rhap_iPM_if
+    DLI_folder <-d- pdf_ext
+    Rhap_iPM_if --u--> CPF : "ADT\n<font:consolas><color:blue>TCP:3002"
+    DLI_folder -u-> CPF : \n\n<color:blue><font:consolas>DLI\n<color:blue><font:consolas>Process
+    db ...u... Rhapsody : \n\nCreate\nRead\nUpdate\nDelete
+
+    'legend bottom left
+        'Legend goes here
+    'endlegend
+    
+@enduml

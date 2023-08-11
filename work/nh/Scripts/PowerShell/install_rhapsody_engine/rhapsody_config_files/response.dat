@@ -1,0 +1,24 @@
+#install4j response file for Rhapsody 6.5.0
+#Mon May 09 10:58:40 AEST 2022
+install4j.ignore$Integer=0
+sys.installationDir=E\:\\Rhapsody\\Rhapsody Engine
+sys.languageId=en
+jvm.initial=512
+windows.service.password.encoded=25eQiNKxmoqLjZ6T3g\=\=
+windows.service.name.display=Rhapsody
+jvm.maximum=1024
+windows.launch.engine$Boolean=true
+windows.service.startType=AUTO_START
+windows.service.account=whcn\\nhrpsdyd.svc
+windows.service.name=Rhapsody
+windows.program.group=Rhapsody
+port.broadcast=4031
+port.http.management=8081
+port.http.management.enabled$Boolean=false
+port.https.management=8444
+windows.service.description=Rhapsody Integration Engine
+port.https.webservice.api=8449
+windows.launch.monitor$Boolean=false
+port.admin=3041
+port.https.management.enabled$Boolean=true
+dir.data=E\:\\Rhapsody\\data

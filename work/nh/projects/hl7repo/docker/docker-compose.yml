@@ -1,0 +1,74 @@
+version: "3.9"
+
+x-timezone: &timezone "Australia/Melbourne"
+
+services:
+    api:
+        image: hl7repo-api:latest
+        container_name: hl7repo_api
+        environment:
+            ASPNETCORE_ENVIRONMENT: Production
+            ASPNETCORE_URLS: http://+:${API_PORT}
+            redis__host: host.docker.internal
+            database__ConnectionString: "Server=host.docker.internal,11433;Database=Message_Repository;User Id=sa;Password=d0#BS34EpC7o6!3;MultipleActiveResultSets=true"
+            TZ: *timezone
+        ports:
+            - ${API_PORT}:${API_PORT}
+        volumes:
+            - ./logs/api:/app/logs:rw,cached
+        depends_on:
+            - redis
+        restart: unless-stopped
+
+    hl7server:
+        image: hl7repo-hl7server:latest
+        container_name: hl7repo_hl7server
+        environment:
+            redis__host: host.docker.internal
+            hl7listener__port: ${HL7_LISTENER_PORT}
+            TZ: *timezone
+        ports:
+            - ${HL7_LISTENER_PORT}:${HL7_LISTENER_PORT}
+        volumes:
+            - ./logs/hl7server:/app/logs:rw,cached
+        depends_on:
+            - redis
+        restart: unless-stopped
+
+    db_writer:
+        image: hl7repo-db_writer:latest
+        container_name: hl7repo_db_writer
+        environment:
+            redis__host: host.docker.internal
+            database__ConnectionString: "Server=host.docker.internal,11433;Database=Message_Repository;User Id=sa;Password=d0#BS34EpC7o6!3;MultipleActiveResultSets=true"
+            fileProcessor__folderpath: /app/files
+            fileProcessor__maxFileSizeMB: 50
+            worker__runningIntervalSeconds: 60
+            TZ: *timezone
+        volumes:
+            - ./logs/db_writer:/app/logs:rw,cached
+            - ${FILEPROCESSOR_FOLDERPATH}:/app/files:rw,cached
+        depends_on:
+            - redis
+        restart: unless-stopped
+
+    client:
+        image: hl7repo-client:latest
+        container_name: hl7repo_client
+        ports:
+            - ${CLIENT_PORT}:80
+        environment:
+            TZ: *timezone
+        restart: unless-stopped
+    
+    redis:
+        image: redis:6.2.4
+        container_name: hl7repo_redis
+        environment:
+            TZ: ${TZ}
+        ports:
+            - ${REDIS_PORT}:6379
+        volumes:
+            - ../data/redis:/data:rw,cached
+        command: ["redis-server", "--requirepass", ${REDIS_PASS}, "--appendonly", "yes"]
+        restart: unless-stopped

@@ -1,0 +1,32 @@
+@import './src/app/shared/variables';
+@import './src/app/shared/material-cards';
+
+h2 {
+    text-align: center;
+}
+
+app-filter {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.applications {
+    display: flex;
+    animation: app-select 800ms ease-in forwards;
+}
+
+.appIsSelected {
+    display: flex;
+    animation: app-select 300ms ease-in forwards;
+}
+
+@keyframes app-select {
+    0% { opacity: 0.1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}

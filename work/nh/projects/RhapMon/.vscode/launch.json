@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "API Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-api",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/api/bin/Debug/net5.0/api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/api",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            //"serverReadyAction": {
+                //"action": "openExternally",
+                //"pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            //},
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:8021"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Worker Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-worker",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/worker/bin/Debug/net5.0/worker.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/worker",
+            "stopAtEntry": false,
+            "env": { }
+        },
+        {
+            "name": "Angular Launch",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "preLaunchTask": "serve-angular",
+        }
+    ]
+}

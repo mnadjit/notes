@@ -1,0 +1,22 @@
+{
+    "Monitors" : {
+        "Throughput": true,
+        "Alerts": true
+    },
+    "Redis": {
+		"ConnectionString": "localhost:16381",
+		"InstanceName": "RhapMon_",
+        "ExpiryDurationMins": 30
+	},
+    "Rhapsody": {
+        "Server": "https://nhrhapsodyprod.nh.org.au",
+        "Port": "8444"
+    },
+    "ThroughputMonitor": [
+        {
+            "id": "854",
+            "type": "CP",
+            "locker": "Northern"
+        }
+    ]
+}

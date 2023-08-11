@@ -1,0 +1,32 @@
+@import './shared/variables';
+
+.content {
+  display: flex;
+  margin-top: 80px;
+  padding: 0 40px;
+  align-items: flex-start;
+
+  app-message-list {
+    flex: 6;
+  }
+  app-search-box {
+    flex: 1;
+  }
+}
+
+header {
+  margin-left: 20px;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: darken($accent, 35%);
+  color: white;
+  font-weight: 600;
+}

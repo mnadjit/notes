@@ -1,0 +1,21 @@
+{
+	"MasterLogTransfer": {
+		"SourceFolderPath": "L:\\Rhapsody Logs\\Master",
+		"DestinationUNCPath": "\\\\nhbackup01\\Rhapsody Logs\\Master"
+	},
+	"TransferMonitor": {
+		"DriveToCheckSpace": "L:",
+		"FreeSpaceThreshold": 5,
+		"FreeSpacePercThreshold": 25,
+		"FailureFilePrefix": "_fail"
+	},
+	"Email": {
+		"SmtpServer": "smtp.nh.org.au",
+		"EmailSender": "Failure-in-Rhapsody-MasterLog-Move@nh.org.au",
+		"EmailRecipients": [ "Mehdi Tehrani <mehdi.tehrani@nh.org.au>" ], 
+		"EmailSubject": "Issue with Rhapsody Master Logs move to backup server",
+		"EmailPriority": "High",
+		"FailureDetectedEmailBody": "Failure-Detected-EmailTemplate.html",
+		"DiskSizeIssueEmailBody": "DiskSize-EmailTemplate.html"
+	}
+}

@@ -1,0 +1,47 @@
+# Rhapsody Roadmap
+
+> Release Dates:
+	6.9.1   march 2022
+	6.10	june 2022
+	7		Sep 2022
+
+	6.10.1	late aug	bug fixes for engine and IDE
+
+## RMT 4.0  ?????
+
+				Are there any sites on 6.9.1?
+				Test messages
+
+## Java versions for each engine version:
+	rhap	java
+	6		8
+	7		11
+			17 latest java
+		
+## Rhapsody 7 
+	- not using log4j - uses LogBack instead which is similar but slightly different
+		- No fatal log levels
+		- properties files are different
+	- support for some old OSs are being removed e.g. 32bits
+	- Rhapsody API SOAP is being removed - only REST. This is only regarding the Rhapsody API, and SOAP commpoints will remain supported
+	- xml designer is being removed
+	- versioning is changing to Semantic versioning like 7.0.0 beta
+	- gRPC getting used in the backend instead of HTTP
+	
+	### JavaScript
+		- Rhino version is 12 years old and is being removed 
+		- moving to use GRAAL (https://www.graalvm.org/22.1/reference-manual/js/) which supports E4X (https://en.wikipedia.org/wiki/ECMAScript_for_XML)  
+		- Rhapsody 7 will have Rhino JS filter, as well as GRAAL filter, for backward compatibility
+		- JSON parsing will be improved for large files - in Rhapsody 6 it's slow
+		
+	### 7.1
+		- ability to upgrade from Rhino filter to GRAAL
+		
+	- OAuth 2.0 built in
+	- TLS 1.3	supported
+	
+	- Plan for having enhanced code editor and probably debugger! in future subversions. Not in 7.0 :-(
+	
+	- easier to deploy rhapsody in containers - currently possible with 6.9 and 6.10 in docker
+	
+	

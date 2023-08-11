@@ -1,0 +1,41 @@
+<mat-grid-list gutterSize="0px" cols="4" rowHeight="100%">
+  <mat-grid-tile>
+    <div class="apps-col">
+        <h2>Applications</h2>
+        <app-filter #filter></app-filter>
+        <ng-container *ngFor="let nhApp of nhApps">
+            <app-applications [hidden]="!nhAppContainsFilter(nhApp.name)" [nhApp]="nhApp" (appIsSelected)="selectApp($event)" ></app-applications>
+        </ng-container>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="apps-col">
+        <h2>Services</h2>
+        <ng-container *ngIf="selectedApp" >
+            <app-services   *ngFor="let appService of selectedApp.appServices" [appService]="appService" 
+                            (mouseenter)="serviceHighlight($event)" (mouseleave)="serviceRemoveHighlight($event)"
+                            [ngClass]="'service-' + appService.id">
+            </app-services>
+        </ng-container>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="apps-col">
+        <h2>Servers</h2>
+        <ng-container *ngIf="selectedApp" >
+            <app-servers *ngFor="let server of selectedServers" [server]="server" [ngClass]="'service-' + server.appServiceId"></app-servers>    
+        </ng-container>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="apps-col">
+        <h2>Networks</h2>
+        <ng-container *ngIf="selectedApp" >
+            <app-networks *ngFor="let ip of selectedIps" [ip]="ip" 
+                [ngClass]="['network-' + ip.networkInterfaceId,
+                            'server-'  + getServerIdForNetwork(ip.networkInterfaceId),
+                            'service-' + getServiceIdForNetwork(ip.networkInterfaceId)]"></app-networks>
+        </ng-container>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>

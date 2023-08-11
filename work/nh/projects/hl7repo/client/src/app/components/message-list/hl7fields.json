@@ -1,0 +1,49 @@
+[
+  {
+    "SegmentName": "MSH",
+    "Fields": [
+      {
+        "FieldIndex": 3,
+        "FieldName": "Sending Application"
+      },
+      {
+        "FieldIndex": 4,
+        "FieldName": "Sending Facility"
+      },
+      {
+        "FieldIndex": 5,
+        "FieldName": "Receiving Application"
+      },
+      {
+        "FieldIndex": 6,
+        "FieldName": "Receiving Facility"
+      },
+      {
+        "FieldIndex": 7,
+        "FieldName": "Message DateTime"
+      }
+    ]
+  },
+  {
+    "SegmentName": "PID",
+    "Fields": [
+      {
+        "FieldIndex": 3,
+        "FieldName": "Patient Identifier List"
+      },
+      {
+        "FieldIndex": 5,
+        "FieldName": "Patient Name"
+      }
+    ]
+  },
+  {
+    "SegmentName": "PV1",
+    "Fields": [
+      {
+        "FieldIndex": 2,
+        "FieldName": "Patient Class"
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<style> 
+				body {
+					font-family: Segoe UI Light, Tahoma, Arial, sans-serif;
+				}
+				table { 
+					background-color: #EEE;
+					border-collapse: collapse;
+					width: 330px;
+				} 
+				td {
+					width: 33%;
+					border: 1px solid #DDD; 
+					text-align: center;
+				}
+				th {
+					background-color: #FFF;
+				}
+				code {
+					font-family: Consolas;
+					font-size: 110%
+				}
+				snap {
+					font-family: courier-new;
+				}
+
+			</style>
+		</head>
+		<body>
+			<title>Rhapsody Master Log - Drive Space</title>
+			<h2>Free space needs to be checked for Rhapsody Master Logs</h2>
+			<h4>Please check $DriveToCheckSpace on <code>NHRhapsodyProd.nh.org.au</code></h4>
+			<table>
+			<tr>
+				<th></th>
+				<th></th>
+				<th>Threshold</th>
+			</tr>
+			<tr>
+				<td>Drive</td>
+				<td>$DriveToCheckSpace</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Drive Size</td>
+				<td>$DiskSize</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Free Size (GB)</td>
+				<td>$FreeGB</td>
+				<td>$FreeSpaceThreshold</td>
+			</tr>
+			<tr>
+				<td>Free Size (%)</td>
+				<td>$FreePerc %</td>
+				<td>$FreeSpacePercThreshold %</td>
+			</tr>
+			</table>
+			<br/><br/>
+			<h4>Please check the log in the following path on <code>NHRhapsodyProd.nh.org.au</code></h4>
+			<snap>\\NHRhapsodyProd\L$\Rhapsody Logs\MasterLog-Transfer\Processlog.txt</snap><br/><br/>
+			<hr>
+			<snap>Documentation available at: <a href="https://ictwiki.nh.org.au/index.php/Rhapsody_Master_Logs_move_to_the_Backup_Server">https://ictwiki.nh.org.au/index.php/Rhapsody_Master_Logs_move_to_the_Backup_Server</a></snap>
+		</body>
+	</html>

@@ -1,0 +1,17 @@
+{
+    "rhapsody_api_url": "https://nhrhapsodyprod.nh.org.au:8444/api/commpoint/",
+    "log_file_path": "./restart_idle_components.log",
+    "error_log_file_path": "./restart_idle_components.error.log",
+    "edis_restart_flag_path": "\\\\nhedis01\\restart_flag\\restart.flag",
+    "username": "nhrpsdyp.svc",
+    "pw_file_path": "e:/Scripts/Rhapsody_api/start_components_stopped_in_error/creds/enc_password.txt",
+    "interfaces": [
+        {
+            "name": "CP.tcp_EDIS_ADT_to_NH_IO",
+            "id": "1310",
+            "in_queue_threshold": 5,
+            "out_queue_threshold": 5,
+            "idle_threshold_mins": 1
+        }
+    ]
+}

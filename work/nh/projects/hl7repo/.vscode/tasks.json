@@ -1,0 +1,81 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-hl7server",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/hl7server/hl7server.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": "copy-config-hl7server"
+        },
+        {
+            "label": "build-dbwriter",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/db_writer/db_writer.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": "copy-config-db_writer"
+        },
+        {
+            "label": "build-webapi",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/api/api.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": "copy-config-api"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/hl7server/hl7server.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "copy-config-hl7server",
+            "command": "cp ${workspaceFolder}/config.* ${workspaceFolder}/hl7server",
+            "type": "shell",
+            "args": []
+        },
+        {
+            "label": "copy-config-db_writer",
+            "command": "cp ${workspaceFolder}/config.* ${workspaceFolder}/db_writer",
+            "type": "shell",
+            "args": []
+        },
+        {
+            "label": "copy-config-api",
+            "command": "cp ${workspaceFolder}/config.* ${workspaceFolder}/api",
+            "type": "shell",
+            "args": []
+        },
+        {
+            "label": "serve-angular",
+            "command": "cd client; npm install; ng serve --configuration development --port 7012",
+            "type": "shell",
+            "args": [
+            ],
+        }
+    ]
+}

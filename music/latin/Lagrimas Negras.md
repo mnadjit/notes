@@ -1,0 +1,3 @@
+- [Paola Hermosin YouTube](https://youtu.be/kmcF-IQL95U)
+- [Paola Hermosin - Sheet Music and Tab](https://www.paolahermosin.com/producto/lagrimasnegras/)
+- 

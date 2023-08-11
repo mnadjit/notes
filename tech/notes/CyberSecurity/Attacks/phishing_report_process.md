@@ -1,0 +1,18 @@
+- Use the following links to report phishing URLs
+    - Google SafeBrowsing: https://safebrowsing.google.com/safebrowsing/report_phish/ 
+    - Microsoft: https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site
+    - Fortiguard: https://www.fortiguard.com/webfilter
+    - BrightCloud: https://www.brightcloud.com/tools/url-ip-lookup.php
+    - CRDF: https://threatcenter.crdf.fr/submit_url.html
+    - Netcraft: https://report.netcraft.com/report
+    - Palo Alto Networks: https://urlfiltering.paloaltonetworks.com/
+    - ESET: https://phishing.eset.com/en-us/report
+    - Trend Micro: https://global.sitesafety.trendmicro.com/index.php
+    - BitDefender: https://www.bitdefender.com/consumer/support/answer/29358/
+    - McAfee: https://sitelookup.mcafee.com/
+    - Forcepoint: https://csi.forcepoint.com/
+    - Symantec: https://sitereview.symantec.com/#/
+    - Spam404: https://www.spam404.com/report.html
+    - Kaspersky: https://opentip.kaspersky.com/
+    - Cisco Talos: https://talosintelligence.com/reputation_center
+    - Avira: https://www.avira.com/en/analysis/submit-url

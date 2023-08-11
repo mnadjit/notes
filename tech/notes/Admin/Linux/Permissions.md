@@ -1,0 +1,5 @@
+- [Fedora Docs](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/basic-system-configuration/Gaining_Privileges/)
+- `sudo chmod`: change permissions
+    - `sudo chmod -R u+rwX,go-w`: recursively (-R) add read/write/execute permissions to **u**ser only; for **g**roup and **o**thers only remove write permission
+    - `sudo chmod 753 <file>`: set permissions as rwx for user, r-x for group and -wx for others
+- `sudo chown`: change ownership

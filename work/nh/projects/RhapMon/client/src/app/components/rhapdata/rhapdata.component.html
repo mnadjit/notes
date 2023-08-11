@@ -1,0 +1,14 @@
+<highcharts-chart 
+  [Highcharts]="Highcharts"
+
+  [constructorType]="chartConstructor"
+  [options]="chartOptions"
+  [callbackFunction]="chartCallback"
+
+  [(update)]="updateFlag"
+  [oneToOne]="oneToOneFlag"
+  [runOutsideAngular]="runOutsideAngular"
+
+  style="width: 100%; height: 400px; display: block;"
+></highcharts-chart>
+<!--<code>data: {{ client.rhapsodyData | json }}</code>-->

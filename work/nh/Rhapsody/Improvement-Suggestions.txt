@@ -1,0 +1,8 @@
+Rhapsody improvement suggestions:
+	IDE:
+		Testing:
+			Allow regex pattern or be able to ignore certain properties / currently only ignoring all properties is possible
+			
+	Management Console:
+		Message Tree:
+			Include Field numbers - only field names are displayed now

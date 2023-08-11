@@ -1,0 +1,26 @@
+<mat-form-field class="example-chip-list" appearance="fill">
+  <mat-label>Message Code</mat-label>
+  <mat-chip-list #chipList aria-label="Message Code selection" >
+    <mat-chip
+      *ngFor="let messageCode of messageCodes"
+      [selectable]="selectable"
+      [removable]="removable"
+      (removed)="remove(messageCode)">
+        {{messageCode}}
+      <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+    </mat-chip>
+    <input
+      placeholder="e.g. ADT, SIU, etc."
+      #messageCodeInput
+      [formControl]="messageCodeCtrl"
+      [matAutocomplete]="auto"
+      [matChipInputFor]="chipList"
+      [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+      (matChipInputTokenEnd)="add($event)">
+  </mat-chip-list>
+  <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+    <mat-option *ngFor="let filteredCode of filteredCodes | async" [value]="filteredCode">
+      {{filteredCode}}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>

@@ -1,0 +1,8 @@
+{
+	"sql_statement_filename": "find_medirecords_patients_in_ipm.sql",
+	"dsu_db_server": "NHDWH02.nh.org.au",
+	"dsu_db_name":	"IPM_REPL",
+	"batch_size": 10,
+	"in_filename": "medirecords_prod_patients.csv",
+	"out_filename": "medirecords_prod_patients_nh_ur.csv"
+}

@@ -1,0 +1,2 @@
+- Product Webpage: https://www.ghostscript.com/
+- Snyk: https://security.snyk.io/vuln/SNYK-DEBIAN10-GHOSTSCRIPT-5353825
