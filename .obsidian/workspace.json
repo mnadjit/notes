@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
+                "file": "tech/notes/Tools/PowerShell/DCHP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7e847c4870b44a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/notes/Tools/PowerShell/DCHP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
+                "file": "tech/notes/Tools/PowerShell/DCHP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
+                "file": "tech/notes/Tools/PowerShell/DCHP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md"
+                "file": "tech/notes/Tools/PowerShell/DCHP.md"
               }
             }
           },
@@ -172,16 +185,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e74a02b53c8667f2",
+  "active": "f7e847c4870b44a2",
   "lastOpenFiles": [
-    "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
-    "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
+    "tech/notes/Tools/PowerShell/SCCM.md",
+    "tech/notes/Tools/PowerShell/SharePoint.md",
     "Home.md",
+    "tech/ctf/Untitled.canvas",
+    "tech/notes/Tools/PowerShell/DCHP.md",
+    "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
+    "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Virt_capability_missing.png",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Not_Supported.png",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Task_Manager.png",
     "work/nh/General/Employment.md",
-    "tech/notes/Tools/PowerShell/SharePoint.md",
     "tech/notes/Tools/PowerShell/Admin/Applications & Updates Installed.md",
     "tech/notes/Tools/PowerShell/Admin",
     "tech/notes/CyberSecurity/Vulnerabilities/Tools/Tenable.io/User Working Group No. 4.md",
@@ -204,7 +220,6 @@
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project",
     "Excalidraw",
-    "tech/ctf/Untitled.canvas",
     "tech/certs/compTIA-SecPlus/00_Documents/Security_plus_study_guide_IPspecialist.pdf",
     "tech/notes/Tools/PowerShell/Monitoring.md",
     "tech/certs/compTIA-SecPlus/00_Documents/CompTIA+Security++601+Study+Guide.pdf",
@@ -214,12 +229,10 @@
     "tech/certs/compTIA-CysaPlus/Udemy/14 Host-related IOCs.md",
     "tech/certs/compTIA-CysaPlus/Udemy/13 Network IOCs.md",
     "tech/certs/compTIA-CysaPlus/Udemy/12 Digital Forensics.md",
-    "tech/certs/compTIA-CysaPlus/Exam Details.md",
     "Pasted image 20230726212459.png",
     "tech/certs/compTIA-CysaPlus/Udemy/images/Data_Staging_Area_NTFS_alternate_data_streams.png",
     "tech/certs/compTIA-CysaPlus/Udemy/images/volatility_framework_netscan.png",
     "Pasted image 20230726205522.png",
-    "tech/certs/compTIA-CysaPlus/Udemy/images/volatility_framework_pslist.png",
-    "tech/certs/compTIA-CysaPlus/Udemy/images/email_dmarc.png"
+    "tech/certs/compTIA-CysaPlus/Udemy/images/volatility_framework_pslist.png"
   ]
 }
