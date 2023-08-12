@@ -25,15 +25,20 @@ https://vim.rtorr.com/
 
 ## Window
 - [Reference](https://linuxhandbook.com/split-vim-workspace/)
-- `Ctrl+w v`  open a new empty window - vertical split
-- `Ctrl+w h/j/k/l`  move the window around
-- `Ctrl+w 10 >`  resize vertically split windows by 10 characters
-- `Ctrl+w 20 +`  resize horizontally split windows by 10 characters
-- `:q`  delete current buffer - closes the window in focus
-- `:bd[elete]`  unload(?) current buffer - closes the window in focus
-- `:vsplit $file_path`  open file in a new window - vertical split
-- `:split $file_path`  open file in a new window - horizontal split
-
+- Split
+	- `:vsplit $file_path`  open file in a new window - vertical split
+	- `:split $file_path`  open file in a new window - horizontal split
+	- `Ctrl+w v`  open the same buffer into a new window - vertical split
+- Move
+	- `Ctrl+w h/j/k/l`  move the window around
+- Resize
+	- `Ctrl+w =`  resize all windows to equal sizes
+	- `Ctrl+w 10 >`  resize vertically split windows by 10 characters
+	- `Ctrl+w 20 +`  resize horizontally split windows by 10 characters
+- Remove
+	- `:q`  delete current buffer - closes the window in focus
+	- `:bd[elete]`  unload(?) current buffer - closes the window in focus
+-
 # Edit
 ## Insert
 `i` insert before cursor
