@@ -4,7 +4,7 @@ kanban-plugin: basic
 
 ---
 
-## Certificates
+## Certificates & Training
 
 - [ ] CompTIA CySA+
 - [ ] CompTIA Linux+
