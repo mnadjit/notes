@@ -30,14 +30,7 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "f8f795e1b0825a2c",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "daed78213ccaa939",
             "type": "leaf",
@@ -45,12 +38,13 @@
               "type": "markdown",
               "state": {
                 "file": "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "4952f309764416d8",
@@ -117,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/education/courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
+                "file": "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/education/courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
+                "file": "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/education/courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md"
+                "file": "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md"
               }
             }
           },
@@ -204,9 +197,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f7e847c4870b44a2",
+  "active": "e74a02b53c8667f2",
   "lastOpenFiles": [
+    "tech/notes/Tools/PowerShell/SharePoint.md",
+    "tech/notes/Tools/psexec.md",
+    "tech/notes/Tools/Regex/References.md",
+    "tech/notes/Tools/Regex/Cheat Sheet.md",
+    "tech/notes/Tools/PowerShell/SCCM.md",
+    "tech/notes/Tools/PowerShell/DCHP.md",
+    "tech/notes/Tools/PowerShell/Admin/Applications & Updates Installed.md",
+    "tech/notes/Tools/PowerShell/Cryptography.md",
+    "tech/notes/Tools/PowerShell/Admin.md",
+    "tech/notes/Tools/vim.md",
     "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
+    "tech/education/courses/compTIA-CysaPlus/Udemy/14 Host-related IOCs.md",
+    "tech/education/courses/compTIA-CysaPlus/Udemy/13 Network IOCs.md",
+    "tech/education/courses/compTIA-CysaPlus/Udemy/02 Security Control Types.md",
+    "tech/education/courses/compTIA-CysaPlus/comptia-cysa-cs0-003-exam-objectives.pdf",
+    "tech/education/courses/compTIA-CysaPlus/Exam Details.md",
+    "Projects.md",
+    "Home.md",
     "tech/education/courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
     "tech/notes/Tools/PowerShell/Monitoring.md",
     "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Untitled",
@@ -214,18 +224,12 @@
     "tech/notes/CyberSecurity/Cloud/AWS",
     "tech/notes/CyberSecurity/Cloud/Azure",
     "tech/notes/CyberSecurity/Cloud",
-    "tech/notes/Tools/PowerShell/SCCM.md",
-    "tech/notes/Tools/PowerShell/SharePoint.md",
-    "Projects.md",
-    "Home.md",
     "tech/education/courses/Cisco Identity Services Engine (SISE)/0.0_Objectives.md",
     "tech/education/courses/Cisco Identity Services Engine (SISE)/01.01_Introduction.md",
-    "tech/notes/Tools/PowerShell/DCHP.md",
     "styles.yaml",
     "style.yaml.md",
     "tech/education/courses/Cisco Identity Services Engine (SISE)",
     "tech/education/courses",
-    "tech/notes/Tools/vim.md",
     "tech/ctf/Untitled.canvas",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
@@ -233,21 +237,10 @@
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Not_Supported.png",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Task_Manager.png",
     "work/nh/General/Employment.md",
-    "tech/notes/Tools/PowerShell/Admin/Applications & Updates Installed.md",
     "tech/notes/Tools/PowerShell/Admin",
     "tech/notes/CyberSecurity/Vulnerabilities/Tools/Tenable.io/User Working Group No. 4.md",
-    "tech/notes/CyberSecurity/Vulnerabilities/Tools/Tenable.io",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Installed_MS_Edge.png",
     "tech/notes/CyberSecurity/Authentication/General.md",
-    "tech/notes/CyberSecurity/Attacks/Web_Exploitation/JWT (JavaScript Web Token).md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
-    "tech/education/courses/compTIA-SecPlus/all notes.md",
-    "Excalidraw/Drawing 2023-08-03 21.21.59.excalidraw.md",
-    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
-    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
-    "tech/education/courses/compTIA-SecPlus/25_Hashing/Hashing Algorithms.md",
     "Pasted image 20230726212459.png",
     "tech/education/courses/compTIA-CysaPlus/Udemy/images/Data_Staging_Area_NTFS_alternate_data_streams.png",
     "tech/education/courses/compTIA-CysaPlus/Udemy/images/volatility_framework_netscan.png",
