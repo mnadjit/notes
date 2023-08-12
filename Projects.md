@@ -7,11 +7,12 @@ kanban-plugin: basic
 ## Certificates & Training
 
 - [ ] CompTIA CySA+
-- [ ] CompTIA Linux+
+- [ ] CISCO ISE
 - [ ] CompTIA Pentest+
 - [ ] Microsoft Certs
 - [ ] Azure
 - [ ] AWS
+- [ ] CompTIA Linux+
 
 
 ## Study

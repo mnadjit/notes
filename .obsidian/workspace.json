@@ -23,9 +23,11 @@
             "id": "f7e847c4870b44a2",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Projects.md"
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects.md"
+                "file": "Home.md"
               }
             }
           },
@@ -185,6 +187,7 @@
   },
   "active": "f7e847c4870b44a2",
   "lastOpenFiles": [
+    "Projects.md",
     "tech/notes/Tools/vim.md",
     "tech/notes/Tools/PowerShell/DCHP.md",
     "tech/notes/Tools/PowerShell/SCCM.md",
@@ -214,7 +217,6 @@
     "Excalidraw/Drawing 2023-08-03 21.21.59.excalidraw.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects.md",
     "Untitled.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project",
