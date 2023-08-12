@@ -29,7 +29,7 @@ Can be detected by examining email header
 	- quarantine
 	- reject
 - provides mechanisms for recipients to report DMARC auth failures to the sender
-![[./images/email_dmarc.png]]
+![[email_dmarc.png]]
 ## Cousin Domains
 SPF, DKIM, and DMARC do not solve the problem of cousin or look-alike domains. These are domain names or domain name parts that closely resemble an organization's real domain.
 

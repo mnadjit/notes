@@ -1,4 +1,8 @@
 {
   "accentColor": "",
-  "translucency": true
+  "translucency": true,
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ]
 }

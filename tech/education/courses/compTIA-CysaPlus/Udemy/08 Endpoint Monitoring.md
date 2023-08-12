@@ -57,10 +57,10 @@ Useful Tool: **SysInternals**
 
 
     
-![[./images/procexp_normal.png]]
+![[procexp_normal.png]]
 
 ## Anomalous Behaviour in Process Explorer
-![[./images/procexp_normal.png]]
+![[procexp_normal.png]]
 
 
 
