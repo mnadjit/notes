@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/notes/Tools/PowerShell/DCHP.md",
+                "file": "tech/notes/Tools/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/notes/Tools/PowerShell/DCHP.md",
+                "file": "tech/notes/Tools/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/notes/Tools/PowerShell/DCHP.md",
+                "file": "tech/notes/Tools/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/notes/Tools/PowerShell/DCHP.md"
+                "file": "tech/notes/Tools/vim.md"
               }
             }
           },
@@ -187,11 +187,11 @@
   },
   "active": "f7e847c4870b44a2",
   "lastOpenFiles": [
+    "tech/notes/Tools/PowerShell/DCHP.md",
     "tech/notes/Tools/PowerShell/SCCM.md",
     "tech/notes/Tools/PowerShell/SharePoint.md",
     "Home.md",
     "tech/ctf/Untitled.canvas",
-    "tech/notes/Tools/PowerShell/DCHP.md",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
     "tech/notes/CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Virt_capability_missing.png",

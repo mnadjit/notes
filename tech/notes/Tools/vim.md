@@ -23,6 +23,17 @@ https://vim.rtorr.com/
 - `j` move cursor down
 - `k` move cursor up
 
+## Window
+- [Reference](https://linuxhandbook.com/split-vim-workspace/)
+- `Ctrl+w v`  open a new empty window - vertical split
+- `Ctrl+w h/j/k/l`  move the window around
+- `Ctrl+w 10 >`  resize vertically split windows by 10 characters
+- `Ctrl+w 20 +`  resize horizontally split windows by 10 characters
+- `:q`  delete current buffer - closes the window in focus
+- `:bd[elete]`  unload(?) current buffer - closes the window in focus
+- `:vsplit $file_path`  open file in a new window - vertical split
+- `:split $file_path`  open file in a new window - horizontal split
+
 # Edit
 ## Insert
 `i` insert before cursor
@@ -41,4 +52,5 @@ https://vim.rtorr.com/
 - `dd` delete this line
 - `3dd` delete this line and next 2 lines
 - `J` remove line break
-	
+
+ 
