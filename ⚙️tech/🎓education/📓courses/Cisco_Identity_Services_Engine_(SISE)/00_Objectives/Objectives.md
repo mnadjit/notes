@@ -1,6 +1,6 @@
 ---
-alias: 
-tags: 
+alias: Course Objectives
+tags: cybsec cisco ise sise course network identity
 ---
 
 - Describe Cisco ISE deployments, including core deployment components and how they interact to create a cohesive security architecture.
