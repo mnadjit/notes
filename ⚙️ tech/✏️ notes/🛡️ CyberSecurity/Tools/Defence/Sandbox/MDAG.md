@@ -48,13 +48,13 @@ tags: security cybsec sandbox mdag appguard ms_edge ms_office hyper-v container 
 - [MS Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/install-app-guard?view=o365-worldwide)
 # Monitoring
 - Windows Task Manager
-	- ![MDAG Task Manager](./images/MDAG_Task_Manager.png)
+	- ![MDAG Task Manager](MDAG_Task_Manager.png)
 - Edge icon in App Guard mode
-	- ![MS Edge MDAG](./images/MS_Edge_MDAG.png)
+	- ![MS Edge MDAG](MS_Edge_MDAG.png)
 # Troubleshooting
 ## Issue 1
 - MDAG is installed but 'New Application Gurad Window' does not appear in MS Edge - the image below shows the healthy AppGuard installation
-	- ![MDAG Installed MS Edge](images/MDAG_Installed_MS_Edge.png)
+	- ![MDAG Installed MS Edge](MDAG_Installed_MS_Edge.png)
 
 ### Solution
 - Check `Windows Features` and make sure `Microsoft Defender Application Guard` is installed. If not, especially if it's grayed out, hover your mouse pointer over it to find out the reason it failed to install.
@@ -65,14 +65,14 @@ tags: security cybsec sandbox mdag appguard ms_edge ms_office hyper-v container 
 ## Issue 2
 - Virtualization capability missing
 - Check `Windows Features` and hover the mouse pointer over `Microsoft Defender Application Guard`. 
-	- ![MDAG Install Failure - Virtualization Capability Missing](images/MDAG_Install_Fail_Virt_capability_missing.png)
+	- ![MDAG Install Failure - Virtualization Capability Missing](MDAG_Install_Fail_Virt_capability_missing.png)
 
 ### Solution
 - #todo
 
 ## Issue 3
 - MDAG not supported
-	- ![MDAG Failure - Not Supported on this device](images/MDAG_Install_Fail_Not_Supported.png)
+	- ![MDAG Failure - Not Supported on this device](MDAG_Install_Fail_Not_Supported.png)
 
 ### Solution
 - #todo 

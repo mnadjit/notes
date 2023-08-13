@@ -15,6 +15,6 @@ It receives a packet from the network layer (that includes the IP address for th
 It's the job of the physical layer to convert the binary data of the transmission into signals and transmit them across the network, as well as receiving incoming signals and converting them back into binary data.
 
 # Encapsulation
-![OSI Layers Encapsulation](images/OSI_layers.png)
+![OSI Layers Encapsulation](OSI_layers.png)
 
 # DNS

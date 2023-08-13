@@ -83,9 +83,9 @@ After installation there would be two devices with missing drivers in Device Man
 2) PCI Simple Communication Controller: This one is VirtIO serial driver
 OR simply install the whole VirtIO suite of drivers.
 ## Hardware
-![Win 11 Pro Hardware](./images/Proxmox_Win11_Hardware.png)
+![Win 11 Pro Hardware](Proxmox_Win11_Hardware.png)
 ## Options
-![Win 11 Pro Options](./images/Proxmox_Win11_Options.png)
+![Win 11 Pro Options](Proxmox_Win11_Options.png)
 
 # Remnux
 ## Drivers
@@ -93,9 +93,9 @@ OR simply install the whole VirtIO suite of drivers.
 https://docs.remnux.org/install-distro/get-virtual-appliance#kvm-qemu
 https://docs.remnux.org/install-distro/get-virtual-appliance#proxmox
 ## Hardware
-![Remnux Hardware](./images/Proxmox_Remnux_Hardware.png)
+![Remnux Hardware](Proxmox_Remnux_Hardware.png)
 ## Options
-![Remnux Options](./images/Proxmox_Remnux_Options.png)
+![Remnux Options](Proxmox_Remnux_Options.png)
 
 ## Common issues
 **Issue**: After boot display might look black

@@ -7,7 +7,7 @@
 5. Determine the Impact of a Threat Exploiting a Vulnerability
 6. Determine the Level of Risk
 	- Risk-Level Matrix
-![[./images/Risk-Level_Matrix.png]]
+![[Risk-Level_Matrix.png]]
 7. 
 
 # Risk Management
