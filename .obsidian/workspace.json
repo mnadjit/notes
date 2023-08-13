@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
+                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
+                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
+                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md"
+                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md"
               }
             }
           },
@@ -174,12 +174,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e74a02b53c8667f2",
+  "active": "f7e847c4870b44a2",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
+    "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
     "⚙️tech/✏️notes/☁️Cloud/AWS",
     "⚙️tech/✏️notes/☁️Cloud/Azure",
     "⚙️tech/✏️notes/☁️Cloud/Untitled.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
     "⚙️tech/✏️notes/☁️Cloud",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_Digital_Network_Architecture.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_BYOD_Use_Case.png",
@@ -196,7 +197,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/13_NADs",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/12_Config_Client_Posture_Services_&_Compliance",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/11_Endpoint_Compliance_Services",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/10_SISE_BYOD",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Deployment_Overview.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Identity_Service_Engine.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Visibility.png",
