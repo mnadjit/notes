@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧩templates/CybSec.md",
+                "file": "⚙️tech/✏️notes/☁️Cloud/Azure/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧩templates/CybSec.md",
+                "file": "⚙️tech/✏️notes/☁️Cloud/Azure/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧩templates/CybSec.md",
+                "file": "⚙️tech/✏️notes/☁️Cloud/Azure/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧩templates/CybSec.md"
+                "file": "⚙️tech/✏️notes/☁️Cloud/Azure/Overview.md"
               }
             }
           },
@@ -174,10 +174,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e74a02b53c8667f2",
+  "active": "f7e847c4870b44a2",
   "lastOpenFiles": [
-    "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
     "🧩templates/CybSec.md",
+    "⚙️tech/✏️notes/☁️Cloud/Azure/Overview.md",
+    "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
     "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
     "⚙️tech/✏️notes/☁️Cloud/AWS",
@@ -218,7 +219,6 @@
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/Admin.md",
     "⚙️tech/✏️notes/🛠️ Tools/vim.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/14 Host-related IOCs.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/13 Network IOCs.md",
     "tech/ctf/Untitled.canvas",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Virt_capability_missing.png",
