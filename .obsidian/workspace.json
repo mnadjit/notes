@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01.02_Network_Access_Policy_Engine.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01.02_Network_Access_Policy_Engine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01.02_Network_Access_Policy_Engine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md"
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01.02_Network_Access_Policy_Engine.md"
               }
             }
           },
@@ -176,18 +176,18 @@
   },
   "active": "e74a02b53c8667f2",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/images/Cisco_ISE_Deployment_Overview.png",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/images/Cisco_ISE_Identity_Service_Engine.png",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/images/Cisco_ISE_Visibility.png",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/images/Cisco_ISE_Context.png",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/01.02_Network_Access_Policy_Engine.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/images/Cisco_ISE_Deployment_Overview.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/images/Cisco_ISE_Identity_Service_Engine.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/images/Cisco_ISE_Visibility.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/images/Cisco_ISE_Context.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01.02_Network_Access_Policy_Engine.md",
     "⚙️tech/🎓education/📓courses/cert_path.md",
     "🛖home.md",
     "🛖 Home.md",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
     "Home.md",
     "📋projects.md",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/images",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/images",
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/DCHP.md",
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/SharePoint.md",
     "⚙️tech/✏️notes/🛠️ Tools/psexec.md",
@@ -198,22 +198,22 @@
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/Cryptography.md",
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/Admin.md",
     "⚙️tech/✏️notes/🛠️ Tools/vim.md",
-    "⚙️tech/🎓education/📓courses/compTIA-CysaPlus/Udemy/14 Host-related IOCs.md",
-    "⚙️tech/🎓education/📓courses/compTIA-CysaPlus/Udemy/13 Network IOCs.md",
-    "⚙️tech/🎓education/📓courses/compTIA-CysaPlus/Udemy/02 Security Control Types.md",
-    "⚙️tech/🎓education/📓courses/compTIA-CysaPlus/comptia-cysa-cs0-003-exam-objectives.pdf",
-    "⚙️tech/🎓education/📓courses/compTIA-CysaPlus/Exam Details.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/14 Host-related IOCs.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/13 Network IOCs.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/02 Security Control Types.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/comptia-cysa-cs0-003-exam-objectives.pdf",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Exam Details.md",
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/Monitoring.md",
     "tech/notes/CyberSecurity/Cloud/Azure/Azure AD/Untitled",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/AWS",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/0.0_Objectives.md",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)/01.01_Introduction.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/0.0_Objectives.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01.01_Introduction.md",
     "styles.yaml",
     "style.yaml.md",
-    "⚙️tech/🎓education/📓courses/Cisco Identity Services Engine (SISE)",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)",
     "⚙️tech/🎓education/📓courses",
     "tech/ctf/Untitled.canvas",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
@@ -222,6 +222,6 @@
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Task_Manager.png",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Installed_MS_Edge.png",
     "Pasted image 20230726212459.png",
-    "⚙️tech/🎓education/📓courses/compTIA-CysaPlus/Udemy/images/Data_Staging_Area_NTFS_alternate_data_streams.png"
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Data_Staging_Area_NTFS_alternate_data_streams.png"
   ]
 }
