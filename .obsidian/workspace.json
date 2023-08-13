@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
+                "file": "🧩templates/CybSec.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
+                "file": "🧩templates/CybSec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
+                "file": "🧩templates/CybSec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md"
+                "file": "🧩templates/CybSec.md"
               }
             }
           },
@@ -174,10 +174,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f7e847c4870b44a2",
+  "active": "e74a02b53c8667f2",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
+    "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
+    "🧩templates/CybSec.md",
     "⚙️tech/✏️notes/☁️Cloud/AWS/Overview.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
     "⚙️tech/✏️notes/☁️Cloud/AWS",
     "⚙️tech/✏️notes/☁️Cloud/Azure",
     "⚙️tech/✏️notes/☁️Cloud/Untitled.md",
@@ -203,7 +205,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Context.png",
     "⚙️tech/🎓education/📓courses/cert_path.md",
     "🛖 Home.md",
-    "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
     "Home.md",
     "📋projects.md",
     "⚙️tech/✏️notes/🛠️ Tools/PowerShell/DCHP.md",
@@ -218,7 +219,6 @@
     "⚙️tech/✏️notes/🛠️ Tools/vim.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/14 Host-related IOCs.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/13 Network IOCs.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/02 Security Control Types.md",
     "tech/ctf/Untitled.canvas",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MS_Edge_MDAG.png",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Virt_capability_missing.png",

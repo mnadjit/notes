@@ -1,6 +1,6 @@
 ---
 alias: 
-tags: 
+tags: tech cybsec 
 ---
 
 - [MS Learning Paths](https://learn.microsoft.com/en-us/certifications/exams/az-500/)
