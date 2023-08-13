@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 442
   },
   "right": {
     "id": "4952f309764416d8",
@@ -177,8 +177,10 @@
   "active": "f7e847c4870b44a2",
   "lastOpenFiles": [
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.1_Introduction.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Guest_Use_Case.png",
+    "🛖home.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.2_Network_Access_Policy_Engine.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.1_Introduction.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/00_Objectives/Objectives.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/00_Objectives",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
@@ -196,7 +198,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Visibility.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_ISE_Context.png",
     "⚙️tech/🎓education/📓courses/cert_path.md",
-    "🛖home.md",
     "🛖 Home.md",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Cloud/Azure/Azure AD/Educational Resources.md",
     "Home.md",
@@ -220,7 +221,6 @@
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Virt_capability_missing.png",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Install_Fail_Not_Supported.png",
     "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Task_Manager.png",
-    "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Installed_MS_Edge.png",
-    "Pasted image 20230726212459.png"
+    "⚙️tech/✏️notes/🛡️ CyberSecurity/Tools/Defence/Sandbox/images/MDAG_Installed_MS_Edge.png"
   ]
 }
