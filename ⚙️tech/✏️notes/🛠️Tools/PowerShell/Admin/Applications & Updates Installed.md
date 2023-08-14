@@ -1,6 +1,6 @@
 ---
 alias: 
-tags: windows cim wmi
+tags: windows cim wmi installed_apps
 ---
 
 # References
