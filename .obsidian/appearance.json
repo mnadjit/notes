@@ -4,5 +4,6 @@
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "extended-colorschemes"
-  ]
+  ],
+  "baseFontSize": 17
 }
