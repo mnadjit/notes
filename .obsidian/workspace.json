@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2cf691426ab5cef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,13 +187,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e74a02b53c8667f2",
+  "active": "2cf691426ab5cef1",
   "lastOpenFiles": [
+    "🛖home.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SSE_Functionality.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_AAA_RADIUS_Services.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_AAA_TACACS_Services.png",
-    "🛖home.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Posture_Compliance_MDM_Integration.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Profiler.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Device_Onboarding.png",
@@ -215,7 +228,6 @@
     "⚙️tech/✏️notes/☁️Cloud/AWS",
     "⚙️tech/✏️notes/☁️Cloud/Azure",
     "⚙️tech/✏️notes/☁️Cloud",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/Cisco_Digital_Network_Architecture.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/00_Objectives",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Untitled 1/Untitled",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Untitled 11",
