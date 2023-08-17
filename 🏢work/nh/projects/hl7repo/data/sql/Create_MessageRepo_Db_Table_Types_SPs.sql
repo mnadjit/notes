@@ -56,7 +56,9 @@ CREATE TABLE [dbo].[Message](
 	[AckCode] [char](10) NULL,
 	[AckText] [char](250) NULL,
 	[AckId] [char](50) NULL,
-	[AckDateTime] [datetime2](7) NULL
+	[AckDateTime] [datetime2](7) NULL,
+	[InboundEndpoint] char(50) NULL
+	
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 WITH (DATA_COMPRESSION = PAGE);
 GO
@@ -114,18 +116,19 @@ GO
 		@ack_code varchar(10) = NULL,
 		@ack_text varchar(250) = NULL,
 		@ack_id varchar(50) = NULL,
-		@ack_time datetime2 = NULL
+		@ack_time datetime2 = NULL,
+		@inbound_endpoint varchar(50) = NULL
     AS
     BEGIN
         INSERT INTO dbo.Message (	NHUR, MRNs, SendingApplication, SendingFacility, 
 									ReceivingApplication, ReceivingFacility, 
 									MessageDateTime, MessageType, TriggerEvent, VersionId,
 									MessageControlId, ProcessingId, Direction, MessageContent, MessageSizeBytes,
-									AckCode, AckText, AckId, AckDateTime
+									AckCode, AckText, AckId, AckDateTime, InboundEndpoint
 								)
         VALUES ( @nhur, @mrns, @sender_app, @sender_fac, @rec_app, @rec_fac, @msg_time, @msg_type, 
 				 @msg_event, @version_id, @msg_ctrl_id, @proc_id, @direction, COMPRESS(@msg_content), @msg_size_bytes,
-				 @ack_code, @ack_text, @ack_id, @ack_time
+				 @ack_code, @ack_text, @ack_id, @ack_time, @inbound_endpoint
 				);
     END
     GO
@@ -145,13 +148,14 @@ GO
 		@receiver varchar(50) = NULL,
 		@events varchar(250) = 'all',
 		@direction varchar(50) = 'all',
+		@inbound_endpoint varchar(500) = 'all',
         @maxCount int = 1000
     AS
     BEGIN
         SET NOCOUNT ON;
 
 		SELECT TOP (@maxCount) * FROM 
-        (SELECT  [Id] as db_id, [NHUR], [SendingApplication] AS SenderApp, [SendingFacility] AS SenderFac, 
+        (SELECT  [Id] as db_id, [NHUR], [InboundEndpoint], [SendingApplication] AS SenderApp, [SendingFacility] AS SenderFac, 
 				[ReceivingApplication] AS ReceiverApp, [ReceivingFacility] AS ReceiverFac, 
                 [MessageDateTime], [MessageType], [TriggerEvent], [VersionId], [MessageControlId], 
                 [ProcessingId],  [MessageSizeBytes], [InsertDateTime] AS db_insert_dttm, [Direction], 
@@ -173,13 +177,21 @@ GO
 					OR
 				[TriggerEvent] in (SELECT * FROM STRING_SPLIT(@events, ';'))
 			)
-					AND
+				AND
 			(
 				@direction = 'all'
 					OR
 				Direction = @direction
 					OR
 				[Direction] in (SELECT * FROM STRING_SPLIT(@direction, ';'))
+			)
+				AND
+			(
+				@inbound_endpoint = 'all'
+					OR
+				InboundEndpoint = @inbound_endpoint
+					OR
+				[InboundEndpoint] in (SELECT * FROM STRING_SPLIT(@inbound_endpoint, ';'))
 			);
     END
     GO
