@@ -4,5 +4,12 @@
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "vimMode": true
+  "vimMode": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }

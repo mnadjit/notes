@@ -44,6 +44,26 @@ tags: security cybsec sandbox mdag appguard ms_edge ms_office hyper-v container 
 |Browser|Microsoft Edge|
 |Management system  <br/>(only for managed devices)|[Microsoft Intune](https://learn.microsoft.com/en-us/intune/)<br/>**OR**<br/>[Microsoft Configuration Manager](https://learn.microsoft.com/en-us/configmgr/)<br/>**OR**<br/>[Group Policy](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298(v=ws.11))<br/>**OR**<br/>non-Microsoft mobile device management (MDM) solution|
 
+# Requirements Summary
+## Virtualization
+### Bios 
+- Virtualization Enabled
+### Services
+- The following services need to be running:
+	- `HvHost`
+	- `vmms`
+	- `vmcompute`
+	- `nvagent`
+	- `vds`
+	- `CmService`
+
+# Use Cases
+- Protection against
+	- malware
+	- ransomware
+	- session hijacking
+	- 
+
 # MS Office Install and Config
 - [MS Learn](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/install-app-guard?view=o365-worldwide)
 # Monitoring
@@ -51,6 +71,20 @@ tags: security cybsec sandbox mdag appguard ms_edge ms_office hyper-v container 
 	- ![MDAG Task Manager](MDAG_Task_Manager.png)
 - Edge icon in App Guard mode
 	- ![MS Edge MDAG](MS_Edge_MDAG.png)
+- Services
+```PowerShell
+@('vmms','vmcompute','nvagent','vds','CmService','HvHost') | Get-Service | select Name, StartType, Status
+
+Name      StartType  Status
+----      ---------  ------
+vmms      Automatic Running
+vmcompute    Manual Running
+nvagent      Manual Running
+vds          Manual Running
+CmService Automatic Running
+HvHost       Manual Running
+```
+
 # Troubleshooting
 ## Issue 1
 - MDAG is installed but 'New Application Gurad Window' does not appear in MS Edge - the image below shows the healthy AppGuard installation

@@ -1,4 +1,7 @@
-
+---
+alias: 
+tags: sandbox windows_sandbox
+---
 # Windows Sandbox required services
 	1. `CmService`: Container Manager Services (was not running by default)
 		- dependencies:
