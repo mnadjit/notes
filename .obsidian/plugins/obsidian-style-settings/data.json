@@ -14,7 +14,7 @@
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": false,
   "anuppuccin-theme-settings@@anp-background-image-toggle": true,
-  "anuppuccin-theme-settings@@anp-file-icons": true,
+  "anuppuccin-theme-settings@@anp-file-icons": false,
   "anuppuccin-theme-settings@@anp-collapse-folders": true,
   "anuppuccin-theme-settings@@anp-floating-header": false,
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": true,
