@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🛖home.md",
-                "mode": "preview",
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖home.md",
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖home.md",
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖home.md"
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md"
               }
             }
           },
@@ -201,9 +201,13 @@
   },
   "active": "8d61b60b9dae32cd",
   "lastOpenFiles": [
-    "⚙️tech/✏️notes/🛠️Tools/PowerShell/MFA_Sweep.ps1",
-    "⚙️tech/✏️notes/🛠️Tools/PowerShell/MFA_Sweep_endpoints.md",
+    "⚙️tech/✏️notes/Tools/PowerShell/MFA_Sweep_endpoints.md",
+    "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
+    "⚙️tech/✏️notes/Cloud/Azure/Stroge",
+    "⚙️tech/✏️notes/Tools/PowerShell/scripts/MFA_Sweep.ps1",
+    "⚙️tech/✏️notes/Tools/PowerShell/scripts",
     "🛖home.md",
+    "⚙️tech/✏️notes/🛠️Tools/PowerShell/MFA_Sweep.ps1",
     "images/SISE_Device_Onboarding.png.md",
     "📋projects.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
@@ -217,7 +221,7 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Guest_Management.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Guest_Management.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Centralized_Administration_and_Monitoring.png",
-    "⚙️tech/✏️notes/🛠️Tools/PowerShell/Admin/Applications & Updates Installed.md",
+    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Applications & Updates Installed.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_pxGrid.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/05_Policy_&_3rd_party_NAD_Support/05.1_Introduction.md",
@@ -235,18 +239,14 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.2_Network_Access_Policy_Engine.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/03.1_Introduction.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
-    "⚙️tech/✏️notes/🛡️CyberSecurity/Cloud/AWS/Overview.md",
-    "⚙️tech/✏️notes/☁️Cloud/Azure/Overview.md",
+    "⚙️tech/✏️notes/CyberSecurity/Cloud/AWS/Overview.md",
+    "⚙️tech/✏️notes/Cloud/Azure/Overview.md",
     "🧩templates/CybSec.md",
-    "⚙️tech/✏️notes/☁️Cloud/AWS",
-    "⚙️tech/✏️notes/☁️Cloud/Azure",
-    "⚙️tech/✏️notes/☁️Cloud",
+    "⚙️tech/✏️notes/Cloud/AWS",
+    "⚙️tech/✏️notes/Cloud/Azure",
+    "⚙️tech/✏️notes/Cloud",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/00_Objectives",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Untitled 1/Untitled",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Untitled 11",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/14_TrustSec",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/13_NADs",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/12_Config_Client_Posture_Services_&_Compliance",
     "tech/ctf/Untitled.canvas"
   ]
 }
