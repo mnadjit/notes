@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md"
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md"
               }
             }
           },
@@ -176,9 +176,21 @@
   },
   "active": "da7bf62fc1eed90c",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.6_Initial_Config_&_Sys_Cert_Usage.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.5_Config_Policy_MAB.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.4_Authorization_Rules.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.5",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.4",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.3",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.2",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.3_Authentication_Rules.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.1_Introduction 1 1.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.2_ISE_Policy.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.1_Introduction.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.6_Initial_Config_&_Sys_Cert_Usage.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
     "⚙️tech/✏️notes/Tools/PowerShell/MFA_Sweep_endpoints.md",
     "🛖home.md",
@@ -203,25 +215,13 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images/03.7",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images/03.6",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images/03.5",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images/03.4",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images/03.3",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/images/03.2",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/03.1_Introduction 8.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/03.1_Introduction.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.5_New_Features_in_ISE_3.x.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.4_Context_Visibility_Features.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/images/02.6",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/images/02.5",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.3_Licensing_and_Network_Requirements.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.2_ISE_Deployment_Models.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
-    "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
-    "⚙️tech/✏️notes/Services/samba/config.md",
-    "⚙️tech/✏️notes/Services/ldap/Query.md",
-    "⚙️tech/✏️notes/Services/git/config.md",
-    "⚙️tech/✏️notes/Services/git/common commands.md",
-    "⚙️tech/✏️notes/Admin/Linux/Users & Groups.md",
     "tech/ctf/Untitled.canvas"
   ]
 }
