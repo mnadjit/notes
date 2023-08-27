@@ -3,5 +3,6 @@
 	- Advantage (Profiler, PxGrid, ...)
 	- Premium
 2. Is ISE installed and configured?
-3. Is it integrated with AD already?
-4. 
+3. Is our implementation stand-alone or multi-node?
+4. Is it integrated with AD already?
+5. 
