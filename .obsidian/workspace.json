@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/✏️notes/Network/cisco/switch.md",
+                "file": "⚙️tech/✏️notes/Network/cisco/firwall.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/✏️notes/Network/cisco/switch.md",
+                "file": "⚙️tech/✏️notes/Network/cisco/firwall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/✏️notes/Network/cisco/switch.md",
+                "file": "⚙️tech/✏️notes/Network/cisco/firwall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/✏️notes/Network/cisco/switch.md"
+                "file": "⚙️tech/✏️notes/Network/cisco/firwall.md"
               }
             }
           }
@@ -164,6 +164,8 @@
   },
   "active": "334ff4ccb6e49915",
   "lastOpenFiles": [
+    "⚙️tech/✏️notes/Network/cisco/switch.md",
+    "⚙️tech/✏️notes/Network/cisco/firwall.md",
     "⚙️tech/✏️notes/Admin/Linux/X11.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",

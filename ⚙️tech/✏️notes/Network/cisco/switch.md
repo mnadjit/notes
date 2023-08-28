@@ -2,11 +2,12 @@
 # Check out current config
 ```ios
 sh[ow] run[ning-config]  ;   Not sure if this works
-sh version
+sh ver[sion]
+sh inv[entory]
 sh interface
 sh ip int[erface] b[rief]
 sh vlan
-sh mac address-table
+sh mac ad[dress-table]
 sh run | begin interface
 ```
 
