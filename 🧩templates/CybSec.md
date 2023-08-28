@@ -1,6 +1,8 @@
 ---
 alias: 
-tags: tech cybsec cyber_security 
+tags: tech cybsec 
+author: Mehdi N Tehrani
+creat_date: 
 ---
 
 # 
