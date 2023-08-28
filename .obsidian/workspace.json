@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
-                "mode": "source",
-                "source": true
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md"
+                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md"
               }
             }
           }
@@ -165,14 +165,24 @@
   },
   "active": "03c657c90c3de02e",
   "lastOpenFiles": [
-    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225904.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225541.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225251.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225105.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225022.png",
+    "Pasted image 20230828225408.png",
+    "Pasted image 20230828225230.png",
+    "Pasted image 20230828225012.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images",
     "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
+    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
     "🛖home.md",
     "⚙️tech/✏️notes/Network/cisco/Firewall ACLs.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
     "⚙️tech/✏️notes/Network/cisco/Switch.md",
     "⚙️tech/✏️notes/Admin/Linux/X11.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.4_Authorization_Rules.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.3_Authentication_Rules.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.2_ISE_Policy.md",
