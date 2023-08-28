@@ -1,35 +1,52 @@
 {
   "main": {
-    "id": "62a1aee9c7dceb60",
+    "id": "bd3564eb99dcbce2",
     "type": "split",
     "children": [
       {
-        "id": "77ee85baf7cb77af",
+        "id": "ce534c1183469edb",
         "type": "tabs",
         "children": [
           {
-            "id": "0ccd6b04c1d65299",
+            "id": "334ff4ccb6e49915",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "🛖home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25a2636dfacdd8db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5815116c2ff5815b",
+    "id": "4fc5cd4e4cf5b108",
     "type": "split",
     "children": [
       {
-        "id": "8cff9a5eec0f8409",
+        "id": "c2a449236e512f15",
         "type": "tabs",
         "children": [
           {
-            "id": "e74a02b53c8667f2",
+            "id": "a4c96404b216e79f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,12 +56,12 @@
             }
           },
           {
-            "id": "4f218c3bd8ac3bec",
+            "id": "57f4f14ebbe2984c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:pwsh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +71,7 @@
             }
           },
           {
-            "id": "b5cbb4806fb537ff",
+            "id": "2c7912e184602bda",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,45 +82,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366
+    "width": 300
   },
   "right": {
-    "id": "4952f309764416d8",
+    "id": "122b9b5f6f28d72c",
     "type": "split",
     "children": [
       {
-        "id": "851dcec631e48b94",
+        "id": "f233adea4ebb71f6",
         "type": "tabs",
         "children": [
           {
-            "id": "9804c21ab3c649d8",
+            "id": "9e98ff95cc7eb699",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "a4d1e8d8b392b6e7",
+            "id": "1e39389e7dbede05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3a2795a3c75d894d",
+            "id": "a3fc890e828bb82c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,105 +133,39 @@
             }
           },
           {
-            "id": "21ae0f8c5750eea2",
+            "id": "db40a7c46972ddb2",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "0445d8d7333605e5",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "e92eee4071dfe7d7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "08560e149b8ab415",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {
+                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md"
+              }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "0ccd6b04c1d65299",
+  "active": "25a2636dfacdd8db",
   "lastOpenFiles": [
-    "⚙️tech/✏️notes/🛡️CyberSecurity/Tools/Defence/Sandbox/MDAG.md",
-    "🧩templates/CybSec.md",
-    "⚙️tech/✏️notes/🛠️Tools/PowerShell/Admin/Active Directory.md",
-    "⚙️tech/✏️notes/🛠️Tools/PowerShell/Admin.md",
-    "🧩templates/Table.md",
-    "🧩templates/General.md",
-    "🛖home.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/Untitled.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/03_Policy_Enforcement/03.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/02_Deployment/02.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.4_Functions.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.2_Network_Access_Policy_Engine.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
-    "⚙️tech/✏️notes/🛡️CyberSecurity/Tools/Defence/Sandbox/Windows Sandbox.md",
-    "⚙️tech/✏️notes/🛡️CyberSecurity/Forensics/tools.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/08 Endpoint Monitoring.md",
-    "images/SISE_Device_Onboarding.png.md",
-    "📋projects.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SSE_Functionality.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_AAA_RADIUS_Services.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_AAA_TACACS_Services.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Posture_Compliance_MDM_Integration.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Profiler.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Device_Onboarding.png",
-    "images",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Guest_Management.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Guest_Management.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_Centralized_Administration_and_Monitoring.png",
-    "⚙️tech/✏️notes/🛠️Tools/PowerShell/Admin/Applications & Updates Installed.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/images/SISE_pxGrid.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/05_Policy_&_3rd_party_NAD_Support/05.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/14_TrustSec/14.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/13_NADs/13.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/12_Config_Client_Posture_Services_&_Compliance/12.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/11_Endpoint_Compliance_Services/11.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/10_SISE_BYOD/10.1_Introduction.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction.md",
-    "⚙️tech/✏️notes/☁️Cloud/AWS",
-    "⚙️tech/✏️notes/☁️Cloud/Azure",
-    "⚙️tech/✏️notes/☁️Cloud",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/00_Objectives",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Untitled 1/Untitled",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Untitled 11",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/14_TrustSec",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/13_NADs",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/12_Config_Client_Posture_Services_&_Compliance",
-    "tech/ctf/Untitled.canvas"
+    "conflict-files-obsidian-git.md",
+    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
+    "🛖home.md"
   ]
 }
