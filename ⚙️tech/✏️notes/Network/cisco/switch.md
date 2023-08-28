@@ -1,13 +1,13 @@
 > Cheat Sheet: https://www.netwrix.com/cisco_commands_cheat_sheet.html
 # Check out current config
-```
-switch> sh[ow] running-config  ;   Not sure if this works
-switch> sh version
-switch> sh interface
-switch> sh ip interface
-switch> sh vlan
-switch> sh mac address-table
-switch> sh run | begin interface
+```ios
+sh[ow] run[ning-config]  ;   Not sure if this works
+sh version
+sh interface
+sh ip int[erface] b[rief]
+sh vlan
+sh mac address-table
+sh run | begin interface
 ```
 
 # General Admin Commands
