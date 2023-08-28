@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🛖home.md",
-                "mode": "preview",
-                "source": false
+                "file": "⚙️tech/✏️notes/Admin/Linux/X11.md",
+                "mode": "source",
+                "source": true
               }
             }
           },
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
+                "file": "⚙️tech/✏️notes/Admin/Linux/X11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
+                "file": "⚙️tech/✏️notes/Admin/Linux/X11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md"
+                "file": "⚙️tech/✏️notes/Admin/Linux/X11.md"
               }
             }
           }
@@ -147,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,10 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25a2636dfacdd8db",
+  "active": "334ff4ccb6e49915",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+    "⚙️tech/✏️notes/Admin/Linux/X11.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.4_Authorization_Rules.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.3_Authentication_Rules.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.2_ISE_Policy.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.1_Introduction.md",
+    "🛖home.md",
     "conflict-files-obsidian-git.md",
-    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
-    "🛖home.md"
+    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md"
   ]
 }
