@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c218c054620e49a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:azcopy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md"
+                "file": "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md"
               }
             }
           }
@@ -163,10 +176,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03c657c90c3de02e",
+  "active": "c218c054620e49a7",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225904.png",
+    "🛖home.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225904.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225541.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225251.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images/04.6/Pasted image 20230828225105.png",
@@ -178,7 +192,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/images",
     "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
     "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
-    "🛖home.md",
     "⚙️tech/✏️notes/Network/cisco/Firewall ACLs.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
     "⚙️tech/✏️notes/Network/cisco/Switch.md",

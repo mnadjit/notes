@@ -19,8 +19,7 @@ tags: tech cloud microsoft azure azcopy azure_copy storage azure_blob blob
 	- `sp`: permissions e.g. `sp=rw`
 	- `si`: identifier (SAS token)
 	- `sip`: IP range e.g.  `sip=10.1.1.1-10.2.2.2`
-```
-```cmd
+```PowerShell
 # Stage variables
 $sas_token = "YWJjZGVmZw%3d%3d&sig=dD80ihBh5jfNpymO5Hg1IdiJIEvHcJpCMiCMnN%2fRnbI%3d"
 $my_account_name = "myaccount"
@@ -32,7 +31,7 @@ $url = "https://$($my_account).blob.core.windows.net/$($dst_folder_path)/$($dst_
 $flags = "--properties `"LastModifiedTime, VersionId, BlobType, BlobAccessTier, ContentType, ContentEncoding, LeaseState, LeaseDuration, LeaseStatus`""
 
 # List files
-azcopy.exe list $url $flags
+azcopy.exe list $url $flags --properties LastModifiedTime --log-level INFO
 
 # Copy files
 azcopy.exe copy $local_file_path $url
