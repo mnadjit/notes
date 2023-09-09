@@ -1,8 +1,8 @@
 /***************************************************************************************************
-Script Name:		initial_iPM_data_load_for_Agfa-EI
+Script Name:		initial_iPM_data_load_for_Karisma
 Create Date:        2022-02-08
 Author:             Mehdi N Tehrani <mehdi.tehrani@nh.org.au; m.nadji.t@gmail.com>
-Description:        Initial load of patient data for Agfa-EI
+Description:        Initial load of patient data for Kaarisma
 Called by:          No procedures are supposed to call this query. Only meant to be run on an ad-hoc basis.
 table(s) Updated:   N/A
 table(s) Read:      PIMS.patients, PIMS.patient_ids, PIMS.reference_values, PIMS.address_roles, PIMS.addresses
@@ -22,11 +22,15 @@ Date(yyyy-mm-dd)    Author              				Comments
 
 SELECT
     --pt.patnt_refno,
-    pid_ur.identifier AS PATIENTID, 'MR' AS ISSUEROFPATIENTID, 
+    pid_ur.identifier AS NH_UR,
+    pid_mc.identifier AS MEDICARE_NO,
+    TO_CHAR(pid_mc.end_dttm, 'YYYYMMdd') AS MEDICARE_EXPIRY,
+    pid_ni.identifier AS IHI_NO,
+    pid_dv.identifier AS DVA,
     pt.upper_surname AS LASTNAME, 
     pt.forename AS FIRSTNAME,
     pt.second_forename AS MIDDLENAME,
-    to_char(pt.date_of_birth, 'YYYYMMdd') AS DATEOFBIRTH,
+    TO_CHAR(pt.date_of_birth, 'YYYYMMdd') AS DATEOFBIRTH,
     CASE WHEN rv_sexxx.description='Female' THEN 'F' WHEN rv_sexxx.description='Male' THEN 'M' ELSE 'O' END AS SEX,
     rv_title.description AS PREFIX,
     rv_cntry.description AS BIRTHPLACE,
@@ -40,6 +44,7 @@ FROM
     LEFT JOIN PIMS.patient_ids pid_ur ON pt.patnt_refno = pid_ur.patnt_refno AND pid_ur.archv_flag = 'N' AND pid_ur.end_dttm IS NULL AND pid_ur.pityp_refno = '11553'  -- 11553 is NH UR numver id type code
     LEFT JOIN PIMS.patient_ids pid_mc ON pt.patnt_refno = pid_mc.patnt_refno AND pid_mc.archv_flag = 'N' AND (pid_mc.end_dttm IS NULL OR pid_mc.end_dttm > SYSDATE) AND pid_mc.pityp_refno = '11548'  -- 11548 is Medicare id type code
     LEFT JOIN PIMS.patient_ids pid_ni ON pt.patnt_refno = pid_ni.patnt_refno AND pid_ni.archv_flag = 'N' AND (pid_ni.end_dttm IS NULL OR pid_ni.end_dttm > SYSDATE) AND pid_ni.pityp_refno = '35249'  -- 35249 is IHI id type code
+    LEFT JOIN PIMS.patient_ids pid_dv ON pt.patnt_refno = pid_dv.patnt_refno AND pid_dv.archv_flag = 'N' AND (pid_dv.end_dttm IS NULL OR pid_dv.end_dttm > SYSDATE) AND pid_dv.pityp_refno in ('19352', '50346', '50347', '50348') -- 19352 is DVA id type code, 50346: DVG, 50347: DVO, 50348: DVW
     LEFT JOIN PIMS.reference_values rv_title ON rv_title.rfvdm_code = 'TITLE' AND pt.title_refno = rv_title.rfval_refno AND rv_title.archv_flag = 'N' AND rv_title.end_dttm IS NULL 
     LEFT JOIN PIMS.reference_values rv_sexxx ON rv_sexxx.rfvdm_code = 'SEXXX' AND pt.sexxx_refno = rv_sexxx.rfval_refno AND rv_sexxx.archv_flag = 'N' AND rv_sexxx.end_dttm IS NULL 
     LEFT JOIN PIMS.reference_values rv_cntry ON rv_cntry.rfvdm_code = 'CNTRY' AND pt.cntry_refno = rv_cntry.rfval_refno AND rv_cntry.archv_flag = 'N' AND rv_cntry.end_dttm IS NULL 
@@ -72,13 +77,13 @@ FROM
     ) emails ON emails.refno = pt.patnt_refno 
 WHERE 
     pt.archv_flag = 'N' AND
-    pt.patnt_refno < '1200001' AND rownum<100
+    pt.patnt_refno < '1200001'
     --pt.patnt_refno BETWEEN '1200001' AND '1800000'
     --pt.patnt_refno BETWEEN '1800001' AND '2400000'
     --pt.patnt_refno BETWEEN > '2400000'
 GROUP BY
     pid_ur.identifier, pt.patnt_refno, 
-    --pid_mc.identifier, pid_mc.end_dttm, 
+    pid_mc.identifier, pid_mc.end_dttm, pid_ni.identifier, pid_dv.identifier,
     pt.upper_surname, pt.forename,
     pt.second_forename, rv_title.description, rv_sexxx.description, pt.date_of_birth, pid_ni.identifier, pt.cntry_refno, pt.date_of_death, rv_cntry.description, 
     adds.ADDRESS, adds.city, adds.state, adds.postcode, adds.cntry, phones.phone, mobiles.mobile, emails.email
@@ -86,14 +91,15 @@ ORDER BY pt.patnt_refno DESC;
 
 /*
 SELECT ad.*, adr.* from patients pt 
-left join PIMS.address_roles adr ON adr.patnt_refno = pt.patnt_refno AND adr.archv_flag = 'N' AND adr.end_dttm IS NULL AND adr.rotyp_code = 'HOME' AND adr.curnt_flag = 'Y'
-left join pims.addresses ad ON adr.addss_refno = ad.addss_refno AND ad.archv_flag = 'N' AND adr.end_dttm IS NULL 
-WHERE pt.patnt_refno = '640962';
+left join PIMS.address_roles adr ON adr.patnt_refno = pt.patnt_refno AND adr.archv_flag = 'N' AND adr.end_dttm IS NULL
+left join pims.addresses ad ON adr.addss_refno = ad.addss_refno AND ad.archv_flag = 'N' AND adr.end_dttm IS NULL
+WHERE pt.patnt_refno = '2968120';
 
 SELECT line1, CASE WHEN REGEXP_LIKE(ad.line1, '^04(\d\s?){8}') THEN REGEXP_REPLACE( REGEXP_REPLACE(ad.line1, ' ', ''), '^04', '+614') ELSE '' END mob
 FROM addresses ad where rownum < 10;
-*/
-SELECT * from patients pt 
-LEFT JOIN patient_ids pids on pt.patnt_refno = pids.patnt_refno
-WHERE pids.identifier = '0003523'
 
+select * from patient_ids pid where REGEXP_LIKE(pid.identifier, '^VA') and rownum < 100;
+select * from reference_values rv where rv.rfvdm_code = 'PITYP' AND rv.main_code like 'DV%';
+
+select MAX(identifier) from patient_ids where REGEXP_LIKE(identifier, '^1\d{6}') and pityp_refno = '11553';
+*/

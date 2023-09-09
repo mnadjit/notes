@@ -19,11 +19,11 @@ function ReadDataAndWriteToCsv ($csv_obj, $out_filepath) {
         $local:country = $country_mapping_obj | Where-Object HL7_Code -eq $hl7_country_code | Select -First 1
     
         if ($local:country -ne $null) { $csv_obj[$i].HOMEADDRESSCOUNTRY = $local:country.ISO_3166_Numeric_Code }
-        else { $csv_obj[$i].HOMEADDRESSCOUNTRY >> $out_unmapped_countries }
+        elseif ($local:hl7_country_code -ne '') { $csv_obj[$i].HOMEADDRESSCOUNTRY >> $out_unmapped_countries }
     }
 
     # Export csv data into a csv file
-    $csv_obj | Export-Csv -Path $out_filepath -NoTypeInformation -Append
+    $csv_obj | Export-Csv -Path $out_filepath -NoTypeInformation -Append -Delimiter '|' -UseQuotes Never
 }
 
 # handle input files
@@ -36,7 +36,7 @@ $script:in_filename = (Get-Item $input_file_path).BaseName
 $script:folderpath = Split-Path $input_file_path -Parent
 
 # build output file path and log unmapped countries
-$script:out_filepath = (Join-Path $folderpath $in_filename) + '_mapped.csv'
+$script:out_filepath = (Join-Path $folderpath $in_filename) + '_mapped.psv'
 $script:out_unmapped_countries = Join-Path $folderpath "error_unmapped_countries.csv"
 
 # delete output files if exist
