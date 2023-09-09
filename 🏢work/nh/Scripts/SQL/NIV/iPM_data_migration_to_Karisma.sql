@@ -77,10 +77,10 @@ FROM
     ) emails ON emails.refno = pt.patnt_refno 
 WHERE 
     pt.archv_flag = 'N' AND
-    pt.patnt_refno < '1200001'
+    --pt.patnt_refno < '1200001'
     --pt.patnt_refno BETWEEN '1200001' AND '1800000'
     --pt.patnt_refno BETWEEN '1800001' AND '2400000'
-    --pt.patnt_refno BETWEEN > '2400000'
+    pt.patnt_refno > '2400000'
 GROUP BY
     pid_ur.identifier, pt.patnt_refno, 
     pid_mc.identifier, pid_mc.end_dttm, pid_ni.identifier, pid_dv.identifier,
