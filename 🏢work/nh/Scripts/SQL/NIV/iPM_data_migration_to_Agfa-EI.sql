@@ -27,13 +27,14 @@ SELECT
     pt.forename AS FIRSTNAME,
     pt.second_forename AS MIDDLENAME,
     to_char(pt.date_of_birth, 'YYYYMMdd') AS DATEOFBIRTH,
-    CASE WHEN rv_sexxx.description='Female' THEN 'F' WHEN rv_sexxx.description='Male' THEN 'M' ELSE 'O' END AS SEX,
+    CASE WHEN rv_sexxx.description='Female' THEN 'F' WHEN rv_sexxx.description='Male' THEN 'M' ELSE 'U' END AS SEX,
     rv_title.description AS PREFIX,
     rv_cntry.description AS BIRTHPLACE,
     to_char(pt.date_of_death, 'YYYYMMdd') AS DECEASEDDATETIME,
-    adds.ADDRESS AS HOMEADDRESSSTREET, adds.city AS HOMEADDRESSCITY, adds.state AS HOMEADDRESSSTATE, adds.postcode AS HOMEADDRESSZIPCODE, adds.cntry AS HOMEADDRESSCOUNTRY,
+    adds.ADDRESS AS HOMEADDRESSSTREET, adds.city AS HOMEADDRESSCITY, adds.state AS HOMEADDRESSSTATE, adds.postcode AS HOMEADDRESSZIPCODE, 
+    CASE WHEN adds.cntry = '1108' THEN '1100' ELSE adds.cntry END AS HOMEADDRESSCOUNTRY,
     REGEXP_REPLACE(phones.phone, ' ', '') AS HOMEPHONENUMBER, 
-    CASE WHEN REGEXP_LIKE(mobiles.mobile, '^04(\d\s?){8}') THEN REGEXP_REPLACE( REGEXP_REPLACE(mobiles.mobile, ' ', ''), '^04', '+614') ELSE '' END AS HOMEMOBILENUMBER, 
+    CASE WHEN REGEXP_LIKE(mobiles.mobile, '^04(\d\s?){8}') THEN REGEXP_REPLACE( REGEXP_REPLACE(mobiles.mobile, ' ', ''), '^04', '+614') ELSE '' END AS HOMEMOBILENUMBER,
     emails.email AS HOMEEMAIL
 FROM 
     pims.patients pt
@@ -44,38 +45,40 @@ FROM
     LEFT JOIN PIMS.reference_values rv_sexxx ON rv_sexxx.rfvdm_code = 'SEXXX' AND pt.sexxx_refno = rv_sexxx.rfval_refno AND rv_sexxx.archv_flag = 'N' AND rv_sexxx.end_dttm IS NULL 
     LEFT JOIN PIMS.reference_values rv_cntry ON rv_cntry.rfvdm_code = 'CNTRY' AND pt.cntry_refno = rv_cntry.rfval_refno AND rv_cntry.archv_flag = 'N' AND rv_cntry.end_dttm IS NULL 
     LEFT JOIN (
-        SELECT adr.patnt_refno AS refno, 
+        SELECT adr.patnt_refno AS refno, row_number() OVER (PARTITION BY adr.patnt_refno ORDER BY ad.modif_dttm DESC) AS rn,
         CASE WHEN (ad.Line2 IS NULL OR ad.line2 = '') THEN ad.Line1 ELSE ad.Line1 || '; ' || ad.Line2 END AS ADDRESS,
-        ad.suburb AS city, ad.state_code AS state, ad.pcode AS postcode, rv_cntry_add.main_code AS cntry
+        ad.suburb AS city, ad.state_code AS state, ad.pcode AS postcode, SUBSTR(rv_cntry_add.main_code, 1, 4) AS cntry
         FROM PIMS.address_roles adr 
         LEFT JOIN pims.addresses ad ON adr.addss_refno = ad.addss_refno AND ad.archv_flag = 'N' AND adr.end_dttm IS NULL AND adr.rotyp_code = 'HOME' AND adr.curnt_flag = 'Y'
         LEFT JOIN PIMS.reference_values rv_cntry_add ON rv_cntry_add.rfvdm_code = 'CNTRY' AND ad.cntry_refno = rv_cntry_add.rfval_refno AND rv_cntry_add.archv_flag = 'N' AND rv_cntry_add.end_dttm IS NULL 
         WHERE adr.archv_flag = 'N' AND adr.end_dttm IS NULL AND ad.adtyp_code = 'POSTL'
-    ) adds ON adds.refno = pt.patnt_refno
+    ) adds ON adds.refno = pt.patnt_refno AND adds.rn=1
     LEFT JOIN (
-        SELECT adr.patnt_refno AS refno, ad.line1 AS phone
+        SELECT adr.patnt_refno AS refno, row_number() OVER (PARTITION BY adr.patnt_refno ORDER BY ad.modif_dttm DESC) AS rn, ad.line1 AS phone
         FROM PIMS.address_roles adr 
         LEFT JOIN pims.addresses ad ON adr.addss_refno = ad.addss_refno AND ad.archv_flag = 'N' AND adr.end_dttm IS NULL AND adr.rotyp_code = 'HOME' AND adr.curnt_flag = 'Y'
         WHERE adr.archv_flag = 'N' AND adr.end_dttm IS NULL AND ad.adtyp_code = 'PHONE'
-    ) phones ON phones.refno = pt.patnt_refno 
+    ) phones ON phones.refno = pt.patnt_refno AND phones.rn=1
     LEFT JOIN (
-        SELECT adr.patnt_refno AS refno, ad.line1 AS mobile
+        SELECT adr.patnt_refno AS refno, row_number() OVER (PARTITION BY adr.patnt_refno ORDER BY ad.modif_dttm DESC) AS rn, ad.line1 AS mobile
         FROM PIMS.address_roles adr 
         LEFT JOIN pims.addresses ad ON adr.addss_refno = ad.addss_refno AND ad.archv_flag = 'N' AND adr.end_dttm IS NULL AND adr.rotyp_code = 'HOME' AND adr.curnt_flag = 'Y'
         WHERE adr.archv_flag = 'N' AND adr.end_dttm IS NULL AND ad.adtyp_code = 'MOB'
-    ) mobiles ON mobiles.refno = pt.patnt_refno 
+    ) mobiles ON mobiles.refno = pt.patnt_refno AND mobiles.rn=1
     LEFT JOIN (
-        SELECT adr.patnt_refno AS refno, ad.line1 AS email
+        SELECT adr.patnt_refno AS refno, row_number() OVER (PARTITION BY adr.patnt_refno ORDER BY ad.modif_dttm DESC) AS rn, REGEXP_REPLACE(ad.line1, '[\x0A|\x0B|\x0D|[:space:]]', '', 1, 0) AS email
         FROM PIMS.address_roles adr 
         LEFT JOIN pims.addresses ad ON adr.addss_refno = ad.addss_refno AND ad.archv_flag = 'N' AND adr.end_dttm IS NULL AND adr.rotyp_code = 'HOME' AND adr.curnt_flag = 'Y'
         WHERE adr.archv_flag = 'N' AND adr.end_dttm IS NULL AND ad.adtyp_code = 'EMAIL'
-    ) emails ON emails.refno = pt.patnt_refno 
+    ) emails ON emails.refno = pt.patnt_refno AND emails.rn=1
 WHERE 
     pt.archv_flag = 'N' AND
-    pt.patnt_refno < '1200001' AND rownum<100
-    --pt.patnt_refno BETWEEN '1200001' AND '1800000'
-    --pt.patnt_refno BETWEEN '1800001' AND '2400000'
-    --pt.patnt_refno BETWEEN > '2400000'
+    pt.date_of_birth IS NOT NULL AND pt.upper_surname IS NOT NULL AND pt.forename IS NOT NULL AND
+    --pid_ur.identifier in ('2263659','2263110','2263075','3490123','0452190','2586305','2575582')
+    --pt.patnt_refno < '1000001'
+    --pt.patnt_refno BETWEEN '1000001' AND '1500000'
+    --pt.patnt_refno BETWEEN '1500001' AND '2100000'
+    pt.patnt_refno > '2100000'
 GROUP BY
     pid_ur.identifier, pt.patnt_refno, 
     --pid_mc.identifier, pid_mc.end_dttm, 
@@ -92,8 +95,8 @@ WHERE pt.patnt_refno = '640962';
 
 SELECT line1, CASE WHEN REGEXP_LIKE(ad.line1, '^04(\d\s?){8}') THEN REGEXP_REPLACE( REGEXP_REPLACE(ad.line1, ' ', ''), '^04', '+614') ELSE '' END mob
 FROM addresses ad where rownum < 10;
-*/
+
 SELECT * from patients pt 
 LEFT JOIN patient_ids pids on pt.patnt_refno = pids.patnt_refno
 WHERE pids.identifier = '0003523'
-
+*/

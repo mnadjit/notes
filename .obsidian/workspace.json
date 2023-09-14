@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,8 +187,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4c96404b216e79f",
+  "active": "db40a7c46972ddb2",
   "lastOpenFiles": [
+    "🏢work/nh/General/Change-Management/2023-09-11 - Rhapsody - Disable Veeam Backup.docx.lnk",
+    "🏢work/nh/General/Change-Management/2023-09-11 - Rhapsody - Disable Veeam Backup.docx - Shortcut.lnk",
+    "🏢work/nh/General/Change-Management/2023-07-18 - Rhapsody - Java Memory Allocation.docx - Copy.lnk",
     "🏢work/nh/Scripts/SQL/NIV/iPM_data_migration_to_Karisma.sql",
     "🏢work/nh/Scripts/SQL/Medirecrods/initial_iPM_data_load_for_Agfa-EI.sql",
     "🏢work/nh/Scripts/SQL/Medirecrods/initial_iPM_data_load_for_MediRecords.sql",
@@ -207,12 +210,9 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182124.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182148.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182138.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.3_Create_Cisco_ISE_Profiling_Reports.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.2_Profiling_Best_Practices.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction 1 1.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/08_SISE_Profiler/images/08.4",
     "dt.md",
     "Untitled.md",
     "🛖home.md",
