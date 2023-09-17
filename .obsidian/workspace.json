@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276,
-    "collapsed": true
+    "width": 276
   },
   "right": {
     "id": "122b9b5f6f28d72c",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md"
               }
             }
           },
@@ -186,9 +185,11 @@
   },
   "active": "c30810b7b1bd2fbd",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Lockheed Martin Courses of Action Matrix.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
     "🛖home.md",
     "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Golden_Ticket_Attack.png",
@@ -214,7 +215,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182330.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182318.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182202.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182124.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.3_Create_Cisco_ISE_Profiling_Reports.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.2_Profiling_Best_Practices.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction 1 1.md",
@@ -230,7 +230,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.4_Authorization_Rules.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.3_Authentication_Rules.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.2_ISE_Policy.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.1_Introduction.md",
-    "conflict-files-obsidian-git.md"
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.1_Introduction.md"
   ]
 }
