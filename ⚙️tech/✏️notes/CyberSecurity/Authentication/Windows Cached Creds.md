@@ -1,9 +1,12 @@
 ---
 aliases:
-  - Windows Authentication
+  - Windows Authentication Cached Credentials
 tags:
   - tech
   - cybsec
+  - SAM
+  - credentials
+  - cache
 author: Mehdi N Tehrani
 creat_date: 2023-09-17
 ---
@@ -19,3 +22,5 @@ Open PowerShell with `NT Authority\System` account
 ```cmd
 psexec.exe -i -s $(where.exe pwsh)
 ```
+To run a script using system account, task scheduler can be used too.
+
