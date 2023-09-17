@@ -6,6 +6,8 @@ tags:
   - kerberos
   - golden_ticket
   - pass_the_hash
+  - lateral_movement
+  - pivoting
 category: cyber_security
 subcategory:
 ---
@@ -40,4 +42,18 @@ A *Kerberos* ticket that can grant other tickets in an Active Directory environm
 	- to do so, the *kbrtgt* account password should be changed twice in short period of time to invalidate the golden ticket
 	- change password, reboot the computer, change the password again, and reboot a second time
 
+# Lateral Movement
+## Remote acce
+## WMIC
+Windows Management Instrumentation Command-Line
 
+## PSExec
+## PowerShell
+- **PowerShell Empire**
+	- A post-exploitation tool
+- **PowerSploit**
+	- Metsploit for PowerShell. It acts as a framework and controller that listens to PowerShell agents that are running on victims' machines
+
+# Pivoting
+## Port Forwarding
+#port_forwarding
