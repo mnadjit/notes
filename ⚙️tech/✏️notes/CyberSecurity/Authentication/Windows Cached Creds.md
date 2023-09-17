@@ -7,6 +7,8 @@ tags:
   - SAM
   - credentials
   - cache
+  - system_account
+  - windows
 author: Mehdi N Tehrani
 creat_date: 2023-09-17
 ---

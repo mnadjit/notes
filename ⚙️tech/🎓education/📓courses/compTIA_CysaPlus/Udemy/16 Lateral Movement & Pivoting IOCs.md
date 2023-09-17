@@ -56,4 +56,8 @@ Windows Management Instrumentation Command-Line
 
 # Pivoting
 ## Port Forwarding
-#port_forwarding
+#port_forwarding 
+- Using SSH to do port forwarding using `-D` which binds the connection to a 
+```sh
+ssh -D
+```
