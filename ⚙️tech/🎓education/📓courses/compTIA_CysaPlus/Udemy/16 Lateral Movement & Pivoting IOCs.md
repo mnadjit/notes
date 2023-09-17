@@ -9,7 +9,7 @@ tags:
   - lateral_movement
   - pivoting
 category: cyber_security
-subcategory:
+subcategory: analyst
 ---
 # Pass the hash
 > SAM: Security Account Manager 

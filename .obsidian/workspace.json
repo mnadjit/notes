@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57c9212560bc136c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
+          },
+          {
+            "id": "c30810b7b1bd2fbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 276,
+    "collapsed": true
   },
   "right": {
     "id": "122b9b5f6f28d72c",
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md"
               }
             }
           },
@@ -160,10 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e76a5d2b9cff4c3d",
+  "active": "c30810b7b1bd2fbd",
   "lastOpenFiles": [
-    "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+    "🛖home.md",
+    "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Golden_Ticket_Attack.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Kerberos.png",
     "⚙️tech/✏️notes/CyberSecurity/Authentication/General.md",
@@ -193,7 +220,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction 1 1.md",
     "dt.md",
     "Untitled.md",
-    "🛖home.md",
     "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
     "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
