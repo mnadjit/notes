@@ -6,7 +6,7 @@ creat_date: 2023-08-28
 ---
 
 # Common ACLs
-```v
+```
 ; allow DHCP
 permit udp any eq bootpc any eq bootpc
 

@@ -1,9 +1,9 @@
 ---
-alias: 
-tags: 
+aliases: 
+tags:
+  - cybsec
 category: cyber_security
-subcategory: 
-
+subcategory:
 ---
-
-# 
+# Pass the hash
+> SAM: 
