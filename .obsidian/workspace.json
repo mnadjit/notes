@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:kbrtgt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,8 +161,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e76a5d2b9cff4c3d",
+  "active": "57f4f14ebbe2984c",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Golden_Ticket_Attack.png",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Kerberos.png",
     "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
     "⚙️tech/✏️notes/CyberSecurity/Authentication/General.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
@@ -187,7 +190,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182202.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182124.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182148.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182138.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.3_Create_Cisco_ISE_Profiling_Reports.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.2_Profiling_Best_Practices.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction 1 1.md",
