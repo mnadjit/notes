@@ -11,7 +11,7 @@ author: Mehdi N Tehrani
 creat_date: 2023-09-17
 ---
 
-# SAM
+# SAM 
 > Security Account Manager
 
 Windows Cached Credentials Locations:

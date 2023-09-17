@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md"
               }
             }
           },
@@ -162,8 +162,8 @@
   },
   "active": "e76a5d2b9cff4c3d",
   "lastOpenFiles": [
-    "⚙️tech/✏️notes/CyberSecurity/Authentication/General.md",
     "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
+    "⚙️tech/✏️notes/CyberSecurity/Authentication/General.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/13 Network IOCs.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/12 Digital Forensics.md",
