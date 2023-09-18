@@ -23,9 +23,11 @@
             "id": "57c9212560bc136c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -40,9 +42,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c14a193311c16d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🛖home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,14 +197,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c30810b7b1bd2fbd",
+  "active": "57c9212560bc136c",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+    "🛖home.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Lockheed Martin Courses of Action Matrix.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
-    "🛖home.md",
     "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Golden_Ticket_Attack.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Kerberos.png",
