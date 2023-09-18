@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e76a5d2b9cff4c3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "57c9212560bc136c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+                "file": "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/3_Windows Fundamentals.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c30810b7b1bd2fbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c14a193311c16d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🛖home.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+                "file": "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/3_Windows Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+                "file": "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/3_Windows Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md"
+                "file": "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/3_Windows Fundamentals.md"
               }
             }
           },
@@ -197,10 +160,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57c9212560bc136c",
+  "active": "a4c96404b216e79f",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/images",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/images/NTFS_Permissions.png",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/1_Network.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/2_Wireshark.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/3_Windows Fundamentals.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/4_Active Directory.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense",
+    "⚙️tech/🎓education/TryHackMe",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
     "🛖home.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Lockheed Martin Courses of Action Matrix.png",
@@ -219,16 +192,12 @@
     "🏢work/nh/General/Change-Management/2023-09-11 - Rhapsody - Disable Veeam Backup.docx.lnk",
     "🏢work/nh/General/Change-Management/2023-09-11 - Rhapsody - Disable Veeam Backup.docx - Shortcut.lnk",
     "🏢work/nh/General/Change-Management/2023-07-18 - Rhapsody - Java Memory Allocation.docx - Copy.lnk",
-    "🏢work/nh/Scripts/SQL/NIV/iPM_data_migration_to_Karisma.sql",
-    "🏢work/nh/Scripts/SQL/Medirecrods/initial_iPM_data_load_for_Agfa-EI.sql",
-    "🏢work/nh/Scripts/SQL/Medirecrods/initial_iPM_data_load_for_MediRecords.sql",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182419.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182406.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182356.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182343.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182330.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182318.png",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182202.png",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.3_Create_Cisco_ISE_Profiling_Reports.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.2_Profiling_Best_Practices.md",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction 1 1.md",
@@ -238,12 +207,6 @@
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
     "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md",
     "⚙️tech/✏️notes/Tools/PowerShell/Admin/Active Directory.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md",
-    "⚙️tech/✏️notes/Network/cisco/Switch.md",
-    "⚙️tech/✏️notes/Admin/Linux/X11.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.4_Authorization_Rules.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.3_Authentication_Rules.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.2_ISE_Policy.md",
-    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.1_Introduction.md"
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/Questions.md"
   ]
 }
