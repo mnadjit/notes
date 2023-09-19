@@ -15,7 +15,6 @@ subcategory: analyst
 4. Eradication and Recovery
 5. Post-Incident Activity
 
-
 ## Roles
 - **CSIRT**: Cyber Security Incident Response Team
 1. Incident Response Manager (Lead)

@@ -1,6 +1,5 @@
 ---
-aliases:
-  - CySA+ Incident Response Eradication Recovery and Post-Incident Actions
+aliases: CySA+ Incident Response Eradication, Recovery and Post-Incident Actions
 tags:
   - tech
   - cybsec
