@@ -7,7 +7,7 @@
 --Used By:			Northern Health Infection Control department
 --table(s) Updated:	None
 --table(s) Read:		
---					[DSU].[dbo].[REP_LS_TheatreUtilisation_Cases],			[HealthCentral_RPT_REPL].[dbo].[FactTheatreCase],		[HealthCentral_RPT_REPL].[dbo].[DimReference],
+--					[DSU].[dbo].[tbl_Fact_Theatre_Event],			[HealthCentral_RPT_REPL].[dbo].[FactTheatreCase],		[HealthCentral_RPT_REPL].[dbo].[DimReference],
 --					[HealthCentral_RPT_REPL].[dbo].[DimLocation],			[HealthCentral_RPT_REPL].[dbo].[DimCode],				[HealthCentral_RPT_REPL].[dbo].[DimPatient],
 --					[HealthCentral_RPT_REPL].[dbo].[DimCarer],				[HealthCentral_RPT_REPL].[dbo].[FactInpatientEpisode],	[HealthCentral_RPT_REPL].[dbo].[FactTheatreCoding]
 --Parameter(s)		\@DIFF_DAYS: defines number of days in the past to capture data from until last midnight 
@@ -31,9 +31,11 @@ SET		@SURGERY_START_TO_DTTM					= GETDATE()
 DECLARE @SURGERY_START_FROM_DTTM	DATETIME2
 SET		@SURGERY_START_FROM_DTTM				= DATEADD(d, -@DIFF_DAYS, @SURGERY_START_TO_DTTM)
 
+USE [HealthCentral_RPT_Repl]
+
 SELECT 
 	pats.[URNumber] AS NH_UR, --pats.Title, 
-	--pats.LastName, pats.FirstName, pats.MiddleNames, pats.MedicareNumber, CONVERT(varchar,pats.DateOfBirth,20) AS DOB,
+	pats.LastName, pats.FirstName, pats.MiddleNames, pats.MedicareNumber, CONVERT(varchar,pats.DateOfBirth,20) AS DOB,
 	--CASE WHEN (pats.MedicareExpiryDate is not null AND pats.MedicareExpiryDate < GETDATE()) THEN 'Y' ELSE 'N' END AS Medicare_Expired,
 	CASE WHEN pats.Gender = 'Male' THEN 'M' WHEN pats.Gender = 'Female' Then 'F' ELSE 'U' END AS Gender,
 	--pats.HomeAddressLine1, pats.HomeAddressLine2, pats.HomeAddressLine3, pats.HomeAddressPostCode,
@@ -53,8 +55,8 @@ SELECT
 	--util.[EpisodeId] AS Visit_No,
 	[OperationOutcome], 
 	--'Inpatient' as PatientType,
-	util.[OperationComment], 
-	--ref .[ReferenceIdentifier] as ASA_Score_Id, 
+	REPLACE(util.[OperationComment], '"', '') AS OperationComment, 
+	ref .[ReferenceIdentifier] as ASA_Score_Id, 
 	--ref .[ReferenceDescription] as ASA_Score_Desc, 
 	--ref2.[ReferenceIdentifier] as Wound_Classification_Id, 
 	--ref2.[ReferenceDescription] as Wound_Classification, 
@@ -66,7 +68,7 @@ SELECT
 	util.OperationType AS Operation_Type, [WaitingListCategory],
 	CASE WHEN prosthesis.[theatrecaseid] is not null then '1' else '0' end Prothesis_Flag
 FROM 
-	[dsu] . [dbo] . [REP_LS_TheatreUtilisation_Cases] util 	WITH (NOLOCK)
+	[dsu].[dbo].[tbl_Fact_Theatre_Event] util 	WITH (NOLOCK)
 	left outer join [HealthCentral_RPT_REPL] . [dbo] . [FactTheatreCase] ftc 
 		WITH (NOLOCK) on util . [TheatreCaseId] = ftc . [TheatreCaseId] and ftc . [ArchiveFlag] = '0' 
 	left outer join [HealthCentral_RPT_REPL] . [dbo] . [DimReference] ref 
@@ -106,7 +108,7 @@ FROM
 		SELECT
 			tc.[theatrecaseid],	COUNT(*) AS [No.oF Prosthesis], 1 as Flag
 		FROM 
-			[dsu] . [dbo] . [REP_LS_TheatreUtilisation_Cases] tc	WITH ( nolock )
+			[dsu].[dbo].[tbl_Fact_Theatre_Event] tc	WITH ( nolock )
 			INNER JOIN [HealthCentral_RPT_REPL].dbo.FactTheatreCoding cod WITH (NOLOCK) ON tc.TheatreCaseId = cod.TheatreCaseId
 			INNER JOIN [HealthCentral_RPT_REPL].dbo.DimCode dc WITH (NOLOCK) ON cod.CodeId = dc.CodeId
 
@@ -121,12 +123,13 @@ FROM
 	LEFT OUTER JOIN [DimCarer] gps WITH (NOLOCK) ON (pats.GPCode = gps.Identifier1 AND gps.CarerCategory = 'General Practitioner')
 WHERE 
 	util . [TheatreCaseStartDateTime] > =  @SURGERY_START_FROM_DTTM
-	AND util . [TheatreCaseStartDateTime] < = @SURGERY_START_TO_DTTM
+	--AND util . [TheatreCaseStartDateTime] < = @SURGERY_START_TO_DTTM
 	--AND util.[status] = '0'
-	AND pats.[URNumber] in ('0543962','2039983','2848099','2412736','3407814','3021979','3038698','2907977','3437390','3263644','2833853','3323916','3287474')
+	AND pats.[URNumber] in ('2972014')
+	--and pats.LastName like 'Abdul%'
 ORDER BY
 	IntoTheatreDateTime
 
 
---select top 10 * from [dsu] . [dbo] . [REP_LS_TheatreUtilisation_Cases];
---select top 1000 status, operationoutcome from [dsu] . [dbo] . [REP_LS_TheatreUtilisation_Cases];
+--select top 10 * from [dsu].[dbo].[tbl_Fact_Theatre_Event];
+--select top 1000 status, operationoutcome from [dsu].[dbo].[tbl_Fact_Theatre_Event];
