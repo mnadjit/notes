@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "d627a3f961fa5902",
+    "id": "bd3564eb99dcbce2",
     "type": "split",
     "children": [
       {
-        "id": "7d352165e035733c",
+        "id": "ce534c1183469edb",
         "type": "tabs",
         "children": [
           {
-            "id": "e09f655ce538c598",
+            "id": "57c9212560bc136c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3c6a53b00e306d89",
+    "id": "4fc5cd4e4cf5b108",
     "type": "split",
     "children": [
       {
-        "id": "50695aa9e2194abd",
+        "id": "c2a449236e512f15",
         "type": "tabs",
         "children": [
           {
-            "id": "664047661f657665",
+            "id": "a4c96404b216e79f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "6ef47672e12e38fb",
+            "id": "57f4f14ebbe2984c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "dddbc6632bb41350",
+            "id": "2c7912e184602bda",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,47 +69,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 276
   },
   "right": {
-    "id": "0a25965ae9b31733",
+    "id": "122b9b5f6f28d72c",
     "type": "split",
     "children": [
       {
-        "id": "bbb0a05723d2ca3f",
+        "id": "f233adea4ebb71f6",
         "type": "tabs",
         "children": [
           {
-            "id": "2da540d21c7bf26b",
+            "id": "9e98ff95cc7eb699",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "fd28fdcef6f5bede",
+            "id": "1e39389e7dbede05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b65f966ab9d99ab6",
+            "id": "a3fc890e828bb82c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,17 @@
             }
           },
           {
-            "id": "828296d665a512bd",
+            "id": "db40a7c46972ddb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md"
+              }
+            }
+          },
+          {
+            "id": "67129963ea40d025",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -128,18 +138,9 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "87c9f455b09e22ca",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,10 +160,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e09f655ce538c598",
+  "active": "57c9212560bc136c",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/3_Windows Fundamentals.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Risk_Mitigatin.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
-    "🛖home.md"
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
+    "🛖home.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/images",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/images/NTFS_Permissions.png",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/1_Network.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/2_Wireshark.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro/4_Active Directory.md",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense/01_Intro",
+    "⚙️tech/🎓education/TryHackMe/Cyber Defense",
+    "⚙️tech/🎓education/TryHackMe",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Lockheed Martin Courses of Action Matrix.png",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/16 Lateral Movement & Pivoting IOCs.md",
+    "⚙️tech/✏️notes/CyberSecurity/Authentication/Windows Cached Creds.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Golden_Ticket_Attack.png",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Kerberos.png",
+    "⚙️tech/✏️notes/CyberSecurity/Authentication/General.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/13 Network IOCs.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/12 Digital Forensics.md",
+    "⚙️tech/✏️notes/Network/cisco/Firewall ACLs.md",
+    "🏢work/nh/Scripts/SQL/iPM_CodeSet/iPM_CodeSet_Extraction.sql",
+    "🏢work/nh/Scripts/SQL/iPM_CodeSet/New Text Document.txt",
+    "🏢work/nh/Scripts/SQL/iPM_CodeSet",
+    "🏢work/nh/Scripts/SQL/New folder",
+    "🏢work/nh/General/Change-Management/2023-09-11 - Rhapsody - Disable Veeam Backup.docx.lnk",
+    "🏢work/nh/General/Change-Management/2023-09-11 - Rhapsody - Disable Veeam Backup.docx - Shortcut.lnk",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182419.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182406.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182356.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182343.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/images/09.2/Pasted image 20230903182330.png",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.3_Create_Cisco_ISE_Profiling_Reports.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.2_Profiling_Best_Practices.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/09_Profiling_Best_Practives_&_Reporting/09.1_Introduction 1 1.md",
+    "dt.md",
+    "Untitled.md",
+    "⚙️tech/✏️notes/Cloud/Azure/Stroge/azcopy.md",
+    "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/04_Policy_Config/04.6_Config_Policy_802.1X.md",
+    "⚙️tech/✏️notes/Tools/PowerShell/Admin/Network.md"
   ]
 }
