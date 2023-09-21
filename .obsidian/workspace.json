@@ -13,36 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "68d07d3bc20a4bd6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
-              }
-            }
-          },
-          {
-            "id": "67ce00d32e033d54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,8 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67ce00d32e033d54",
+  "active": "e09f655ce538c598",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
     "🛖home.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Risk_Mitigatin.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
