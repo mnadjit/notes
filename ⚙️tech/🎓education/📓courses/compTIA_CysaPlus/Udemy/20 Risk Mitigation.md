@@ -80,6 +80,9 @@ Each biz process has its own MTD
 #rpo #recovery_point_objective
 **longest time** an org can tolerate **lost data being unrecoverable**
 e.g. in case of ransomware
+## MTBF
+#mtbf #mean_time_between_failure
+Mean Time Between Failure: is the measure of the **anticipated rate of failure** for a system or component. 
 # Risk Prioritization
 - **Risk Appetite**: How big of a risk you can take.
 ## Mitigation
