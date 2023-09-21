@@ -35,9 +35,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🛖home.md",
-                "mode": "preview",
-                "source": false
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0a25965ae9b31733",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖home.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖home.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖home.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/20 Risk Mitigation.md"
               }
             }
           }
@@ -184,6 +185,7 @@
   },
   "active": "67ce00d32e033d54",
   "lastOpenFiles": [
+    "🛖home.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Risk_Mitigatin.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
@@ -198,7 +200,6 @@
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3341_CP.tcp_Endobase_Reports_to_NH_IO.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3333_CP.tcp_Endobase_Reports_to_Cerner_OI.json",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
-    "🛖home.md"
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md"
   ]
 }
