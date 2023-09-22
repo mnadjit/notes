@@ -15,8 +15,6 @@ $script:args | % {
 		git commit -am "updated"
 		git push --all --force
 	}
-	
-	
 }
 
 cd $cur_dir
