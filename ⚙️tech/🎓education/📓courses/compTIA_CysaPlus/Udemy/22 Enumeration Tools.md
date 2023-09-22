@@ -79,12 +79,64 @@ default behaviour: **ping** and send a **TCP ACK packet** to the target on ports
 
 # Nmap Port Scans
 #fingerprinting
+## Service Discovery
+> [!note] Nmap TCP SYN #tcp_syn
+> `nmap -sS`:  conducts a half-open scan by sending a SYN w/o an ACK after
+
+> [!note] Nmap TCP Connect #tcp_connect
+> `nmap -sT`: full TCP 3-way handshake; when certain network cards don't support half-open scan or requires root access on OS 
+
+> [!note] Nmap Null scan #null_scan
+> `nmap -sN`: header bit set to 0; very visible to IDS/IPS
+
+> [!note] Nmap FIN scan #fin_scan
+> `nmap -sF`: sends an unexpected *FIN* packet; not stealthy
+
+> [!note] Nmap Xmas scan #xmas_scan
+> `nmap -sX`: sends a packet with *FIN*, *PSH* and *URG* flags set to 1; not stealthy at all!  
+
+> [!note] Nmap UDP scan #udp_scan
+> `nmap -sU`: send and wait for response or timeout; a bit more stealthy
+
+> [!note] Nmap Port Ranges #port_range
+> `nmap -p <port_range>`
 
 # Nmap Port States
+- **Open**: an app on the port is accepting connections
+- **Closed**: response is a *RST* packet. No app is accepting the connection
+- **Filtered**: no response is received back; most likely firewall is dropping the packet
+- **Unfiltered**: nmap can probe the port but cannot determine whether it's open or closed (?)
+- **Open|Filtered**: nmap cannot determine if the port is open or filtered using *UDP* or *IP* scan
+- **Closed|Filtered**: nmap cannot determine if the closed is open or filtered using *TCP Idle scan* 
 
 # Nmap Fingerprinting
+#fingerprinting 
+> [!note] Nmap Intensive Port Scan #intensive_port_scan
+> `nmap -sV <IP>`
+> `nmap -A <IP>`: more intense that -SV
+- extracted info
+	- Protocol
+	- app name and version
+	- OS type and version
+	- host name 
+	- device type
+
+Nmap collects info using CPE (Common Platform Enumeration) #cpe #common_platform_enumeration
+**CPE**: Scheme for identifying hardware, devices, OS's, and apps developed by MITRE
+
+## Nmap Scripting Engine (NSE)
+#NSE #nmap_scripting_engine
+written in Lua
+Can be used for
+- OS detection and platform enumeration
+- Windows user account discovery
+- Identify logged-on Windows user account
+- Basic vulnerability detection
+- Get HTTP data and identify apps
+- Geolocation to traceroute probes
 
 # Using Nmap
+
 
 # Hping
 #hping
