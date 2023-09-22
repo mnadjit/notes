@@ -1,3 +1,18 @@
+---
+alias: 
+tags: 
+- tech
+- cybsec
+- comptia
+- cysa_plus
+- siem
+- configuration
+category: cyber_security
+subcategory: analyst
+---
+> [!tip] CompTIA CySA+ Objective
+> Objective 3.1
+
 # SIEM
 - Hardware, software or outsources a managed services
 ## Software SIEMs

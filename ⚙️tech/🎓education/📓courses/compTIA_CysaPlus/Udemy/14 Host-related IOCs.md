@@ -1,7 +1,21 @@
 ---
 alias: 
-tags: memory_analysis volatility_framework lsof alternate_data_stream sysinternals
+tags: 
+- tech
+- cybsec
+- comptia
+- cysa_plus
+- memory_analysis
+- volatility_framework
+- lsof
+- alternate_data_stream
+- sysinternals
+category: cyber_security
+subcategory: analyst
 ---
+> [!tip] CompTIA CySA+ Objective
+> Objective 4.3
+
 # Host-related IOCs
 Find out what's normal
 

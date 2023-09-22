@@ -1,3 +1,20 @@
+---
+alias: 
+tags: 
+- tech
+- cybsec
+- comptia
+- cysa_plus
+- appliance
+- monitoring
+category: cyber_security
+subcategory: analyst
+---
+> [!tip] CompTIA CySA+ Objective
+> Objective 3.1
+> Objective 3.2
+> Objective 4.3
+
 # Firewall Logs
 ## Types of data
 1. Connections permitted or denied

@@ -4,10 +4,14 @@ aliases:
 tags:
   - tech
   - cybsec
+  - comptia
+  - cysa_plus
   - risk_mitigation
 category: cyber_security
 subcategory: analyst
 ---
+[!tip] CompTIA CySA+ Objectives
+> Objective 5.2
 # Risk Identification
 ## Enterprise Risk Management
 [NIST Information Security - Special Publication 800-39](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-39.pdf)

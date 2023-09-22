@@ -1,7 +1,10 @@
 ---
 aliases: 
 tags:
+  - tech
   - cybsec
+  - comptia
+  - cysa_plus
   - mimikatz
   - kerberos
   - golden_ticket
@@ -11,6 +14,8 @@ tags:
 category: cyber_security
 subcategory: analyst
 ---
+[!tip] CompTIA CySA+ Objective
+> Objective 4.3
 # Pass the hash
 > SAM: Security Account Manager 
 > [[Windows Cached Creds|Windows Authentication Cached Credentials]]
