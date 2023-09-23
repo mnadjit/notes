@@ -136,17 +136,88 @@ Can be used for
 - Geolocation to traceroute probes
 
 # Using Nmap
+```sh
+# discover hosts in a subnet
+nmap -sn $subnet
 
+# SYN scan - look for web servers
+nmap -sS -p80 $subnet 
+
+# get versions for each service
+nmap -sV $ip_range
+
+# get OS version
+nmap -O $ip_range
+```
 
 # Hping
 #hping
+an open-source packet crafting and spoofing tool
 
+Use cases:
+## Host/port detection and firewall testing
+```sh
+# send one SYN packet to $ip on port 80
+hping3 -S -p80 -c1 $ip
+
+# send two ACK packets to $ip on port 442
+hping3 -A -p443 -c2 $ip 
+```
+## timestamping 
+#timestamping
+```sh
+# get uptime using two SYN packets
+hping3 -c2 -S -p80 --tcp-timestamp $ip
+```
+## traceroute 
+#traceroute
+use arbitrary packets like DNS over TCP or UDP for finding traces when ICMP is blocked
+## fragmentation 
+#fragmentation
+evade detection by IDS/IPS by breaking up a packet for later assembly; most IDS/IPS can detect this these days
+## Denial of Service (DoS)
+#dos #denial_of_service
+**Ping of Death attack**: #ping_of_death ICMP packet larger than max size (16bit); most systems are immune these days though
 # Responder
-#responder
+#responder #netbios #nbt-ns #llmnr #mdns #mitm #man_in_the_middle
+part of Kali, a cli tool to *poison responses* to **NetBIOS**, **LLMNR**, and **MDNS** name resolution to perform MITM attack 
 
+Mechanism: intercepts *LLMNR* and *NBT-NS* requests and returns the attacker's host IP as the name record
+
+Can be set to monitor mode to detect poisoning
 # Wireless Assessment Tools
+## Aircrack-ng
+#aircrack-ng #airmon-ng #airodump-ng #aireplay-ng
+### airmon-ng
+sets wireless card to *monitor mode* a.k.a. *promiscuous mode*
+### airodump-ng
+capture wireless frames and identify devices based on MAC addresses
+### aireplay-ng
+inject frames
+### aircrack-ng
+Used to *crack the password* but only effective against *WEP-based networks*, not WPA or WPA2
 
+In a corporate environment, use RADIUS auth to be protected against this tool
+## Reaver
+#reaver #wps #wireless_protected_setup
+CLI tool to *brute-force WPS-enabled access points*
+
+WPS can be rate-limited for PIN authentication, but it's best to disable it
 # Hashcat
 #hashcat
-
+CLI tool used for *brute-forcing password* hashes
+```sh
+hashcat -m $hashType -a $attackMode -o $outfile $inHashFile
+```
 # Testing Credential Security
+#john_the_ripper
+```sh
+# unshadow the password in /etc/passwd file using /etc/shadow and output into $outfile
+unshadow /etc/passwd /etc/shadow > $outfile
+
+# use John the Ripper to crack the hash stored in $outfile
+john $outfile
+
+# only show the password
+john -show $outfile
+```

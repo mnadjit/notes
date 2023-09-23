@@ -30,9 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "b9459cde22243b1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,18 +195,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9b63e9cbbfcfab5",
+  "active": "b9459cde22243b1a",
   "lastOpenFiles": [
+    "🛖home.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/23 Vulnerability Scanning.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/30.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/29.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/28.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/27.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/26.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/25.md",
-    "🛖home.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/ITIL_7_Step_Method.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Lean_Method.png",
