@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md"
               }
             }
           }
@@ -197,10 +197,10 @@
   },
   "active": "b9459cde22243b1a",
   "lastOpenFiles": [
-    "🛖home.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/23 Vulnerability Scanning.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
+    "🛖home.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/30.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/29.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/28.md",
