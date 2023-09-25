@@ -1,3 +1,22 @@
+---
+alias: 
+tags: 
+- tech
+- cybsec
+- comptia
+- cysa_plus
+- email
+- monitoring
+- ioc
+category: cyber_security
+subcategory: analyst
+---
+> [!tip] CompTIA CySA+ Objective
+> Objective 3.1 
+> Objective 4.3
+
+# 
+
 # Email IoC
 ## Spam
 ## Phishing

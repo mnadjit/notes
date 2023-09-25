@@ -3,6 +3,8 @@ aliases: CySA+ Incident Response Detection, Analysis and Containment
 tags:
   - tech
   - cybsec
+  - comptia
+  - cysa_plus
   - incident_response
   - detection
   - analysis
@@ -10,6 +12,9 @@ tags:
 category: cyber_security
 subcategory: analyst
 ---
+[!tip] CompTIA CySA+ Objectives
+> Objective 4.2
+> Objective 3.1
 # OODA Loop
 - OODA stages
 	- **Observe**

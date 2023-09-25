@@ -3,11 +3,16 @@ aliases:
 tags:
   - tech
   - cybsec
+  - comptia
+  - cysa_plus
   - incident_response
   - preparation
 category: cyber_security
 subcategory: analyst
 ---
+[!tip] CompTIA CySA+ Objective
+> Objective 4.1
+> Objective 4.2
 # Incident Response Phases
 1. Preparation
 2. Detection and Analysis

@@ -1,7 +1,21 @@
 ---
-alias:
-tags: procexp process_explorer sysinternals
+alias: 
+tags: 
+- tech
+- cybsec
+- comptia
+- cysa_plus
+- endpoint_monitoring
+- procexp
+- process_explorer
+- sysinternals
+category: cyber_security
+subcategory: analyst
 ---
+> [!tip] CompTIA CySA+ Objective
+> Objective 3.1
+> Objective 3.2
+
 # Endpoint Analysis
 # Sandboxing
 

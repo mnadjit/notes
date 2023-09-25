@@ -1,8 +1,26 @@
 ---
-alias: application-related indications of compromise
-tags: cybersec application ioc compromise service cron log linux windows android last_login adb 
+aliases:
+  - application-related indications of compromise
+tags:
+  - tech
+  - cybersec
+  - comptia
+  - cysa_plus
+  - application
+  - ioc
+  - compromise
+  - cron
+  - log
+  - linux
+  - windows
+  - android
+  - last_login
+category: cyber_security
+subcategory: analyst
 ---
-
+[!tip] CompTIA CySA+ Objective
+> Objective 4.3
+> Objective 4.4
 # Anomalous Activity 
 - Web apps
 - databases
@@ -101,7 +119,7 @@ net localgroup %groupname% %username% /delete
 - Manual extraction
 - Logical Extraction
 	- from iCloud for example
-- ADB (Android Device Bridge)
+- ADB (Android Device Bridge) #adb #android_device_bridge
 - data in many parts are stored in SQLite databases
 ## Mobile Device Forensics Software
 - Cellebrite: tool focused on evidence extraction from smartphones and other mobile devices and cloud data using Universal Forensic Extraction Device (UFED). There is also a software version of it.

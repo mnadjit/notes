@@ -3,6 +3,8 @@ aliases: CySA+ Incident Response Eradication, Recovery and Post-Incident Actions
 tags:
   - tech
   - cybsec
+  - comptia
+  - cysa_plus
   - incident_response
   - eradication
   - recovery
@@ -10,6 +12,8 @@ tags:
 category: cyber_security
 subcategory: analyst
 ---
+[!tip] CompTIA CySA+ Objectives
+> Objective 4.2
 # Eradication
 ## Sanitization
 ### CE 

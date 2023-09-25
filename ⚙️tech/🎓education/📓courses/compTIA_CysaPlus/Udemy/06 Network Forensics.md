@@ -1,3 +1,18 @@
+---
+alias: 
+tags: 
+- tech
+- cybsec
+- comptia
+- cysa_plus
+- network_forensics
+category: cyber_security
+subcategory: analyst
+---
+[!tip] CompTIA CySA+ Objective
+> Objective 3.1
+> Objective 4.4
+
 # Tools
 ## tcpdump
 > Page 57
