@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d7fe9cbc7b00219e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c9b63e9cbbfcfab5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b9459cde22243b1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
+                "file": "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
+                "file": "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
+                "file": "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md"
+                "file": "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md"
               }
             }
           },
@@ -170,7 +145,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md"
+                "file": "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md"
               }
             }
           }
@@ -195,12 +170,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9459cde22243b1a",
+  "active": "c9b63e9cbbfcfab5",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/23 Vulnerability Scanning.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
-    "🛖home.md",
+    "🧩templates/General.md",
+    "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/24 Vulnerability Scanning Output Analysis.md",
+    "🛖home.md",
+    "⚙️tech/✏️notes/Cloud/AWS/CDK",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/23 Vulnerability Scanning.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/30.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/29.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/28.md",
@@ -225,8 +203,6 @@
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/07 Appliance Monitoring.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/08 Endpoint Monitoring.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/05 Threat Hunting.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/02 Security Control Types.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/03 Threat Intelligence.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Risk_Mitigatin.png",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3542_TCP.Discard_IO.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3519_CP.tcp_QFlow_ADT_to_Cerner_OI.json",
@@ -236,7 +212,6 @@
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3405_CP.tcp_Rezibase_Reports_to_Cerner_OI.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3378_CP.tcp_Nexus_Reports_to_NH_IO.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3362_CP.tcp_Nexus_Reports_to_Cerner_OI.json",
-    "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3341_CP.tcp_Endobase_Reports_to_NH_IO.json",
-    "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3333_CP.tcp_Endobase_Reports_to_Cerner_OI.json"
+    "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3341_CP.tcp_Endobase_Reports_to_NH_IO.json"
   ]
 }
