@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "68d07d3bc20a4bd6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
               }
             }
           },
@@ -35,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🛖home.md",
-                "mode": "preview",
-                "source": false
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖home.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖home.md",
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖home.md"
+                "file": "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md"
               }
             }
           }
@@ -182,11 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67ce00d32e033d54",
+  "active": "664047661f657665",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/18 Detection and Containment.md",
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
+    "🛖home.md",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/images/Risk_Mitigatin.png",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/21 Frameworks, Policies & Procedures.md",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3542_TCP.Discard_IO.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3519_CP.tcp_QFlow_ADT_to_Cerner_OI.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3497_CP.http_Cerner_to_NH_IO.json",
@@ -198,7 +189,6 @@
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3341_CP.tcp_Endobase_Reports_to_NH_IO.json",
     "🏢work/nh/Scripts/PowerShell/Rhapsody_Api/toggle_rhapsody_idle_notifications/Logs/20230920_105348/alert_settings/3333_CP.tcp_Endobase_Reports_to_Cerner_OI.json",
     "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/17 Incident Response - Preparation.md",
-    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md",
-    "🛖home.md"
+    "⚙️tech/🎓education/📓courses/compTIA_CysaPlus/Udemy/19 Post-Incident Actions.md"
   ]
 }

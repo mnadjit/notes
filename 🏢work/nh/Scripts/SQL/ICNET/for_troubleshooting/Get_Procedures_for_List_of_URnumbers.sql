@@ -1,26 +1,25 @@
 --***************************************************************************************************
---Query:				iPM_Surgeries_to_ICNET_(Rhapsody).sql
+--Query:			Surgeries_data_to_ICNET_(Rhapsody).sql
 --Create Date:		2022-01-17
---Author:				Meera Bhandari <Meera.Bhandari\@nh.org.au>
+--Author:			Meera Bhandari <Meera.Bhandari@nh.org.au>
 --Description:		Extracts surgeries along with relevant patient demographics - each as a single row, to be sent across to ICNET (Infection Control software solution at Northern Health)
---Called by:			Northern Health's Rhapsody ICNET Surgery route - Database Message Extraction filter
+--Called by:		Northern Health's Rhapsody ICNET Surgery route - Database Message Extraction filter
 --Used By:			Northern Health Infection Control department
 --table(s) Updated:	None
 --table(s) Read:		
 --					[DSU].[dbo].[tbl_Fact_Theatre_Event],			[HealthCentral_RPT_REPL].[dbo].[FactTheatreCase],		[HealthCentral_RPT_REPL].[dbo].[DimReference],
---					[HealthCentral_RPT_REPL].[dbo].[DimLocation],			[HealthCentral_RPT_REPL].[dbo].[DimCode],				[HealthCentral_RPT_REPL].[dbo].[DimPatient],
---					[HealthCentral_RPT_REPL].[dbo].[DimCarer],				[HealthCentral_RPT_REPL].[dbo].[FactInpatientEpisode],	[HealthCentral_RPT_REPL].[dbo].[FactTheatreCoding]
---Parameter(s)		\@DIFF_DAYS: defines number of days in the past to capture data from until last midnight 
---Usage:				SQL statement to be run 
+--					[HealthCentral_RPT_REPL].[dbo].[DimLocation],	[HealthCentral_RPT_REPL].[dbo].[DimCode],				[HealthCentral_RPT_REPL].[dbo].[DimPatient],
+--					[HealthCentral_RPT_REPL].[dbo].[DimCarer],		[HealthCentral_RPT_REPL].[dbo].[FactInpatientEpisode],	[HealthCentral_RPT_REPL].[dbo].[FactTheatreCoding]
+--Parameter(s)		@DIFF_DAYS: defines number of days in the past to capture data from until last midnight 
+--Usage:			execute the SQL statement
 --****************************************************************************************************
 --SUMMARY OF CHANGES
 --Date(yyyy-mm-dd)    Author              Comments
 --- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
---2022-02-16          Mehdi N Tehrani <mehdi.tehrani\@nh.org.au;
---m.nadji.t\@gmail.com>     
---										Add patient demographics and optimise for ICNET requirements
---2022-02-17          Mehdi N Tehrani     Update to export each row as values delimited by commas to enhance export to csv format
---2022-02-21			Mehdi N Tehrani     Add extra data fields Anaesthetist, Operation_Type, Prosthesis_Flag;
+--2022-02-16        Mehdi N Tehrani <mehdi.tehrani@nh.org.au; m.nadji.t@gmail.com>     
+--										  Add patient demographics and optimise for ICNET requirements
+--2022-02-17        Mehdi N Tehrani       Update to export each row as values delimited by commas to enhance export to csv format
+--2022-02-21		Mehdi N Tehrani       Add extra data fields Anaesthetist, Operation_Type, Prosthesis_Flag;
 --***************************************************************************************************
 
 DECLARE @DIFF_DAYS					DECIMAL		= 28
