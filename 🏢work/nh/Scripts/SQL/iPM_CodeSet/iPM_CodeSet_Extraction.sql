@@ -34,7 +34,16 @@ AND rv.main_code IN ('WARD', 'THEAT', 'CLINIC')
 ORDER BY sp.code
 ;
 
+-- Service Point
 select * from PIMS.reference_values rv WHERE rv.rfvdm_code like 'SPTYP';
+
+-- PV1-4 Outpatient Visit Types
+SELECT 
+    CASE WHEN rvi.identifier IS NULL THEN rv.main_code ELSE rvi.identifier END AS HL7_Code, rv.description
+FROM PIMS.reference_values rv
+LEFT JOIN reference_value_ids rvi ON rvi.rfval_refno = rv.rfval_refno AND rvi.rityp_code='HL7' AND rvi.archv_flag='N' and rvi.end_dttm IS NULL
+WHERE rv.rfvdm_code = 'VISIT' AND rv.archv_flag='N' and rv.end_dttm IS NULL AND rv.display_value='Y'
+ORDER BY HL7_Code;
 
 -- PID-3 (Patient ID Types/Insurance Policies)
 SELECT
