@@ -1,44 +1,14 @@
-Wiki
-	Pathology to MyHR
-	add Level 2 as people who can log jobs with HTS 
-
 Rhapsody
-	Rhapsody Notification Alerts
-	Rhapsody message counts
 	Rhapsody DR - regedit for tls1.2 to be default: https://learn.microsoft.com/en-us/mem/configmgr/core/plan-design/security/enable-tls-1-2-server?source=recommendations
 	UR indexing: use version 2
-	Follow up about future state of Rhapsody: Infrastructure (check with Lyniate as well) and message logging	
-	
-HL7Connect, adding newly added inbound messages
-	Nexus, iCope, ZEDOC, MR?
-	
-Sex and Title [Chirstie/April]
-	test downstream systems when implemented
 
-MediRecords
-	** [06-16] Report From Rebekah
-	** New NASH key!
-
-Radiology
-	* New emails
-	* add old emails to docs
-	Add test messages to outbound Karisma route
-	---- Ok for now ---- PV1-19.4 set to 1280
-	AGFA only accepts ORM for single order - but multiple orders in ORU is fine
-	* Phone numbers to AGFA-EI in +61 format only [Data extraction phone numbers?]
-	
-ICNET
-	set Rhapsody prod notifications
-	ICNET Protect: send update to all about SAP - full capture only, no diff - No death indicator
-	
 Message Repository
-	monitor size changes
 	why test oru doesn't set document file name message property?
 	MediRecords prescriptions not showing
 
 802.1X
-	disabled on PC!!! - Check in ISE logs
+	disabled on PC!!! - Check in ISE logs - Check Pratik's message on Teams
 
-CPF
-	[06-19] multiple addresses
-		[April - 2023-06-23] emailed April, Khalil, Joanne, Julie, Linda
+
+WeGuide
+	test what order email/phone get sent
