@@ -22,4 +22,7 @@ subcategory: cdk
 [Node JS](https://nodejs.org/en/download) #nodejs
 [npm](https://docs.npmjs.com/) #npm
 	- Upgrade npm to the latest version `npm install -g npm@latest`
-- 
+
+# S3
+[Set up S3 Bucket - Guide](https://towardsthecloud.com/aws-cdk-s3-bucket)
+

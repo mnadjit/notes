@@ -29,4 +29,4 @@ Use this tool in **IAM** to analyze permissions to resources and if there is any
 
 ## Credentials Report
 # IAM Best Practices
-
+[Best Practices - Digital Cloud](https://digitalcloud.training/aws-iam/#iam-best-practices)
