@@ -1,4 +1,5 @@
 # Shell
+#zsh #prompt #linux
 - install zsh
 `sudo apt install -y zsh`
 - switch to zsh as default shell
