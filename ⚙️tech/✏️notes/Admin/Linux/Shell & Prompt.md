@@ -21,7 +21,8 @@ Simple prompt with time and colours:
 #!/usr/bin/zsh
 
 # prepare the directory
-mkdir ~/.ohmyzsh && cd ~/.ohmyzsh
+cd
+mkdir .ohmyzsh && cd .ohmyzsh
 
 # download auto-suggestions plugin
 wget https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-autosuggestions.zsh --no-check-certificate
@@ -30,7 +31,7 @@ wget https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-
 wget https://raw.githubusercontent.com/zsh-users/zsh-syntax-highlighting/master/zsh-syntax-highlighting.zsh --no-check-certificate
 wget https://raw.githubusercontent.com/zsh-users/zsh-syntax-highlighting/master/.version --no-check-certificate
 wget https://raw.githubusercontent.com/zsh-users/zsh-syntax-highlighting/master/.revision-hash --no-check-certificate
-# apt-get install -y subversion   # for svn to work
+#apt-get install -y subversion   # for svn to work
 svn checkout https://github.com/zsh-users/zsh-syntax-highlighting/trunk/highlighters
 
 # get .zshrc to autoload syntax-highlighting and auto-suggestions plugins
