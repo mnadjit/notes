@@ -18,7 +18,7 @@ Simple prompt with time and colours:
 - Once zsh is installed you may add **autosuggestions** and **syntax-highlighting** capabilities to zsh using the following commands to download and autoload *ohmyzsh* scripts.
 1) Create an installer file e.g. ~/.ohmyzsh_installer
 ```sh
-#!usr/bin/zsh
+#!/usr/bin/zsh
 
 # prepare the directory
 mkdir ~/.ohmyzsh && cd ~/.ohmyzsh
