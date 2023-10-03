@@ -14,6 +14,11 @@ Simple prompt with time and colours:
 `%~`: current directory
 `%*`: time
 
+## ZSH built-in prompts
+- Get a list of available prompts
+	- `prompt -l`
+- Change to `adam2` prompt
+	- `prompt adam2`
 ## ohmyzsh
 - Once zsh is installed you may add **autosuggestions** and **syntax-highlighting** capabilities to zsh using the following commands to download and autoload *ohmyzsh* scripts.
 1) Create an installer file e.g. ~/.ohmyzsh_installer
