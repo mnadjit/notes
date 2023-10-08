@@ -46,3 +46,14 @@ NAT Instance is self-managed - it's an EC2 instance
 
 ## NAT Gateway
 scalable up to 45 Gbps
+
+# Nitro Instances
+near bare-metal performance
+
+# Pricing Use Cases
+## On-Demand
+## Reserved
+## Scheduled Reserved
+## Spot Instances
+## Dedicated Instances
+## Dedicated Hosts
