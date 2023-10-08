@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md"
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md"
               }
             }
           }
@@ -174,6 +174,8 @@
   },
   "active": "6b3864755f1101c1",
   "lastOpenFiles": [
+    "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
+    "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
     "🛖home.md",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.md",
     "⚙️tech/✏️notes/Admin/Linux/Shell & Prompt.md",
@@ -186,7 +188,6 @@
     "styles.css",
     "notes.css",
     "⚙️tech/🎓education/📓courses/Cisco_Identity_Services_Engine_(SISE)/01_Architecture/01.3_Use_Cases.md",
-    "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/02_AWS IAM.md",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure",
     "🏢work/nh/projects/cybersecurity",
@@ -194,7 +195,6 @@
     "⚙️tech/✏️notes/Cloud/AWS/Security/IAM/CLI.md",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/02_AWS_Evaluation_Logic.png",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/06_.md",
-    "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_.md",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_.md"
   ]
 }

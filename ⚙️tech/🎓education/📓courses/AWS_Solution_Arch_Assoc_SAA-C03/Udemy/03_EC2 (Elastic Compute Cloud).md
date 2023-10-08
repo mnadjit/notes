@@ -13,8 +13,10 @@ subcategory:
 
 # Placement Groups
 ## Cluster
+Instances as close as possible to each other. Optimized for High performance Computing use cases.
 ## Partition
 ## Spread
+Each instance in a separate rack at an AWS data centre
 # Network Interfaces
 ## ENI
 #elastic_network_interface
@@ -49,11 +51,18 @@ scalable up to 45 Gbps
 
 # Nitro Instances
 near bare-metal performance
+improves security and performance
 
 # Pricing Use Cases
 ## On-Demand
+use for a certain period of time without interruption
 ## Reserved
+critical business use case without interruption
 ## Scheduled Reserved
+getting deprecated
 ## Spot Instances
+distributed system which *can* withstand interruption - low cost
 ## Dedicated Instances
+Security-sensitive app requires dedicated hardware; per-instance billing
 ## Dedicated Hosts
+e.g. database with per-socket licensing
