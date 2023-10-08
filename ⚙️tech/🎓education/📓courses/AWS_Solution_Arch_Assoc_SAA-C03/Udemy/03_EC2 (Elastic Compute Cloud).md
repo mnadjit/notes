@@ -11,4 +11,38 @@ category: Cloud
 subcategory:
 ---
 
-# 
+# Placement Groups
+## Cluster
+## Partition
+## Spread
+# Network Interfaces
+## ENI
+#elastic_network_interface
+Basic type
+## ENA
+#elastic_network_adaptor
+Higher performance and lower latency
+Must choose supported instance type
+## EFA
+#elastic_fabric_adaptor
+used for 
+- High Performance Computing (HPC) #hpc 
+- Message Parsing Interface (MPI) #message_parsing_interface
+- Machine learning (ML) #machine_learning
+
+# Elastic IP Address
+#elastic_ip_address #eip
+Static public IP address
+EIP can be moved to a different AZ, but an ENI stays in a certain AZ and cannot be moved
+
+# Bastion
+#bastion #jumpbox #jumphost
+an EC2 instance in public subnet used to access ec2 instances in private subnet
+admin user can connect from Internet to bastion host, then connect via bastion host to the ec2 in private subnet
+# NAT Gateway / NAT Instance
+#nat_gateway #nat_instance
+NAT Gateway is a managed service
+NAT Instance is self-managed - it's an EC2 instance
+
+## NAT Gateway
+scalable up to 45 Gbps

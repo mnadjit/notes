@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "53396834dc01e82c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0558c3c273017ee1",
             "type": "leaf",
             "state": {
@@ -32,19 +20,19 @@
             }
           },
           {
-            "id": "71325ae22940036e",
+            "id": "6b3864755f1101c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚙️tech/✏️notes/Admin/Linux/Shell & Prompt.md",
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚙️tech/✏️notes/Admin/Linux/Shell & Prompt.md",
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚙️tech/✏️notes/Admin/Linux/Shell & Prompt.md",
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚙️tech/✏️notes/Admin/Linux/Shell & Prompt.md"
+                "file": "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md"
               }
             }
           }
@@ -184,10 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71325ae22940036e",
+  "active": "6b3864755f1101c1",
   "lastOpenFiles": [
     "🛖home.md",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.md",
+    "⚙️tech/✏️notes/Admin/Linux/Shell & Prompt.md",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.rst",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/~$NH Critical Infrastructure 3rd-party Audit - Sep 2023.pptx",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.pptx",
