@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "⚙️tech/✏️notes/Cloud/AWS/Security/Landing Zone/Landing Zone Accelerator.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -186,8 +186,11 @@
   },
   "active": "6b3864755f1101c1",
   "lastOpenFiles": [
-    "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
+    "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md",
     "⚙️tech/✏️notes/Cloud/AWS/Security/Landing Zone/Landing Zone Accelerator.md",
+    "⚙️tech/✏️notes/Cloud/AWS/Security/Landing Zone/01_Overview.md",
+    "⚙️tech/✏️notes/Cloud/AWS/Security/Landing Zone/Untitled.md",
+    "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.md",
     "🛖home.md",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
@@ -204,7 +207,6 @@
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/02_AWS IAM.md",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure",
     "🏢work/nh/projects/cybersecurity",
-    "⚙️tech/✏️notes/Cloud/AWS/CDK/Overview.md",
     "⚙️tech/✏️notes/Cloud/AWS/Security/IAM/CLI.md",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/02_AWS_Evaluation_Logic.png",
     "⚙️tech/🎓education/📓courses/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/06_.md",
