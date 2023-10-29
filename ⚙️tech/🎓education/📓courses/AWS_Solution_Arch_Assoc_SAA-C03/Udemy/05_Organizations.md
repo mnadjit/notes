@@ -9,7 +9,7 @@ tags:
 author: Mehdi N Tehrani
 creat_date: 2023-10-01
 category: Cloud
-subcategory: 
+subcategory: AWS Organizations
 ---
 
 Used to manage multiple AWS accounts under a single 
