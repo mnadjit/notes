@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_Elastic_Load_Balancing_and_Auto_Scaling.md",
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#network",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_Elastic_Load_Balancing_and_Auto_Scaling.md",
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_Elastic_Load_Balancing_and_Auto_Scaling.md",
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_Elastic_Load_Balancing_and_Auto_Scaling.md"
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md"
               }
             }
           }
@@ -159,40 +159,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0bc883ecf3b954c",
+  "active": "8fd7b1c00b87c799",
   "lastOpenFiles": [
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/NLB_vs_ALB.png",
-    "projects📋.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Aurora_Serverless.png",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Aurora_Fault_Tolerance.png",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Aurora_Replicas.png",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/08_DNS_Caching_Performance_Optimization.md",
+    "Pasted image 20231112190953.png.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/RDS_Disaster_Recovery.png",
+    "RDS_Replicas.png",
+    "Pasted image 20231112190953.png",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/11_Serverless.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/07_Simple_Storage_Service_S3.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Global_Accelerator.png",
+    "Pasted image 20231112170720.png",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/CloudFront_Cache_Behaviour.png",
+    "🛖home.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Route53_Routing_Policies.png",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/15_Security.md",
+    "tech⚙️/notes✏️/Cloud/AWS/CloudFormation/Overview.md",
+    "tech⚙️/notes✏️/Cloud/AWS/CDK/Overview.md",
+    "tech⚙️/notes✏️/Cloud/AWS/CloudFormation",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_Elastic_Load_Balancing_and_Auto_Scaling.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/07_.md",
+    "_projects📋.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/17_.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/14_.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/13_.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/08_.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/11_Serverless.md",
-    "home🛖.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/NFS_vs_SMB.png",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/HDD-backed_volumes.png",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/SSD-backed_Volumes.png",
+    "_home🛖.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/02_AWS IAM.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/06_VPC.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/10_ECS.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/15_Security.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Amazon_Kinesis_Architecture.png",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/SQS_Queue_Types.png",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/SQS_SNS_Kinesis.png",
     "tech⚙️/education🎓/courses📓/compTIA_CysaPlus/Udemy/22 Enumeration Tools.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Untitled 1.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Untitled.md",
-    "tech⚙️/notes✏️/Dev/Ruby/Rails/Development Environment.md",
-    "tech⚙️/notes✏️/Dev/Ruby/Rails/Environment Variables and Credentials.md",
-    "tech⚙️/notes✏️/Dev/Ruby/Rails/Active Record Query Interface.md",
-    "work🏢/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.md",
     "tech⚙️/notes✏️/Dev/Ruby/Rails",
     "tech⚙️/notes✏️/Dev/Ruby",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.rst",
@@ -201,8 +205,6 @@
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023 - Copy.html",
     "work🏢/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.html",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.bak.html",
-    "styles.css",
-    "notes.css",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/02_AWS_Evaluation_Logic.png"
+    "styles.css"
   ]
 }
