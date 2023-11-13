@@ -328,14 +328,155 @@ Can use *crawler* to populate Glue catalog with tables
 - can crawl multiple data stores in one run
 - when done, creates or updates one or more tables in catalog
 
-# ElastiSearch (OpenSearch)
-#elasti_search #open_search
+# OpenSearch
+#open_search #elastic_search
+Successor to Amazon ElasticSearch; Based on opensource ElasticSearch solution
+Fully managed distributed search service to *search*, *visualize* and *analyze* text and unstructured data
+Petabyte scale
+Scalable across AZs (*up to 3*) using replicas
+Supports SQL syntax
+Uses EC2 instances
+Encryption *at rest* and *in transit*
+A cluster is also known as **OpenSearch Service Domain**
+Storage types: *UltraWarm* or *Cold*
+Data can come from *Kinesis Firehose*, *Logstash*, or *Elasticsearch / Opensearch API* or multiple ones
+Can use *Kibana* for search, visualize and analyze
+It can be deployed inside a VPC
+	- VPN or proxy would be needed for access
+	- cannot use IP based access policies
+	- Cannot switch from/to VPC to public
+	- Cannot use a VPC with dedicated tenancy
+	- Once deployed in a VPC can change security groups and subnets, but cannot be moved to another VPC
+## ELK Stack
+A popular combination of tools
+Components:
+- Elasticsearch
+- Logstash
+- Kibana
+Use Cases:
+- Visualizing Infrastructure and monitoring logs
+- Troubleshooting
+- Security analytics
+## Access Control
+- *Resource-based*
+- *Identity-based*
+- *IP-based* policies: cannot be used if deployed inside a VPC
+- *Fine-grained*: 
+	- role-based
+	- security at index, document, and field level
+	- OpenSearch dashboard multi-tenancy
+	- HTTP basic authentication for *OpenSearch* and *OpenSearch Dashboards*
 
+Authentication options:
+- Federation using SAML
+- Amazon Cognito and social IdPs
+
+## Best practices
+- Use 3 AZs
+- provision instances in multiples of 3 for equal distribution across AZs
+	- if 2 AZs available, use multiples of 2 for instances
+- Use 3 dedicated master nodes
+- Configure one replica for each index
+- Apply restrictive access policies to the domain, or use fine-grained access policies
+- Create domain inside a VPC
+- For sensitive data enable *node-to-node encryption* and *encryption at rest*
 
 # Other Database Services
+## DocumentDB
+MongoDB compatibility
+stores *JSON* objects
+Fully managed, storage automatically scales up to *64 TB*
+**Throughput**: *millions of request per second* with up to *15* low-latency *replicas*
+**Availability**: 4 9's
+Stores *6* copies of data across *3* AZs
+AWS Database Migration Service (DMS) #dms can be used to migrate from MongoDB
 
+## Keyspaces
+#keyspaces #apache_cassandra #cassandra
+Apache Cassandra
+Cassandra Query Language (CQL) #cql
+Serverless and fully managed
+Scales automatically in response to traffic
+**Throughput**: *Thousands of requests per second*
+**Latency**: single-digit milliseconds
+**Availability**: 4 9's within a region
 
+## Amazon Neptune
+#neptune
+Graph database for identity, knowledge, fraud graph etc.
+Deploy high-performance graph apps using popular open-source APIs:
+- Gremlin
+- openCypher
+- SPARQL
+**Availability**: > 4 9's 
+Storage is fault-tolerant and self-healing
+DB volumes grow in *increments of 10 GB* up to max of *64 TB*  
+Can create up to 15 replicas
+
+## Quantum Ledger Database (QLDB)
+#qldb #quantum_ledger_database
+immutable
+cryptographically verifiable transaction log (SHA-256)
+serverless with automatic scalability
 # Other Analytics Services
+## Amazon Timestream
+#timestream
+Time series database service for used for IoT and operational applications
+Faster and cheaper than relational dbs
+moves older data to a cost-optimized storage
+serverless with automatic scalability
+
+## AWS Data Exchange
+Data marketplace with over 3,000 products from 250+ providers
+Supports Data Files, Data Tables and Data APIs
+Consume directly into data lakes, apps, analytics, and machine learning models
+Automatically export to S3
+Query data tables with Data Exchange for RedShift
+Use AWS-native authentication and governance, AWS SDKs, consistent API documentation
+Benefits:
+- Extensive Data Set selection
+- Streamlines data procurement and governance
+- Better Data Technology
+- Ease of use for Data Analytics and Machine Learning
+
+## AWS Data Pipeline
+#data_pipeline
+ETL service
+data source can be on-premises
+Result can be loaded into S3, DynamoDB and EMR
+
+## AWS Lake Formation
+Setup secure data lakes in days
+Saved to S3 data lake
+Then can be cleaned and classify data using ML algorithms
+Security can be applied to column, row or cell
+Data sets can then be used by *RedShift*, *Athena*, *EMR*, *Apache Spark*, and *Amazon QuickSight*
+Lake Formation builds on capabilities available in *AWS Glue* 
+
+### Data Warehouse vs Data Lake
+| Characteristics   | Data Warehouse                                        | Data Lake                                                            |
+| ----------------- | ----------------------------------------------------- | -------------------------------------------------------------------- |
+| Data              | Structured                                            | Structured and non-structured                                        |
+| Schema            | Schema on write (design prior to implementation)      | Schema on read                                                       |
+| Price/Performance | Fastest query results using higher cost storage       | Query results getting faster using low-cost storage                  |
+| Data Quality      | Highly curated data serve as central version of truth | Any data that may or may not be curated                              |
+| Users             | Business Analysts                                     | Data scientists, data developers, business analysts                  |
+| Analytics         | Batch reporting, BI and visualization                 | Machine learning, predictive analytics, data discovery and profiling |
+|                   |                                                       |                                                                      |
+
+## Managed Streaming for Apache Kafka (MSK)
+#msk #managed_streaming_for_apache_kafka #kafka
+Kafka is the open-source equivalent to Amazon *Kinesis*
+Used for ingesting and processing stream of data in real-time
+Fully managed
+Provisions, configures, and maintains Kafka clusters and **ZooKeeper** nodes #zoo_keeper_nodes 
+Security levels:
+- VPC isolation
+- IAM for API authorization
+- Encryption at rest and in transit
+- TLS-based certificate authentication
+- SASL/SCRAM authentication secured by AWS Secrets Manager 
+#sasl #scram
 
 
 # Cheat Sheets
