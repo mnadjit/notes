@@ -272,12 +272,13 @@ First *data streams* get ingested into **Amazon Kinesis Data Streams**
 	- Data in S3 then can be queries using **Amazon Athena**
 
 ## Kinesis Data Streams
-data producers send data to Data Streams where is stored in shards for 24 hours (by default) and can be kept up to a year
+#kinesis_data_streams
+data producers send data to Data Streams where is stored *in shards* for 24 hours (by default) and can be kept up to a year
 Consumers then can consume the data in real-time - with ~200ms latency
 > Number of shards need to be set based on the amount of data
 
 ### Kinesis Client Library (KCL)
-#kcl 
+#kcl #kinesis_client_library
 helps you consume and process data from a Kinesis data stream
 KCL enumerates shards and instantiates a *record processor* for each shard in manages
 Runs on EC2
@@ -287,6 +288,7 @@ Runs on EC2
 A partition key can be specified with `PutRecord` to group data by shard
 
 ## Kinesis Data Firehose
+#kinesis_data_firehose #firehose
 Producers send data to Data Firehose. It then *captures*, *transforms* and *loads* streaming data into a destination.
 Supported destinations:
 - RedShift, OpenSearch, S3, Splunk, Datadog, Honeycomb, Coralogix, LogicMonitor, Logz.io, MongoDB, New Relic, Sumo Logic, HTTP endpoints
