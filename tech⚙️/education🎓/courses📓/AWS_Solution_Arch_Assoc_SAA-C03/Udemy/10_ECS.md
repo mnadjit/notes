@@ -95,7 +95,7 @@ docker push "($aws_account_id).dkr.ecr.($region).amazonaws.com/($image_name):($t
 #app_runner
 fully managed service for deploying containerized web apps and APIs
 PaaS solution with all components managed
-Similar to *Elastic Bean Stalk* but focused on web apps and APIs
+Similar to *Elastic Beanstalk* but focused on web apps and APIs #elastic_beanstalk
 
 ```sh
 aws apprunner create-service --service-name $my_service_name --source-configuration \

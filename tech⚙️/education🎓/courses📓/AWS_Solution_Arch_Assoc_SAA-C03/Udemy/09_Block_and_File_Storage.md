@@ -27,6 +27,7 @@ No hierarchy
 Scalable and low cost
 e.g. S3
 # Elastic Block Storage (EBS)
+#ebs
 EC2 instances should be in the same availability zone to be accessible
 An EBS can be accessed from a single EC2 only except with *EBS multi-attach* for *Nitro*-based EC2 instances
 
@@ -75,11 +76,12 @@ Types:
 - AWS Marketplace AMIs
 - My AMIs
 # Using RAID with EBS 
+#raid
 RAID 0 and 1 are recommended on AWS, but not 5, and 6
 No way to do this in AWS, but only can be done in operating system
 
 # Elastic File System (EFS)
-#nfs #smb
+#efs #nfs #smb
 NFS protocol is used to mount an EFS on EC2 instances 
 From same or other VPCs or even on-premises using Direct Connect
 only supported on Linux
@@ -99,6 +101,7 @@ SMB ports
 - `445`: over TCP
 
 # FSx
+#fsx
 Amazon fully managed file systems
 - FSx for Windows File Server
 	- Supports SMB, NTFS, AD integration
@@ -118,15 +121,18 @@ Amazon fully managed file systems
 
 FSx can be accessed from on-premises systems via VPN
 # Storage Gateway
+#storage_gateway
 provides a virtual on-premises file server
 access S3 objects
 
 ## File Gateway
+#file_gateway
 supports SMB and NFS
 A local cache can enhance access 
 Virtual gateway appliance runs on Hyper-V, VMware, KVM or EC2
 Files are stored on S3 buckets
 ## Volume Gateway
+#volume_gatewy
 Supports block-based volumes only, not file-based ones
 On-premises servers use iSCSI protocol to communicate with the volume gateway
 
@@ -137,6 +143,7 @@ a cache of the most recently used data is stored on-premises
 ### Stored Volume Mode
 entire dataset stored on-site and is backed up async to S3 (EBS point-in-time snapshots)
 ## Tape Gateway
+#tape_gateway
 When writing to tapes, data gets stored on S3
 When tapes are ejected, data is written to S3 *Glacier* or *Glacier Deep Archive*
 #S3_glacier #glacier 
