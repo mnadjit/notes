@@ -50,7 +50,7 @@ Database can be on-premises, on EC2 or RDS
 
 Use cases:
 - Cloud to Cloud: 
-	- EC2 to EDS
+	- EC2 to RDS
 	- RDS to RDS
 	- RDS to Aurora
 - On-premises to cloud
@@ -91,6 +91,10 @@ CloudWatch events and lambdas can be used for automation
 
 If used for application migration (app servers, db servers, web servers), both AMIs and CloudFormation templates get built. 
 
+Supported source platforms:
+- VMware
+- Hyper-V
+- Azure
 # AWS DataSync
 #datasync
 Online secure service to migrate on-premises data into AWS storage services

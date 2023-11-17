@@ -4,29 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "eaa196f15d53c6a9",
+        "id": "15f0a38804e8662c",
         "type": "tabs",
         "children": [
           {
-            "id": "6a3f0e32505eec22",
+            "id": "1caba41b2f51a2f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_Migration_&_Transfer.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d188fa779d17b33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🛖home.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:aws tag:fsx",
+                "query": "tag:dms",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a80364deee8b1199",
@@ -98,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_Migration_&_Transfer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_Migration_&_Transfer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md"
+                "file": "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_Migration_&_Transfer.md"
               }
             }
           }
@@ -172,16 +161,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8890ad819dc5419f",
+  "active": "1caba41b2f51a2f8",
   "lastOpenFiles": [
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Untitled 1.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Untitled.md",
+    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
+    "🛖home.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/14_Monitoring_Logging_Auditing.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_Migration_&_Transfer.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/17_Web_Mobile_ML_&_Cost_Management.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/10_ECS.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/04_Elastic_Load_Balancing_and_Auto_Scaling.md",
     "tech⚙️/education🎓/courses📓/cert_path.md",
-    "🛖home.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
     "tech⚙️/education🎓/courses📓/images",
     "tech⚙️/education🎓/courses📓/images/CyberSecurity_Certification_Path.png",
     "tech⚙️/notes✏️/Cloud/AWS/Security/IAM/IAM_Identity_Center.md",
@@ -206,12 +198,9 @@
     "tech⚙️/notes✏️/Cloud/AWS/CloudFormation/Overview.md",
     "tech⚙️/notes✏️/Cloud/AWS/CDK/Overview.md",
     "tech⚙️/notes✏️/Cloud/AWS/CloudFormation",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/09_Block_and_File_Storage.md",
     "_projects📋.md",
     "_home🛖.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/02_AWS IAM.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/03_EC2 (Elastic Compute Cloud).md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
     "tech⚙️/notes✏️/Dev/Ruby/Rails",
     "tech⚙️/notes✏️/Dev/Ruby",
     "🏢work/nh/projects/cybersecurity/critical-infrastructure/NH Critical Infrastructure 3rd-party Audit - Sep 2023.rst",
