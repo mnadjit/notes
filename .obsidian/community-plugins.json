@@ -7,5 +7,6 @@
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "obsidian-excalidraw-plugin",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-plugin-toc"
 ]

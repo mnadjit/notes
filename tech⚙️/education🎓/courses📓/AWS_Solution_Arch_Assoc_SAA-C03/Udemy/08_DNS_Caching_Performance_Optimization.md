@@ -129,7 +129,7 @@ Certificate in ACM should be issued in region *us-east-1* as CloudFront is a glo
 - HTTP and HTTPS
 *Origin Protocol*
 
-**SNI**: Multiple certificates with different domain names associated with one IP address
+**SNI**: With SNI, multiple TLS certificates with different domain names can share a single IP address.
 
 # Lambda@Edge
 #lambda_at_edge
@@ -141,6 +141,9 @@ Certificate in ACM should be issued in region *us-east-1* as CloudFront is a glo
 
 # Global Accelerator
 #global_accelerator #ga 
+Can act as a load balancer at the global level across multiple regions.
+When users try to access the domain, Route 53 returns a pair of *anycast* IP addresses that are associated with the configured global accelerator. The user request first get redirected to the closest edge location and from there via AWS global network to the global accelerator. Then based on the *endpoint group*s configured in the global accelerator, the traffic is sent to the closest healthy region.
+
 *Anycast*, also known as *IP Anycast* or Anycast routing, is **an IP network addressing scheme that allows multiple servers to share the same IP address**, allowing for multiple physical destination servers to be logically identified by a single IP address.
 
 ![[Global_Accelerator.png]]

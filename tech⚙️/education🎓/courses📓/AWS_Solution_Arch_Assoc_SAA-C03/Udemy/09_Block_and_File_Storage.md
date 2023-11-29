@@ -75,6 +75,7 @@ Types:
 - Community
 - AWS Marketplace AMIs
 - My AMIs
+
 # Using RAID with EBS 
 #raid
 RAID 0 and 1 are recommended on AWS, but not 5, and 6
@@ -91,7 +92,7 @@ Mount targets can be created for each AZ
 Security Group can be used to limit access
 IAM roles with either *identity* or *resource* policies can be used for access control
 Must use *EFS mount helper* for IAM authorization and TLS
-
+**Can be used to interact with S3 objects as files - so does FSx for Lustre**
 
 ![[NFS_vs_SMB.png]]
 NFS port:
@@ -120,6 +121,8 @@ Amazon fully managed file systems
 	- provides a POSIX-compliant file system interface
 
 FSx can be accessed from on-premises systems via VPN
+**FSx for Lustre can be used to interact with S3 objects as files - so does EFS**
+
 # Storage Gateway
 #storage_gateway
 provides a virtual on-premises file server
@@ -134,7 +137,7 @@ Files are stored on S3 buckets
 ## Volume Gateway
 #volume_gatewy
 Supports block-based volumes only, not file-based ones
-On-premises servers use iSCSI protocol to communicate with the volume gateway
+On-premises servers use **iSCSI** protocol to communicate with the volume gateway
 
 #iscsi
 ### Cached Volume Mode

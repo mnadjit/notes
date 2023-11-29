@@ -19,16 +19,18 @@ Instances as close as possible to each other. Optimized for High performance Com
 Each instance in a separate rack at an AWS data centre
 # Network Interfaces
 ## ENI
-#elastic_network_interface
+#elastic_network_interface #eni
 Basic type
 ## ENA
-#elastic_network_adaptor
+#elastic_network_adaptor #ena
 Higher performance and lower latency
 Must choose supported instance type
 ## EFA
-#elastic_fabric_adaptor
-used for 
-- High Performance Computing (HPC) #hpc 
+#elastic_fabric_adaptor #efa
+In addition to handling IP traffic, can support an access model commonly called *OS bypass* #os_bypass which allows the application (most commonly through some user-space middleware) access the network interface without having to get the operating system involved with each message.
+
+Use cases:
+- High Performance Computing (HPC) #hpc using message passing interface (MPI) #mpi
 - Message Parsing Interface (MPI) #message_parsing_interface
 - Machine learning (ML) #machine_learning
 
@@ -52,6 +54,15 @@ scalable up to 45 Gbps
 # Nitro Instances
 near bare-metal performance
 improves security and performance
+
+# Pricing Options
+#ec2_pricing
+- *On-Demand*: Standard rate
+- *Reserved*: 1-3 year commitment
+- *Spot Instances*: discount up to 90% for unused capacity. Can be terminated at any time.
+- *Dedicated Instances*: Physical isolation at the host hardware level
+- *Dedicated Hosts*: Physical server dedicated. Socket/Core visibility, host affinity; Workload with server-bound software licenses
+- *Saving Plans*: 1-3 year commitment; Commitment to a consistent amount of usage (EC2 + Fargate + Lambda); pay by $/hour
 
 # Pricing Use Cases
 ## On-Demand

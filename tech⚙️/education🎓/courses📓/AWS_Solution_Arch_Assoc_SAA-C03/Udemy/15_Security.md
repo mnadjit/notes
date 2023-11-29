@@ -11,6 +11,23 @@ category: Cloud
 subcategory: AWS Security
 ---
 
+# Summary
+| Service Name     | Function                                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------------------ |
+| WAF              | Web Application Firewall                                                                         |
+| Shield           | DDOS protection                                                                                  |
+| Macie            | Data security and data privacy service                                                           |
+| GuardDuty        | Threat detection                                                                                 |
+| Security Hub     | SOC                                                                                              |
+| Inspector        | Network and Vulnerability assessment scanner                                                     |
+| Network Firewall | Firewall, and IDS/IPS                                                                            |
+| CloudHSM         | Cloud Hardware Security Module                                                                   |
+| Cognito          | scalable customer identity and access management                                                 |
+| Trusted Advisor  | cost optimization, performance, resilience, security, operational excellence, and service limits |
+| KMS              | Key Management Service                                                                           |
+| ACM              | AWS Certificate Manager                                                                          |
+#network_firewall #trusted_advisor
+
 # AWS Directory Service
 #aws_directory
 ## Managed Microsoft Active Directory

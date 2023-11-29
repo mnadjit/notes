@@ -14,6 +14,20 @@ subcategory: AWS Databases
 ---
 
 # Types of Databases
+- [[#Relational/Non-Relational|Relational/Non-Relational]]
+	- [[#Relational/Non-Relational#Relational|Relational]]
+	- [[#Relational/Non-Relational#No-SQL|No-SQL]]
+- [[#Operational/Analytical|Operational/Analytical]]
+	- [[#Operational/Analytical#Operational|Operational]]
+	- [[#Operational/Analytical#Analytical|Analytical]]
+- [[#Amazon Databases|Amazon Databases]]
+	- [[#Amazon Databases#DBs on EC2|DBs on EC2]]
+	- [[#Amazon Databases#RDS|RDS]]
+	- [[#Amazon Databases#DynamoDB|DynamoDB]]
+	- [[#Amazon Databases#RedShift|RedShift]]
+	- [[#Amazon Databases#ElastiCache|ElastiCache]]
+	- [[#Amazon Databases#EMR|EMR]]
+
 ## Relational/Non-Relational
 ### Relational
 - RDS
@@ -54,7 +68,8 @@ Data WareHouse
 Analytics on *Hadoop* framework
 
 # Relational Database Service (RDS)
-#rds 
+#rds
+
 ## Scale up
 Add more resources to EC2 instance hosting RDS
 ## Disaster Recovery and Horizontal Scaling (Scaling out)
@@ -114,13 +129,15 @@ Can set priority (tiers) on replicas to control order of promotion
 Can use auto-scaling to add replicas
 
 ## Aurora Global Database
-Multiple regions, but writes happen in only one, and the gets replicated asynchronously to other region(s)
+*Multiple regions*, but writes happen in only one, and the gets replicated asynchronously to other region(s)
 
 ## Aurora Multi-Master
-In a single region
+In a *single region*
 All nodes can read and *write*
 Only for MySQL
 Can work with *Active-Active* and *Active-Passive* workloads
+provides configurable *read after consistency*
+
 ## Aurora Serverless
 - **Router Fleet**: receive traffic from app server and control number of ACUs required
 - **Aurora Capacity Unit** #acu: 2 GB of memory and relevant CPU - allocated based on traffic coming from router fleet
