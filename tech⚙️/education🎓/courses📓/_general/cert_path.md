@@ -13,8 +13,8 @@
 1. CompTIA Linux+
 
 ## Cloud
-1. AWS Solutions Architect Associate
-2. MS Azure fundamentals
-3. MS Azure Admin Associate
-4. MS Azure Security Engineer Associate
+1. [AWS Security Specialty](https://aws.amazon.com/certification/certified-security-specialty/) 
+2. [MS Azure Security Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/)
+3. [MS Azure Security](https://www.stationx.net/azure-security-certifications/)
+4. 
 

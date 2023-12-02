@@ -1,8 +1,12 @@
 ---
-alias: 
-tags: tech cybsec 
+aliases: 
+tags:
+  - tech
+  - cybsec
 author: Mehdi N Tehrani
 creat_date: 
+category: 
+subcategory:
 ---
 
 # 

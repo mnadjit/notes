@@ -1,6 +1,11 @@
 ---
-alias:
-tags: powershell pwsh locked_file content_search zip compress unzip uncompress drives environment_variables env
+aliases: 
+tags:
+  - powershell
+  - pwsh
+creat_date: 2023-08-01
+category: PowerShell
+subcategory: Administration
 ---
 
 ```PowerShell
@@ -20,6 +25,7 @@ where.exe $executable_file_path
 ```
 
 ## Find File locked by a process 
+#locked_file 
 ```PowerShell
 # Find which process has a lock on a directory or file
 Get-WmiObject Win32_Process | ? {$_.commandLine -like "*file_dir_name*"}
@@ -30,6 +36,7 @@ Get-Process | %  { $pr_var = $_; $_.Modules | % { if ($_.filename -like '*file_d
 ```
 
 ## Content Search
+#content_search 
 ```PowerShell
 # Content search in a certain path
 Select-String -Path ./ -Pattern 'text'
@@ -42,6 +49,7 @@ if (-Not (Test-Path $dir_path)) { md $dir_path }
 ```
 
 ## Zip Files
+#zip #compression #unzip
 ```PowerShell
 # Unzip a compressed file
 Expand-Archive $in_file -DestinationPath $out_dir
@@ -59,6 +67,7 @@ Add-AppxPackage ./Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 ```
 
 ## Environment Variables
+#environment_variables #env
 ```PowerShell
 # Environment Variable
 [Environment]::GetEnvironmentVariable($var_name, $scope)
@@ -88,7 +97,13 @@ $app.Uninstall()
 ```
 
 ## Drives
+#storage #drives #psdrive
 ```powershell
 Get-PsDrive -PsProvider filesystem
 ```
 
+## Am I Admin? 
+#admin_privileges
+```powershell
+(New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+```
