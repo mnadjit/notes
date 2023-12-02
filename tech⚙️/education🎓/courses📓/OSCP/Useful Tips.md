@@ -1,5 +1,6 @@
 ---
-aliases: OSCP exam useful tips 
+aliases:
+  - OSCP exam useful tips
 tags:
   - tech
   - cybsec
@@ -7,6 +8,8 @@ tags:
   - oscp
 author: Mehdi N Tehrani
 creat_date: 2023-12-02
+category: Cyber Security
+subcategory: Offensive Security - OSCP
 ---
 
 # References

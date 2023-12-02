@@ -11,8 +11,12 @@
             "id": "ebb5a0319500be91",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates🧩/OSCP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/notes✏️/Admin/Bootloading.md",
+                "file": "templates🧩/OSCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/notes✏️/Admin/Bootloading.md",
+                "file": "templates🧩/OSCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/notes✏️/Admin/Bootloading.md"
+                "file": "templates🧩/OSCP.md"
               }
             }
           }
@@ -155,8 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0bc883ecf3b954c",
+  "active": "ebb5a0319500be91",
   "lastOpenFiles": [
+    "templates🧩/CybSec.md",
+    "templates🧩/General.md",
+    "templates🧩/OSCP.md",
+    "tech⚙️/education🎓/courses📓/OSCP/Useful Tips.md",
+    "tech⚙️/notes✏️/Admin/Bootloading.md",
     "tech⚙️/notes✏️/Tools/PowerShell/Admin.md",
     "tech⚙️/notes✏️/Tools/PowerShell/Cryptography.md",
     "tech⚙️/notes✏️/Tools/PowerShell/Admin/Applications & Updates Installed.md",
@@ -164,13 +173,10 @@
     "tech⚙️/notes✏️/Tools/PowerShell/Admin/Active Directory.md",
     "tech⚙️/notes✏️/Cloud/AWS/Control_Tower/Deployment.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/05_Organizations.md",
-    "templates🧩/General.md",
-    "templates🧩/CybSec.md",
     "templates🧩/Table.md",
     "tech⚙️/notes✏️/Cloud/AWS/Overview.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/10_ECS.md",
     "tech⚙️/notes✏️/Cloud/AWS/Control_Tower",
-    "tech⚙️/education🎓/courses📓/OSCP/Useful Tips.md",
     "tech⚙️/education🎓/courses📓/_general/cert_path.md",
     "tech⚙️/education🎓/courses📓/general/Untitled",
     "tech⚙️/education🎓/courses📓/_general",
@@ -186,8 +192,6 @@
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/12_Databases_and_Analytics.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/16_Migration_&_Transfer.md",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Untitled 1.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/images/Untitled.md",
-    "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/14_Monitoring_Logging_Auditing.md",
     "tech⚙️/education🎓/courses📓/_images",
     "tech⚙️/education🎓/courses📓/_images/CyberSecurity_Certification_Path.png",
     "tech⚙️/education🎓/courses📓/AWS_Solution_Arch_Assoc_SAA-C03/Udemy/_images/RPO_RTO.png",
