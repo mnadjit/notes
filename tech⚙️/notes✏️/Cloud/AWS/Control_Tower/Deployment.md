@@ -43,7 +43,7 @@ This creates two stacks:
 
 3. Navigate to https://docs.aws.amazon.com/solutions/latest/landing-zone-accelerator-on-aws/step-1.-launch-the-stack.html
 4. Click on "Launch Solution"
-5. By default the region is set as "us-east-1". Make sure this is updated to your home region, and then click 'Next'
+5. By default the region is set as `us-east-1`. Make sure this is updated to your home region, and then click *Next*
 6. Fill in the fields for account emails. Management account is the email used to log in to AWS root AWS account. Two other unique email addresses are needed for *Audit* and *Log Archive* AWS accounts.
 7. Select the LZA role created in preparation phase
 8. Select create new CodeCommit repo - unless this is not the first attempt and `aws-accelerator-config` repo already exists in CodeCommit; in which case select existing repo
