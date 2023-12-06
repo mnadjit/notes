@@ -15,7 +15,7 @@
   "imgWidth": "img-default-width",
   "tableWidth": "table-default-width",
   "iframeWidth": "iframe-default-width",
-  "mapWidth": "map-default-width",
+  "mapWidth": "map-wide",
   "chartWidth": "chart-default-width",
   "colorfulHeadings": true,
   "colorfulFrame": true,
