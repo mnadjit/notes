@@ -16,8 +16,16 @@
 - CPU details
 
 ## PCI-Attached Devices 
+
+
 ### GPU
-> `lspci -vnn | egrep -i vga|3d`
+#graphics 
+- Check video drivers in use
+	- `lspci -vnnk | egrep -A 10 -i 'vga|3d'`
+- Check active GPU driver
+	- `glxinfo | egrep -i 'opengl.vendor|opengl.rendere'`
+- List available and default GPU
+	- `switcherooctl list`
 
 ## Storage
 > `sudo lshw -businfo | grep disk`

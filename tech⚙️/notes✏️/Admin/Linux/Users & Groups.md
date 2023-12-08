@@ -1,3 +1,5 @@
+#user #group #linux 
+
 - [Fedora Docs](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/basic-system-configuration/Managing_Users_and_Groups/)
 - `less /etc/passwd`: get a list of all users and their default shell
 - `less /etc/group`: get a list of all available groups
