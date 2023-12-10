@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be874ca49234fb4c",
+            "id": "f3a334fb3ec02d90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/08_Active_Directory_Lab_Setup.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/08_AD_Lab_Setup.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "e60139231dc00c10",
+            "id": "254832ea4d659e9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_Active_Directory_Attack_Vectors.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0395a73a577a671c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech⚙️/notes✏️/Admin/Windows/Defender.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +76,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_Active_Directory_Attack_Vectors.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_Active_Directory_Attack_Vectors.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_Active_Directory_Attack_Vectors.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md"
               }
             }
           },
@@ -158,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_Active_Directory_Attack_Vectors.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md"
               }
             }
           }
@@ -183,15 +195,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e60139231dc00c10",
+  "active": "254832ea4d659e9f",
   "lastOpenFiles": [
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/08_Active_Directory_Lab_Setup.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_Active_Directory_Attack_Vectors.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
+    "tech⚙️/notes✏️/Admin/Windows/Defender.md",
+    "tech⚙️/notes✏️/Admin/Windows/Privileges.md",
+    "tech⚙️/notes✏️/Admin/Windows/RSAT.md",
+    "tech⚙️/notes✏️/Admin/Windows/Virtualization.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/08_AD_Lab_Setup.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/10_AD_Enum.md",
+    "_home🛖.md",
+    "tech⚙️/notes✏️/Admin/Bootloading.md",
+    "tech⚙️/notes✏️/Admin/Windows/Legacy Microsoft OS.md",
+    "tech⚙️/notes✏️/Admin/Windows/Installation.md",
+    "tech⚙️/notes✏️/Admin/Windows/FileSystem.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231209164304.png",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231209164245.png",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231209145205.png",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_AD_Attack_Vectors.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/Current User Privilegs.md",
     "tech⚙️/notes✏️/Admin/Linux/System Info.md",
     "tech⚙️/notes✏️/Admin/Linux/Users & Groups.md",
     "tech⚙️/notes✏️/Admin/Linux/X11.md",
-    "_home🛖.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/Current User Privilegs.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/Download Vulnerable Machines.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231207181936.png",
@@ -201,33 +227,19 @@
     "Pasted image 20231207180353.png",
     "Pasted image 20231207180344.png",
     "Pasted image 20231207175815.png",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231207154344.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/06_Exploitation_Basics.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231207132812.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/03_post_exp/SUID.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/02_exploit/metasploit.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/ffuf.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/images/Pasted image 20231206202911.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/nmap.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/dns.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/images",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/03_post_exp/winpeas.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/02_exploit/groovy.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/nginx.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/academy/01_findings/nmap.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/academy/01_findings/http/dirb_ffuf.md",
-    "tech⚙️/notes✏️/Virtualization/VirtualBox/VBoxManage.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/03_post_exp",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/02_exploit",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings",
     "tech⚙️/notes✏️/Virtualization/VirtualBox",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/03_post_exp/findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/03_post_exp/Other tools.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/01_findings/nmap.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/01_findings/jenkins.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/dev/02_exploit/exploit.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/images",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/03_post_exp",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/02_exploit",
