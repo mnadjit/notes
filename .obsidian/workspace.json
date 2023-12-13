@@ -4,42 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "6f2ada17ceb614f2",
+        "id": "bb4033660adda83a",
         "type": "tabs",
         "children": [
           {
-            "id": "f3a334fb3ec02d90",
+            "id": "4bb6c7a94e2d2c3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/08_AD_Lab_Setup.md",
+                "file": "tech⚙️/education🎓/htb/practice/bashed/_findings.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "254832ea4d659e9f",
+            "id": "f72f6d1a6cf87bab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
+                "file": "tech⚙️/notes✏️/Admin/Linux/bluetooth.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0395a73a577a671c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech⚙️/notes✏️/Admin/Windows/Defender.md",
-                "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
+                "file": "tech⚙️/notes✏️/Admin/Linux/bluetooth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
+                "file": "tech⚙️/notes✏️/Admin/Linux/bluetooth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md"
+                "file": "tech⚙️/notes✏️/Admin/Linux/bluetooth.md"
               }
             }
           },
@@ -170,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md"
+                "file": "tech⚙️/notes✏️/Admin/Linux/bluetooth.md"
               }
             }
           }
@@ -195,31 +183,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "254832ea4d659e9f",
+  "active": "f72f6d1a6cf87bab",
   "lastOpenFiles": [
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
-    "tech⚙️/notes✏️/Admin/Windows/Defender.md",
+    "tech⚙️/notes✏️/Admin/Linux/Shell & Prompt.md",
+    "tech⚙️/notes✏️/Admin/Linux/bluetooth.md",
+    "_home🛖.md",
+    "tech⚙️/education🎓/htb/practice/bashed/_findings.md",
+    "tech⚙️/education🎓/htb/practice/bashed/linpeas.md",
+    "tech⚙️/education🎓/htb/practice/bashed/permissions.md",
+    "tech⚙️/education🎓/htb/practice/bashed/phpbash script.md",
+    "tech⚙️/education🎓/htb/practice/bashed/nmap.md",
+    "tech⚙️/education🎓/htb/practice/bashed/ffuf.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/16_Legal_Docs_Report_Writing.md",
+    "tech⚙️/education🎓/htb/practice/bashed",
+    "tech⚙️/education🎓/htb/practice",
+    "tech⚙️/education🎓/htb",
+    "tech⚙️/notes✏️/Admin/Windows/Network_Discovery.md",
     "tech⚙️/notes✏️/Admin/Windows/Privileges.md",
     "tech⚙️/notes✏️/Admin/Windows/RSAT.md",
     "tech⚙️/notes✏️/Admin/Windows/Virtualization.md",
+    "tech⚙️/notes✏️/Admin/Windows/Activation.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/15_Wireless_pentesting.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/14_Web_Exploitation.md",
+    "tech⚙️/notes✏️/Admin/Windows/Defender.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/_tmpl8.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/13_Web_Application_Enum.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/08_AD_Lab_Setup.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/10_AD_Enum.md",
-    "_home🛖.md",
     "tech⚙️/notes✏️/Admin/Bootloading.md",
     "tech⚙️/notes✏️/Admin/Windows/Legacy Microsoft OS.md",
-    "tech⚙️/notes✏️/Admin/Windows/Installation.md",
-    "tech⚙️/notes✏️/Admin/Windows/FileSystem.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231209164304.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231209164245.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231209145205.png",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/09_AD_Attack_Vectors.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/Current User Privilegs.md",
-    "tech⚙️/notes✏️/Admin/Linux/System Info.md",
-    "tech⚙️/notes✏️/Admin/Linux/Users & Groups.md",
-    "tech⚙️/notes✏️/Admin/Linux/X11.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/Download Vulnerable Machines.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231207181936.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images/Pasted image 20231207180923.png",
     "Pasted image 20231207181258.png",
@@ -227,22 +224,13 @@
     "Pasted image 20231207180353.png",
     "Pasted image 20231207180344.png",
     "Pasted image 20231207175815.png",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/06_Exploitation_Basics.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/images",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/03_post_exp/SUID.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/02_exploit/metasploit.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/ffuf.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/nmap.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings/dns.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/images",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/03_post_exp",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/02_exploit",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl/01_findings",
     "tech⚙️/notes✏️/Virtualization/VirtualBox",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/blackpearl",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/images",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/03_post_exp",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/reports/butler/02_exploit",
     "tech⚙️/education🎓/courses📓/OSCP/TCM_PEH_course/reports/blue/Untitled.canvas"
   ]
 }
