@@ -1,4 +1,6 @@
--  ubuntu xenial 16.04 based on httpd version 2.4.18
+[Walthrough Video - YouTube](https://www.youtube.com/watch?v=2DqdPcbYcy8&list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf&index=1)
+
+- ubuntu xenial 16.04 based on httpd version 2.4.18
 - used the webshell built into the web server to get a php reverse shell
 	- built a php rev shell and used wget on victim's machine to download and run it
 - initial user `www-data`

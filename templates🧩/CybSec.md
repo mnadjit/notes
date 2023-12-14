@@ -5,8 +5,8 @@ tags:
   - cybsec
 author: Mehdi N Tehrani
 creat_date: 
-category: 
-subcategory:
+category: Cyber Security
+subcategory: 
 ---
 
 # 
