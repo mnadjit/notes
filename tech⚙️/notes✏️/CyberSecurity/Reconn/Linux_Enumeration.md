@@ -12,30 +12,44 @@ category: Cyber Security
 subcategory: Linux Enum
 ---
 
-# 
-```
-date
+# Linux enum script
+```bash
+function printheader() { 
+    echo "####################################  $1  ######################################" 
+}
+function runcmd() { 
+    echo -e "\n****************************\n $1 \n****************************\n"; bash -c "$1"; 
+}
 
-id
-sudo -l
-who
-groups
+printheader 'HISTORY'
+runcmd 'history'
 
-# os
-uname -a
-cat /etc/os-release
-hostname
-ldd --version
+runcmd 'date'
 
-cat /etc/passwd
-cat /etc/shadow
+printheader 'USERS and GROUPS'
+runcmd 'id'
+#runcmd 'sudo -l'
+runcmd 'who'
+runcmd 'groups'
 
-# processes
-ps aux
-crontab -l
+printheader 'OS'
+runcmd 'uname -a'
+runcmd 'cat /etc/os-release'
+runcmd 'hostname'
+runcmd 'ldd --version | head -n1'
 
-# network
-ip a
-ip neigh
-netstat -a
+printheader 'CREDENTIALS'
+runcmd 'cat /etc/passwd'
+runcmd 'cat /etc/shadow'
+
+printheader 'PROCESSES'
+runcmd 'ps aux'
+runcmd 'crontab -l'
+
+printheader 'NETWORK'
+runcmd 'ip a'   # address
+runcmd 'ip n'   # neighbour
+runcmd 'ip r'   # route
+
+runcmd 'netstat -a | grep -i listen'
 ```

@@ -52,7 +52,10 @@
 - `ip link show`: show details of network interfaces
 - `ip link set dev <interface> up`: bring up interface
 - `ip link set dev <interface> down`: bring down interface
-
+- `ip r[oute]`: route table
+- `ip n[eighbor]`: arp table
+- `ss -tulnp` #ss listening ports; 
+	- tcp, udp, listening, no name resolution, processes using socket
 ## Memory
 - `free`: show memory usage in bytes
 - `free -mh`: show memory usage in MegaBytes and in human readable format
@@ -80,3 +83,13 @@ HCI tool:
 - `nisdomainname`: show or set system’s NIS/YP domain name
 - `ypdomainname`: show or set system’s NIS/YP domain name
 	The **Network Information Service**, or NIS (originally called Yellow Pages or YP), is a client–server directory service protocol for distributing system configuration data such as user and host names between computers on a computer network. A NIS domain is a collection of systems that are logically grouped together. A group of hosts that share the same set of NIS maps belong to the same domain. The hosts are usually grouped together in the domain for a common reason; for example, when working in the same group at a particular location.
+
+## processes
+#process #service #ps
+```
+ps a   # all with tty, including other users
+   u   # user-oriented format
+   x   # processes without controlling ttys
+   -e  # all processes
+   -f  # full format
+```
