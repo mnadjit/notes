@@ -31,6 +31,7 @@ runcmd 'id'
 #runcmd 'sudo -l'
 runcmd 'who'
 runcmd 'groups'
+runcmd 'echo $PATH'
 
 printheader 'OS'
 runcmd 'uname -a'
@@ -42,9 +43,13 @@ printheader 'CREDENTIALS'
 runcmd 'cat /etc/passwd'
 runcmd 'cat /etc/shadow'
 
+printheader 'PERMISSION'
+runcmd 'find / -type f -perm -04000 2>/dev/null'
+
 printheader 'PROCESSES'
 runcmd 'ps aux'
 runcmd 'crontab -l'
+runcmd 'cat /etc/crontab'
 
 printheader 'NETWORK'
 runcmd 'ip a'   # address

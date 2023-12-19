@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "11330859dd676257",
+        "id": "dcb485cb5471c314",
         "type": "tabs",
         "children": [
           {
-            "id": "7f0f97b9d13d4e19",
+            "id": "632418a4d43cfb66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/ctf🚩/TryHackMe/02_simple_ctf/simple CMS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4fb33464fbda6d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/08_scheduled_tasks/scheduled_tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01510d13bb4bcdcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker/docker.md",
+                "file": "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#smb  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker/docker.md",
+                "file": "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker/docker.md",
+                "file": "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker/docker.md"
+                "file": "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md"
               }
             }
           },
@@ -170,7 +145,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker/docker.md"
+                "file": "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md"
               }
             }
           },
@@ -203,45 +178,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01510d13bb4bcdcb",
+  "active": "632418a4d43cfb66",
   "lastOpenFiles": [
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/01_initial_enum/linux_initial_enum.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker/docker.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/post_exp.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/03_sudo/sudo.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/07_tomghost/_findings.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/06_scheduled_tasks/scheduled_tasks.md",
     "tech⚙️/notes✏️/CyberSecurity/Reconn/Linux_Enumeration.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/06_anonymous/_findings.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/05_Scanning_and_Enumeration.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/05_lazyadmin/writeup.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/09_brainpan/_findings.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/Cyber_Defense_Path/Untitled.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/09_brainpan",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/07_tomghost",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/01_initial_enum/windows_initial_enum.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/06_anonymous",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/Course_Resources 1.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/06_cve_2019_1388",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/05_service_permissions",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/04_dll_hikacking",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/03_startup_apps",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/02_executable_files",
+    "_home🛖.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/02_simple_ctf/simple CMS.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/08_docker/docker.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/Course_Resources.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/01_initial_enum/linux_initial_enum.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/post_exp.md",
     "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/command_injection.md",
     "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/_findings.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/09_nfs_root_squashing/nfs_root_squashing.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/07_nfs_root_squashing/nfs_root_squashing.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/14_Web_Exploitation.md",
     "tech⚙️/education🎓/ctf🚩/TryHackMe/03_cmess/2_findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/08_scheduled_tasks/scheduled_tasks.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/04_Reconnaissance.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/05_Scanning_and_Enumeration.md",
     "tech⚙️/education🎓/ctf🚩/TryHackMe/03_cmess/1_reconn.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/03_cmess",
     "tech⚙️/notes✏️/CyberSecurity/Attacks/ftp/ftp_exploit.md",
-    "tech⚙️/notes✏️/CyberSecurity/Attacks/ftp",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/05_sudo/sudo.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/_images",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/Untitled.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/_images/Pasted image 20231218154309.png",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/02_simple_ctf/findings.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/02_simple_ctf/simple CMS.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/02_simple_ctf",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/15_Wireless_pentesting.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/16_Legal_Docs_Report_Writing.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/04_passwords_file_permissions/passwords_and_file_permissions.md",
-    "tech⚙️/notes✏️/Admin/Linux/System Info.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_kernel_exploits/kernel_exploits.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/07_capabilities/capabilities.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/02_automated_tools/automated_tools.md",
-    "_home🛖.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/10_docker",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/09_nfs_root_squashing",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/04_passwords_file_permissions",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_kernel_exploits",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/02_automated_tools",
     "tech⚙️/education🎓/ctf🚩/htb/practice/04_pandora/images/Pasted image 20231216122828.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/02_nibbles/images/Pasted image 20231214110917.png",
     "Pasted image 20231214110911.png",
