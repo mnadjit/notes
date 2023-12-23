@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "dcb485cb5471c314",
+        "id": "889a3b1cf9a2648a",
         "type": "tabs",
         "children": [
           {
-            "id": "35812e743f69053f",
+            "id": "72317264ffb0f3fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/05_Report_Writing/Report_Writing.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "348d28e3185d7a7e",
+            "id": "92b890c3a9676dc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python_bruteforce.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#buffer_overflow",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md"
               }
             }
           },
@@ -191,44 +191,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35812e743f69053f",
+  "active": "92b890c3a9676dc7",
   "lastOpenFiles": [
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/09_brainpan/_findings.md",
-    "python_bruteforce.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/1_Web_app_attacks_intro.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/13_Web_Application_Enum.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/07_Vulberability_Scanning/3_nmap.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/07_Vulberability_Scanning/1_Vulnerability_Scanning.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/07_Vulberability_Scanning/2_Nessus.md",
     "_home🛖.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/03_sudo/sudo.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/07_tomghost/_findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/06_scheduled_tasks/scheduled_tasks.md",
-    "tech⚙️/notes✏️/CyberSecurity/Reconn/Linux_Enumeration.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/06_anonymous/_findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/05_Scanning_and_Enumeration.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/05_lazyadmin/writeup.md",
     "tech⚙️/education🎓/ctf🚩/TryHackMe/Cyber_Defense_Path/Untitled.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/09_brainpan",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/07_tomghost",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/05_Report_Writing/Report_Writing.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/04_Effective_Learning_Strategies/Learning_Strategies.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/03_Intro_to_CybSec/Intro_to_CyberSecurity.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/02_PWK_General_Info/PWK_General_Info.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/04_Effective_Learning_Strategies/Untitled.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/06_Information_Gathering/3_Active.md",
+    "tech⚙️/education🎓/ctf🚩/htb/practice/04_pandora/reconn/2_snmp.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/06_Information_Gathering/2_Passive.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/06_Information_Gathering/1_Information_Gathering.md",
+    "templates🧩/OSCP.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/01_initial_enum/windows_initial_enum.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/06_anonymous",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/Course_Resources 1.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/06_cve_2019_1388",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/05_service_permissions",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/04_dll_hikacking",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/03_startup_apps",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/08_escalation_path/02_executable_files",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/02_simple_ctf/simple CMS.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/08_docker/docker.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/Course_Resources.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/01_initial_enum/linux_initial_enum.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/post_exp.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/command_injection.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/04_ultratech/_findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/03_escalation_path/07_nfs_root_squashing/nfs_root_squashing.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/14_Web_Exploitation.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/03_cmess/2_findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/04_Reconnaissance.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/03_cmess/1_reconn.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/25_Challenge_Labs",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/24_Assembling_the_pieces",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/23_AD_Lateral_Movement",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/19_Tunneling_thru_Deep_Packet_Inspection",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/18_Port_Redirection_SSH_Tunneling",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/17_Linux_Privesc",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/16_Windows_Privesc",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/09_brainpan/_findings.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
+    "python_bruteforce.md",
+    "tech⚙️/notes✏️/Dev/Python/ftp_server.md",
+    "tech⚙️/notes✏️/Dev/Python/pwntools.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
+    "tech⚙️/education🎓/ctf🚩/TryHackMe/07_tomghost/_findings.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/_images/Pasted image 20231218154309.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/04_pandora/images/Pasted image 20231216122828.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/02_nibbles/images/Pasted image 20231214110917.png",

@@ -28,9 +28,9 @@ snmpwalk -v2c -c public <ip>
 ```
 $ snmpbulkwalk -Cr1000 -c public -v2c <ip> .
               ^ concurrent
-                      ^ community string
+                        ^ community string
                                 ^ version
-                                           ^ with '.' it yeils in more results
+                                           ^ with '.' it yeilds in more results
 $ snmpbulkwalk -Cr1000 -c public -v2c <ip>
 ```
 
@@ -40,9 +40,7 @@ $ snmpbulkwalk -Cr1000 -c public -v2c <ip>
 `hrSWInstalled...`: installed applications on the snmp server
 
 ## snmpcheck
-```
-
-```
+GUI tool
 ## snmp-check
 ```
 snmp-check 10.10.11.136 -c public  
@@ -51,6 +49,7 @@ snmp-check 10.10.11.136 -c public
 #snmp_bruteforce #brute_force #community #snmp_community
 ```
 $ onesixtyone <ip>
+$ onesixtyone -i ips.txt
 
 # Community brute force
 $ onesixtyone -c usr/share/metasploit-framework/data/wordlists/snmp_default_pass.txt <ip>
@@ -1268,6 +1267,8 @@ Copyright (c) 2005-2015 by Matteo Cantoni (www.nothink.org)
 ```
 
 # snmpcheck
+GUI tool
+logs:
 ```
 $ snmpcheck 10.10.11.136
 test: .1.3.6.1.4.1.2021.2.1

