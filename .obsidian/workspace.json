@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "889a3b1cf9a2648a",
+        "id": "1a8a0f3265630092",
         "type": "tabs",
         "children": [
           {
-            "id": "72317264ffb0f3fa",
+            "id": "be9132e364c032ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/05_Report_Writing/Report_Writing.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/2_MS_Office.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "92b890c3a9676dc7",
+            "id": "5a17e092b7f54ce2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone/11_3_1_Q3.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone/11_3_1_Q3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone/11_3_1_Q3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone/11_3_1_Q3.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone/11_3_1_Q3.md"
               }
             }
           },
@@ -191,27 +191,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92b890c3a9676dc7",
+  "active": "5a17e092b7f54ce2",
   "lastOpenFiles": [
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/3_Win_Lib_Files.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone/11_3_1_Q3.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/2_MS_Office.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/4_Capstone_Exercises_1.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
+    "_home🛖.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/1_Target_Reconnaissance.md",
+    "tech⚙️/notes✏️/Tools/PowerShell/Admin/Applications & Updates Installed.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/7_Capstone_Exercises_4.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/2_SQL_Injection.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/3_SQL_Injection_Code_Execution.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/2_File_Upload.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/4_Command_Injection.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/1_SQL.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/6_Capstone_Exercises_3.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/5_Capstone_Exercises_2.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/2_File_Inclusion.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/1_Directory_Traversal.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/1_Web_app_attacks_intro.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/08_Web_App_Attacks_Intro/2_XSS.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/05_Report_Writing/Report_Writing.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/13_Web_Application_Enum.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/07_Vulberability_Scanning/3_nmap.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/07_Vulberability_Scanning/1_Vulnerability_Scanning.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/07_Vulberability_Scanning/2_Nessus.md",
-    "_home🛖.md",
     "tech⚙️/education🎓/ctf🚩/TryHackMe/Cyber_Defense_Path/Untitled.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/05_Report_Writing/Report_Writing.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/04_Effective_Learning_Strategies/Learning_Strategies.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/03_Intro_to_CybSec/Intro_to_CyberSecurity.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/02_PWK_General_Info/PWK_General_Info.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/04_Effective_Learning_Strategies/Untitled.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/06_Information_Gathering/3_Active.md",
-    "tech⚙️/education🎓/ctf🚩/htb/practice/04_pandora/reconn/2_snmp.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/06_Information_Gathering/2_Passive.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/06_Information_Gathering/1_Information_Gathering.md",
-    "templates🧩/OSCP.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Windows_Privilege_escalation/01_initial_enum/windows_initial_enum.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/25_Challenge_Labs",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/24_Assembling_the_pieces",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/23_AD_Lateral_Movement",
@@ -221,14 +229,6 @@
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/18_Port_Redirection_SSH_Tunneling",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/17_Linux_Privesc",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/16_Windows_Privesc",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/09_brainpan/_findings.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/07_Exploit_Development.md",
-    "python_bruteforce.md",
-    "tech⚙️/notes✏️/Dev/Python/ftp_server.md",
-    "tech⚙️/notes✏️/Dev/Python/pwntools.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/08_convertmyvideo/_findings.md",
-    "tech⚙️/education🎓/ctf🚩/TryHackMe/07_tomghost/_findings.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/_images/Pasted image 20231218154309.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/04_pandora/images/Pasted image 20231216122828.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/02_nibbles/images/Pasted image 20231214110917.png",
