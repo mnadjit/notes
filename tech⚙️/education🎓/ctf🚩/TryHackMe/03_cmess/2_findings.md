@@ -16,6 +16,9 @@ wfuzz -c -f sub-fighter -w /usr/share/seclists/SecLists-master/Discovery/DNS/sub
 
 
 subdomain found: dev.cmess.thm
+
+# to filter out certain word counts:
+--hw: <word_count>
 ```
 
 Subdomains:
