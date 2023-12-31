@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1a8a0f3265630092",
+        "id": "fe26d8ca1caf7715",
         "type": "tabs",
         "children": [
           {
-            "id": "be9132e364c032ee",
+            "id": "b8ba56a19b4ea4c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/2_MS_Office.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a17e092b7f54ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/2_Password_Cracking.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/2_Password_Cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_.md",
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/2_Password_Cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/2_Password_Cracking.md"
               }
             }
           },
@@ -158,7 +145,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_.md"
+                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/2_Password_Cracking.md"
               }
             }
           },
@@ -191,17 +178,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a17e092b7f54ce2",
+  "active": "b8ba56a19b4ea4c3",
   "lastOpenFiles": [
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/1_Network_Services.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/3_Password_Hashes.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/exercises/13.2.3_Q4.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/exercises/13.2.3_Q3.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/2_Web_app_Exploits.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_Memory_Corruption_Exploits.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/3_Automation.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/2_Password_Cracking.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/exercises/14.3.3_Q3.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/exercises/14.3.3_Q2.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/2_AV_Bypass.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/exercises",
+    "_home🛖.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/1_Antivirus_Overview.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/2_MS_Office.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/exercises",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/3_Exploit_Example.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/exercises/12.4.1_Q3.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/1_.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/exercises/12.4.1_Q2.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/exercises/12.4.1_Q1.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/3_Exploit_Example.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/exercises",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/2_Offline_Exploit_Resources.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/1_Online_Exploit_Resources.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/2_MS_Office.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/exercises/11_3_1_Q3.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/exercises/images/Pasted image 20231229111353.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/3_Win_Lib_Files.md",
@@ -209,27 +211,12 @@
     "tech⚙️/education🎓/ctf🚩/TryHackMe/03_cmess/2_findings.md",
     "python_bruteforce.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/exercises/images",
-    "_home🛖.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/capstone",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/4_Capstone_Exercises_1.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/1_Target_Reconnaissance.md",
-    "tech⚙️/notes✏️/Tools/PowerShell/Admin/Applications & Updates Installed.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/7_Capstone_Exercises_4.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/2_SQL_Injection.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/3_SQL_Injection_Code_Execution.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/2_File_Upload.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/4_Command_Injection.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/1_SQL.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/6_Capstone_Exercises_3.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/10_SQL_Injection/5_Capstone_Exercises_2.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/09_Common_Web_Attacks/2_File_Inclusion.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/25_Challenge_Labs",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/24_Assembling_the_pieces",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/23_AD_Lateral_Movement",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/19_Tunneling_thru_Deep_Packet_Inspection",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/_images/Pasted image 20231218154309.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/04_pandora/images/Pasted image 20231216122828.png",
     "tech⚙️/education🎓/ctf🚩/htb/practice/02_nibbles/images/Pasted image 20231214110917.png",
