@@ -1,4 +1,5 @@
 # Windows Events
+#powershell #events #windows_events #win_event #win-event #event
 > Find any hyper-v events of levels Critical, Error, and Warning for the past 10 minutes
 ```PowerShell
 Get-WinEvent -FilterHashtable @{
