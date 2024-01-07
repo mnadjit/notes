@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2503d231ff530b09",
+        "id": "7a05459fbb86f919",
         "type": "tabs",
         "children": [
           {
-            "id": "d023cc462ea14f70",
+            "id": "a685ae8f47bf26ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/3_Crack_NTLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce10952f20e87f4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md"
-              }
+              "state": {}
             }
           },
           {
@@ -191,38 +168,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce10952f20e87f4a",
+  "active": "a685ae8f47bf26ee",
   "lastOpenFiles": [
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/3_Manual_Enum_PowerView.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/4_Service_Principal_Names.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/3_Cached_AD_Credentials.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/1_Overview.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/7_Silver_Ticket.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/exercises/22.2.5_Q3.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/exercises/22.2.5_Q2.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/8_DCsync.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/6_Kerberoasting.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/5_AS-REP_Roasting.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/4_Password_Spraying.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/2_AD_Auth_Kerberos.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/1_AD_Auth.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/exercises",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/5_Object_Permissions.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/3_Crack_NTLM.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/6_Domain_Shares.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/3_Manual_Enum_PowerView.md",
+    "_home🛖.md",
+    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/4_Service_Principal_Names.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/15_Password_Attacks/4_Pass_NTLM.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/5_Post_Exploitation.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/11_AD_Post_Compromise_Attacks.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/1_Overview.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/5_Object_Permissions.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/7_Automated_Enumeration.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/21_AD_Intro_and_Enum/2_Manual_Enumeration.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/3_Cached_AD_Credentials.md",
     "tech⚙️/notes✏️/Tools/Remote_Management/xfreerdp.md",
     "tech⚙️/notes✏️/Admin/Linux/X11.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/1_AD_Auth.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/2_AD_Auth_Kerberos.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/images/Pasted image 20240106094511.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/22_Attack_AD_Auth/images",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/2_MS_Office.md",
     "tech⚙️/notes✏️/Tools/Remote_Management",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_PEH_course/12_Post_exploitation.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/execises/20.4.1 Q3.md",
-    "_home🛖.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/7_Automating_Metasploit.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/4_Payloads.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/execises",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/6_Pivoting_with_Metasploit.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/3_Jobs_Sessions_Channels.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/1_Metasploit_Overview.md",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/20_Metasploit/2_Auxiliary_Modules.md",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/19_Tunneling_thru_Deep_Packet_Inspection/images/Pasted image 20240104173546.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/19_Tunneling_thru_Deep_Packet_Inspection/images",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/19_Tunneling_thru_Deep_Packet_Inspection/images/Pasted image 20240104173023.png",
@@ -236,7 +214,6 @@
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/16_Windows_Privesc/1_Enumeration",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/14_AV_Evasion/exercises",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/13_Fixing_Exploits/exercises",
-    "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/12_Locating_Public_Exploits/exercises",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/OSCP/11_Client-side_Attacks/exercises/images/Pasted image 20231229111353.png",
     "tech⚙️/education🎓/courses📓/CybSec/Pentesting/TCM_Linux_Privilege_Escalation/_images/Pasted image 20231218154309.png",
     "tech⚙️/education🎓/courses📓/OSCP/TCM_PEH_course/reports/blue/Untitled.canvas"
